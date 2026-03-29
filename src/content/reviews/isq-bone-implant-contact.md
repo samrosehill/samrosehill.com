@@ -10,11 +10,11 @@ tags: ["implant stability", "ISQ", "bone-to-implant contact", "immediate implant
 clinicalRelevance: "ISQ reflects coronal shoulder engagement — not total bone contact along the implant body. A high ISQ reading on an immediately placed implant tells you the shoulder is mechanically snug; it does not confirm adequate apical bone contact. Loading decisions based solely on ISQ should account for this limitation, particularly in compromised or variable bone density sites."
 ---
 
-You place an immediately loaded implant on a Tuesday morning. The Osstell beeps reassuringly — ISQ of 68 in the buccal direction. Everything feels solid. Mechanically snug. You think: *bone's embracing this nicely, we're good to go*.
+You place an immediately loaded implant on a Thursday afternoon. The Osstell beeps reassuringly — ISQ of 68 in the buccal direction. Everything feels solid. Mechanically snug. You think: *bone's embracing this nicely, we're good to go*.
 
-Except Chang and colleagues have just pulled the rug out from under that comfortable assumption. In their cadaver-based investigation of 28 implants, they discovered something rather awkward: **there's no correlation between directional bone-to-implant contact measurements and ISQ values taken in the same directions**. That reassuring beep is measuring something real, certainly. But it's not measuring what you thought it was.
+Except Chang and colleagues — in their paper *Implant Stability Quotient and Bone-to-Implant Contact Analyses of Immediately Placed Implants in Human Cadavers* — have just pulled the rug out from under that comfortable assumption. In their cadaver-based investigation of 28 implants, they discovered something rather awkward: **there's no correlation between directional bone-to-implant contact measurements and ISQ values taken in the same directions**. That reassuring beep is measuring something real, certainly. But it's not measuring what you thought it was.
 
-It's rather like discovering your house inspector gave you a glowing report on structural integrity based solely on how well the front door closes. Technically relevant. Entirely inadequate.
+> It's rather like discovering your house inspector gave you a glowing report on structural integrity based solely on how well the front door closes. Technically relevant. Entirely inadequate.
 
 ### The Data Anchor
 
@@ -25,15 +25,12 @@ Seven fresh-frozen human cadaver heads, 28 Hiossen ET III SA implants ($4.5$ mm 
 - **No directional correlation between BIC and ISQ** — every direction, zero relationship. Primary finding. Stark.
 - **ISQ remained constant across maxillary and mandibular sites** despite variable radiographic bone contact, suggesting the measure is indifferent to regional bone density variation.
 - **When solid coronal contact existed at the shoulder, ISQ stayed high regardless of apical engagement** — meaning ISQ reflects shoulder stability, not total osseous contact along the implant body.
-- **Radiographic BIC percentages varied widely** across anatomical locations, whilst ISQ remained stable.
 - *Caveat:* Cadaver bone lacks the biological remodelling and vascularity of living jaw — external validity is genuinely constrained, and an adequately powered clinical study remains the obvious next step.
 
 ### 💡 The Clinical Bottom Line
 
-What Chang has shown us is that ISQ is measuring engagement at the implant shoulder — how mechanically snug that coronal interface sits. It's a perfectly legitimate measurement. But it's not a proxy for overall bone contact. You can have an implant reading beautifully on your device whilst apical bone contact is poor or absent.
+ISQ measures engagement at the implant shoulder — how mechanically snug that coronal interface sits. It's a perfectly legitimate measurement. But it's not a proxy for overall bone contact; you can have an implant reading beautifully on your device whilst apical engagement is poor or absent. For immediately placed implants where loading decisions rest partly on stability readings, this reshapes how we interpret every beep.
 
-This reshapes how we interpret those beeps, particularly for immediately placed implants where loading decisions rest partly on stability readings. The ISQ isn't useless — it captures something biomechanically real. It's just not the comprehensive osseointegration report we've been treating it as.
-
-That Tuesday morning reading matters. It's telling you about the shoulder. Not the whole story.
+That Thursday afternoon reading matters. It's telling you about the shoulder. Not the whole story.
 
 **Reference:** Chang JW, Bi J, Min S, Gräfin von Krockow N, Weigl P. Implant Stability Quotient and Bone-to-Implant Contact Analyses of Immediately Placed Implants in Human Cadavers. *Int J Periodontics Restorative Dent*. 2025. https://doi.org/10.11607/prd.7624

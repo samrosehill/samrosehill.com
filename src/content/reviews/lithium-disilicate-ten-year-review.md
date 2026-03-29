@@ -12,7 +12,7 @@ clinicalRelevance: "Chairside-milled lithium disilicate crowns deliver 92% survi
 
 It's Tuesday morning and the phone rings. A patient who had a crown done with "that new milling machine" — you know, the one that buzzes and beeps and makes everyone in the surgery feel vaguely like they've entered a minimalist art installation — wants to know if it's still going to work. It's now been ten years. The technology that felt revolutionary when it was installed is now, somehow, a decade old. The question is deceptively simple: does chairside-milled lithium disilicate really go the distance? And perhaps more pragmatically, does it matter which cement you've glued it down with?
 
-This is the clinical conflict that Dennis Fasbinder and his team from the University of Michigan set out to resolve. What they found was reassuring and, like most thorough answers to deceptively simple questions, charmingly complicated.
+This is the clinical conflict at the heart of Dennis Fasbinder's *Clinical Evaluation of Lithium Disilicate Chairside CAD/CAM Crowns After 10 Years*, published in the *International Journal of Prosthodontics*. What his team at the University of Michigan found was reassuring and, like most thorough answers to deceptively simple questions, charmingly complicated.
 
 ### The Data Anchor
 
@@ -23,8 +23,9 @@ The University of Michigan trial tracked $n = 100$ IPS e.max CAD crowns milled v
 - **$92\%$ Kaplan-Meier survival at 10 years** (CI = $86.8\%$ to $97.5\%$), with no significant difference between cement groups ($P > .5$) — cement choice appears almost irrelevant to decade-long survival outcomes.
 - **Debonding patterns diverged by cement group.** Experimental Cement: three debonds (13, 20, 36 months). MultiLink Automix: two debonds (36 months, 110 months). All recemented with MultiLink and remained functional. SpeedCem: zero debonds.
 - **Fracture behaviour told the opposite story.** All four crown fractures occurred in the SpeedCem group (48, 75, 80, 93 months), with one additional failure at 117 months. SpeedCem is debond-resistant but fracture-prone — cement choice influences failure *mode* even when it doesn't influence survival *rate*.
-- **Colour stability remained excellent:** $>95\%$ alpha throughout, though MultiLink marginal discolouration declined to $66.7\%$ alpha by year 10.
-- **Marginal wear became detectable at six months** and progressed gradually; no surface chipping in any monolithic crown. Postoperative sensitivity resolved fully within three weeks in all cases.
+- **Colour stability and surface integrity held up well:** $>95\%$ alpha ratings throughout, though MultiLink marginal discolouration declined to $66.7\%$ alpha by year 10. Marginal wear became detectable at six months and progressed gradually; no surface chipping in any monolithic crown. Postoperative sensitivity resolved fully within three weeks.
+
+> The quiet lesson: cement choice doesn't determine whether your crown survives the decade. It determines how it eventually dies.
 - *Caveat:* Non-randomised cement allocation limits direct comparison between groups; confounding by indication cannot be excluded.
 
 ### 💡 The Clinical Bottom Line

@@ -12,19 +12,13 @@ clinicalRelevance: "Robotic systems achieve roughly threefold improvements in pl
 
 A patient sits in your chair fidgeting with the consent form. They've read that robots can place implants now, and they want to know if you're considering one. You laugh—the way clinicians do when confronted with technology they've been dodging at conferences—and promise them precision instead. Except here's where it gets uncomfortable: Younis and colleagues from Xi'an Jiaotong University have evidence you might want to reconsider that promise.
 
-Their retrospective study compares robot-assisted implant surgery (the Remebot system) against freehand placement across 95 implants in 65 patients. The findings are not ambiguous. They're statistically sledgehammer-level unambiguous, and if you're smugly confident in your own wrist steadiness after fifteen years of practice, they're rather humbling.
-
-The Remebot doesn't fatigue during the seventh patient of the afternoon. It doesn't lose concentration between the seventh and eighth hour of operating. It carries no tremor, no whisper of hesitation—just millimetre-perfect optical tracking and a robotic arm that makes incremental position corrections in real time. What's troubling (or thrilling, depending on your temperament) is that this mechanical steadiness actually *matters* in ways that move from "interesting laboratory finding" directly into "genuinely clinically relevant" territory.
+Their retrospective study — *Accuracy of Robot-Assisted Implant Surgery Versus Freehand Implant Surgery* — compares the Remebot system against freehand placement across 95 implants in 65 patients. The findings are not ambiguous. They're statistically sledgehammer-level unambiguous, and if you're smugly confident in your own wrist steadiness after fifteen years of practice, they're rather humbling.
 
 ### The Data Anchor
 
-Single-centre, retrospective analysis with a single surgical team controlling for surgeon experience variance. Remebot group: $n=95$ implants; freehand control group: $n=95$ implants. Three primary accuracy parameters measured:
+Single-centre, retrospective analysis with a single surgical team controlling for surgeon experience variance: $n=95$ implants per group. The Remebot doesn't fatigue during the seventh patient of the afternoon; it carries no tremor, no whisper of hesitation — just millimetre-perfect optical tracking and a robotic arm making incremental corrections in real time. The question is whether that mechanical steadiness actually shows up in the numbers. It does.
 
-- **Platform deviation** (implant drift from plan at alveolar crest): Robot $0.44 \pm 0.17$ mm | Freehand $1.38 \pm 0.77$ mm
-- **Angular deviation** (rotational divergence from plan): Robot $1.88 \pm 0.98°$ | Freehand $5.24 \pm 3.05°$
-- **Apex deviation** (position error at implant tip): Robot $0.67 \pm 0.31$ mm | Freehand $1.89 \pm 0.93$ mm
-
-All three differences: $P < 0.001$. Not marginal. Categorically superior—roughly threefold across most measures.
+Platform deviation — the implant's drift from plan at the alveolar crest — was $0.44 \pm 0.17$ mm with the robot versus $1.38 \pm 0.77$ mm freehand. Angular deviation dropped from $5.24 \pm 3.05°$ to $1.88 \pm 0.98°$. At the apex, position error measured $0.67 \pm 0.31$ mm robotic versus $1.89 \pm 0.93$ mm freehand. All three differences: $P < 0.001$. Roughly threefold across every measure.
 
 ### Key Findings
 
@@ -32,7 +26,9 @@ All three differences: $P < 0.001$. Not marginal. Categorically superior—rough
 - **Angular precision jumped threefold** — $1.88°$ versus $5.24°$ is the gap between mechanical laser-focus and the modest human tremor that thirty years of steadying your hand can't quite eliminate.
 - **Apex positioning accuracy improved by 65%** — your pre-operative surgical plan survives contact with actual bone nearly intact instead of drifting millimetre by millimetre through trabecular resistance.
 - **Clinical cascades:** Positioning accuracy this superior presumably improves bone-implant contact longevity, reduces peri-implantitis risk trajectories, and yields more predictable prosthetic load distribution.
-- *Caveat worth dwelling on:* Single surgical team in one centre. Experience bias haunts every freehand measurement; a less skilled surgeon would likely show wider deviations, making the comparison less a human-versus-machine story and more a "good human versus machine" narrative.
+- *Caveat worth dwelling on:* Single surgical team in one centre. A less skilled surgeon would likely show wider freehand deviations — making this less a human-versus-machine story and more a "good human versus machine" narrative.
+
+> The question nobody's asking loudly enough: does the robot beat the best surgeons, or just flatten the variance between the best and the rest?
 
 ### 💡 The Clinical Bottom Line
 
