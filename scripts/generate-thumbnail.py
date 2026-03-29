@@ -178,44 +178,70 @@ def generate_thumbnail(slug: str, pdf_path_override: str = "") -> str:
     # Thin divider
     draw.line([(36, 65), (strip_width - 36, 65)], fill=(255, 255, 255, 60), width=1)
 
-    # One-line verdict — large, bold, vertically centered
+    # One-line verdict — dynamically sized to fill the strip width
     verdict = fm.get("verdict", "")
     padding_x = 36
     max_text_width = strip_width - (padding_x * 2)
 
-    font_verdict = try_load_font([
+    # Find the optimal font size: try sizes from large to small,
+    # pick the largest where all wrapped lines fit within max_text_width
+    font_paths = [
         "/System/Library/Fonts/Supplemental/Georgia Bold.ttf",
         "/System/Library/Fonts/Supplemental/Georgia.ttf",
-    ], 44)
-    font_verdict_small = try_load_font([
-        "/System/Library/Fonts/Supplemental/Georgia Bold.ttf",
-        "/System/Library/Fonts/Supplemental/Georgia.ttf",
-    ], 36)
+    ]
 
-    # Wrap — at 44px Georgia Bold, ~8 chars per line in 308px
-    chars_per_line = int(max_text_width / 20)
-    wrapped = textwrap.wrap(verdict, width=chars_per_line)
+    best_font_size = 28  # minimum
+    best_wrapped = [verdict]
+    best_font = None
 
-    if len(wrapped) > 5:
-        font_used = font_verdict_small
-        chars_per_line = int(max_text_width / 16)
-        wrapped = textwrap.wrap(verdict, width=chars_per_line)
-        line_height = 46
-    else:
-        font_used = font_verdict
-        line_height = 56
+    for size in range(56, 26, -2):
+        test_font = try_load_font(font_paths, size)
+        # Wrap by measuring actual pixel width
+        words = verdict.split()
+        lines = []
+        current = ""
+        for word in words:
+            test_line = f"{current} {word}".strip()
+            bbox = draw.textbbox((0, 0), test_line, font=test_font)
+            if bbox[2] - bbox[0] > max_text_width and current:
+                lines.append(current)
+                current = word
+            else:
+                current = test_line
+        if current:
+            lines.append(current)
 
-    # Vertically center
-    text_block_height = len(wrapped) * line_height
-    available_height = HEIGHT - 160
-    text_start_y = 80 + (available_height - text_block_height) // 2
+        # Check all lines fit and we don't have too many lines
+        all_fit = all(
+            (draw.textbbox((0, 0), line, font=test_font)[2] -
+             draw.textbbox((0, 0), line, font=test_font)[0]) <= max_text_width
+            for line in lines
+        )
+        max_lines = 4 if size >= 40 else 5
+        if all_fit and len(lines) <= max_lines:
+            best_font_size = size
+            best_wrapped = lines
+            best_font = test_font
+            break
 
-    for i, line in enumerate(wrapped):
+    if best_font is None:
+        best_font = try_load_font(font_paths, best_font_size)
+
+    line_height = int(best_font_size * 1.3)
+
+    # Vertically center the text block between the divider and bottom branding
+    text_block_height = len(best_wrapped) * line_height
+    top_zone = 80       # below the divider
+    bottom_zone = 70    # above bottom branding
+    available_height = HEIGHT - top_zone - bottom_zone
+    text_start_y = top_zone + (available_height - text_block_height) // 2
+
+    for i, line in enumerate(best_wrapped):
         draw.text(
             (padding_x, text_start_y + i * line_height),
             line,
             fill=ON_PRIMARY,
-            font=font_used,
+            font=best_font,
         )
 
     # Bottom branding: samrosehill.com
