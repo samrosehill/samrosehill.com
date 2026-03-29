@@ -34,4 +34,6 @@ Platform deviation — the implant's drift from plan at the alveolar crest — w
 
 The robot demonstrably, measurably beats human hands at positional accuracy — but whether that precision cascade translates into tangibly better implant survival or patient outcomes over ten years remains the unanswered question this study sidesteps. The harder decision isn't whether machines excel at mechanical precision (they do, convincingly). It's whether that precision buys your patient anything they'll actually notice or benefit from in the long run.
 
+*Dr Samuel Rosehill is a general dentist with a prosthodontic focus, practising at Ethical Dental in Coffs Harbour, NSW. He holds a BDSc (Hons) from the University of Queensland and an MClinDent in Fixed & Removable Prosthodontics (Distinction) from King's College London.*
+
 **Reference:** Younis et al. Accuracy of Robot-Assisted Implant Surgery Versus Freehand Implant Surgery: A Retrospective Study. *Int J Implant Dent*. 2025. https://doi.org/10.1186/s40729-024-00586-3

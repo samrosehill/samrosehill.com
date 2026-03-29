@@ -32,4 +32,6 @@ The University of Michigan trial tracked $n = 100$ IPS e.max CAD crowns milled v
 
 Chairside lithium disilicate crowns survive reliably over a decade. The cement you select matters far less to overall survival than one might intuitively fear — but it shapes how your crown eventually fails. This is not a set-and-forget technology, yet it is genuinely serviceable. A decade later, Fasbinder's evidence affirms that chairside milling delivers what it promises: durable, predictable restorations — and a Tuesday morning phone call you can now answer with confidence.
 
+*Dr Samuel Rosehill is a general dentist with a prosthodontic focus, practising at Ethical Dental in Coffs Harbour, NSW. He holds a BDSc (Hons) from the University of Queensland and an MClinDent in Fixed & Removable Prosthodontics (Distinction) from King's College London.*
+
 **Reference:** Fasbinder DJ, Neiva GD, Heys D, Heys RJ. Clinical Evaluation of Lithium Disilicate Chairside CAD/CAM Crowns After 10 Years. *Int J Prosthodont*. 2025;38:645–656. https://doi.org/10.11607/ijp.9257

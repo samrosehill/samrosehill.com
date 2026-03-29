@@ -35,4 +35,6 @@ X-ray diffraction confirmed that all specimens retained tetragonal crystal struc
 
 If you're placing conventional zirconia, **insist on the $1350°C/8h$ sintering protocol**—you're getting measurably stronger crowns that will laugh at occlusal forces. For translucent zirconia, accept that you're trading mechanical supremacy for aesthetics; sintering temperature optimisation won't solve the inherent strength gap, so design margins and guide surfaces accordingly. The material doesn't lie—it just reminds us that every clinical gain usually demands a structural sacrifice.
 
+*Dr Samuel Rosehill is a general dentist with a prosthodontic focus, practising at Ethical Dental in Coffs Harbour, NSW. He holds a BDSc (Hons) from the University of Queensland and an MClinDent in Fixed & Removable Prosthodontics (Distinction) from King's College London.*
+
 **Reference:** Brunetto et al. Effect of Sintering Temperature on the Microstructure and Mechanical Properties of Conventional and Translucent Zirconia. *Int J Prosthodont*. 2026;39. https://doi.org/10.11607/ijp.9487
