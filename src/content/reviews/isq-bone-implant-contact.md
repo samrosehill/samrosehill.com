@@ -33,6 +33,6 @@ ISQ measures engagement at the implant shoulder — how mechanically snug that c
 
 That Thursday afternoon reading matters. It's telling you about the shoulder. Not the whole story.
 
-*Dr Samuel Rosehill is a general dentist with a prosthodontic focus, practising at Ethical Dental in Coffs Harbour, NSW. He holds a BDSc (Hons) from the University of Queensland and an MClinDent in Fixed & Removable Prosthodontics (Distinction) from King's College London.*
+*Dr Samuel Rosehill is a general dentist with a prosthodontic focus, practising at Ethical Dental in Coffs Harbour, NSW. He holds a BDSc (Hons) from the University of Queensland, an MClinDent in Fixed & Removable Prosthodontics (Distinction) from King's College London, and a Masters in Marketing & Business Administration.*
 
 **Reference:** Chang JW, Bi J, Min S, Gräfin von Krockow N, Weigl P. Implant Stability Quotient and Bone-to-Implant Contact Analyses of Immediately Placed Implants in Human Cadavers. *Int J Periodontics Restorative Dent*. 2025. https://doi.org/10.11607/prd.7624
