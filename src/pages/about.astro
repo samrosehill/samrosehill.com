@@ -1,0 +1,262 @@
+---
+import Base from '../layouts/Base.astro';
+---
+
+<Base title="About" description="Dr. Samuel Rosehill — dentist, prosthodontic enthusiast, Coffs Harbour NSW." currentPage="about">
+  <!-- Page header -->
+  <section class="page-header">
+    <div class="container">
+      <p class="label label--accent animate-in">About</p>
+      <h1 class="animate-in animate-in--delay-1">Dr. Samuel Rosehill</h1>
+    </div>
+  </section>
+
+  <!-- Asymmetric 2-column layout: sidebar + main content -->
+  <section class="about-body">
+    <div class="container grid-12">
+      <!-- Sidebar — sticky credentials -->
+      <aside class="col-4 about-sidebar animate-in animate-in--delay-2">
+        <div class="sidebar-card">
+          <p class="sidebar-card__label">Location</p>
+          <p class="sidebar-card__value">Coffs Harbour & Dorrigo, NSW</p>
+        </div>
+        <div class="sidebar-card">
+          <p class="sidebar-card__label">Practice</p>
+          <p class="sidebar-card__value">
+            <a href="https://www.ethical.dental" target="_blank" rel="noopener">Ethical Dental and Orthodontics</a>
+          </p>
+        </div>
+        <div class="sidebar-card">
+          <p class="sidebar-card__label">Interests</p>
+          <p class="sidebar-card__value">Fixed & removable prosthodontics, implant treatment, oral surgery, digital planning, 3D printing</p>
+        </div>
+        <div class="sidebar-card">
+          <p class="sidebar-card__label">Connect</p>
+          <p class="sidebar-card__value">
+            <a href="https://www.linkedin.com/in/sam-rosehill-74905755/" target="_blank" rel="noopener">LinkedIn</a>
+          </p>
+        </div>
+      </aside>
+
+      <!-- Main bio -->
+      <div class="col-8 about-main animate-in animate-in--delay-1">
+        <div class="prose">
+          <p>
+            I'm a general dentist with a particular enthusiasm for prosthodontics, practising at
+            <a href="https://www.ethical.dental" target="_blank" rel="noopener">Ethical Dental and Orthodontics</a>
+            in Coffs Harbour and Dorrigo, NSW.
+          </p>
+          <p>
+            I graduated from the University of Queensland in 2009 with first class honours,
+            and later completed a Masters of Clinical Dentistry in Fixed and Removable Prosthodontics
+            at King's College London, graduating with distinction. My thesis explored a combined
+            approach to fabricating complete dentures using 3D printing and traditional laboratory methods.
+          </p>
+          <p>
+            I also hold masters degrees in Marketing and Business Administration, and maintain
+            an academic interest in organisational design and communications alongside my clinical work.
+          </p>
+          <p>
+            This site is a clinical archive — short-form reviews of dental publications that have
+            caught my eye, translated into accessible reads with the clinical relevance extracted.
+            I also share clinical cases and technique notes from practice.
+          </p>
+        </div>
+
+        <hr class="divider" />
+
+        <!-- Credentials timeline -->
+        <div class="credentials">
+          <div class="credential-group">
+            <h3>Education</h3>
+            <div class="timeline">
+              <div class="timeline__item">
+                <span class="timeline__marker"></span>
+                <div>
+                  <span class="credential__title">MClinDent Fixed & Removable Prosthodontics</span>
+                  <span class="credential__detail">King's College London — Distinction</span>
+                </div>
+              </div>
+              <div class="timeline__item">
+                <span class="timeline__marker"></span>
+                <div>
+                  <span class="credential__title">BDSc (Hons)</span>
+                  <span class="credential__detail">University of Queensland — First Class Honours, 2009</span>
+                </div>
+              </div>
+              <div class="timeline__item">
+                <span class="timeline__marker"></span>
+                <div>
+                  <span class="credential__title">Masters in Marketing & Business Administration</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="credential-group">
+            <h3>Fellowships & Awards</h3>
+            <div class="timeline">
+              <div class="timeline__item">
+                <span class="timeline__marker"></span>
+                <div>
+                  <span class="credential__title">Fellow, Pierre Fauchard Academy</span>
+                </div>
+              </div>
+              <div class="timeline__item">
+                <span class="timeline__marker"></span>
+                <div>
+                  <span class="credential__title">Fellow, International College of Dentists</span>
+                </div>
+              </div>
+              <div class="timeline__item">
+                <span class="timeline__marker"></span>
+                <div>
+                  <span class="credential__title">IADR Student Research Prize</span>
+                  <span class="credential__detail">International Association of Dental Research</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="credential-group">
+            <h3>Publications</h3>
+            <div class="timeline">
+              <div class="timeline__item">
+                <span class="timeline__marker"></span>
+                <div>
+                  <span class="credential__title">Co-author — graduate dentistry textbook</span>
+                  <span class="credential__detail">Distributed to every graduating dental student in Australia</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .page-header {
+    padding: var(--space-20) 0 var(--space-4);
+  }
+
+  .page-header .label {
+    margin-bottom: var(--space-4);
+  }
+
+  .about-body {
+    padding-top: var(--space-8);
+  }
+
+  /* Sidebar */
+  .about-sidebar {
+    position: sticky;
+    top: 6rem;
+    align-self: start;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-6);
+  }
+
+  .sidebar-card {
+    background: var(--surface-container-lowest);
+    border: 1px solid var(--ghost-border);
+    border-radius: 0.5rem;
+    padding: var(--space-6);
+  }
+
+  .sidebar-card__label {
+    font-family: var(--font-body);
+    font-size: 0.6875rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--on-surface-variant);
+    margin-bottom: var(--space-2);
+  }
+
+  .sidebar-card__value {
+    font-family: var(--font-body);
+    font-size: 0.9375rem;
+    color: var(--on-surface);
+    line-height: 1.6;
+  }
+
+  /* Credentials timeline */
+  .credentials {
+    display: grid;
+    gap: var(--space-12);
+  }
+
+  .credential-group h3 {
+    font-family: var(--font-headline);
+    font-size: 1.375rem;
+    margin-bottom: var(--space-6);
+    color: var(--on-surface);
+  }
+
+  .timeline {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-6);
+    padding-left: var(--space-4);
+    border-left: 2px solid var(--ghost-border-strong);
+  }
+
+  .timeline__item {
+    display: flex;
+    gap: var(--space-4);
+    position: relative;
+  }
+
+  .timeline__marker {
+    width: 8px;
+    height: 8px;
+    background: var(--primary);
+    border-radius: 50%;
+    flex-shrink: 0;
+    margin-top: 6px;
+    margin-left: calc(-1 * var(--space-4) - 5px);
+  }
+
+  .credential__title {
+    display: block;
+    font-family: var(--font-body);
+    font-size: 0.9375rem;
+    font-weight: 500;
+    color: var(--on-surface);
+  }
+
+  .credential__detail {
+    display: block;
+    font-family: var(--font-body);
+    font-size: 0.8125rem;
+    color: var(--on-surface-variant);
+    margin-top: var(--space-1);
+  }
+
+  @media (max-width: 1024px) {
+    .about-sidebar {
+      position: static;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .page-header {
+      padding: var(--space-12) 0 var(--space-4);
+    }
+
+    .about-sidebar {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: var(--space-4);
+    }
+  }
+
+  @media (max-width: 480px) {
+    .about-sidebar {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

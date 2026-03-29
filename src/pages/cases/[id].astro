@@ -1,0 +1,80 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const cases = await getCollection('cases');
+  return cases.map((c) => ({
+    params: { id: c.id },
+    props: { entry: c },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+
+const formatDate = (date: Date) =>
+  date.toLocaleDateString('en-AU', { year: 'numeric', month: 'long', day: 'numeric' });
+---
+
+<Base title={entry.data.title} description={entry.data.description}>
+  <article class="article">
+    <div class="container container--narrow">
+      <header class="article__header animate-in">
+        <a href="/cases" class="back-link">&larr; Back to projects</a>
+        <div class="article__meta">
+          <p class="label label--accent">{formatDate(entry.data.pubDate)}</p>
+        </div>
+        <h1>{entry.data.title}</h1>
+        <div class="article__tags">
+          {entry.data.tags.map((tag: string) => (
+            <span class="chip">{tag}</span>
+          ))}
+        </div>
+      </header>
+
+      <hr class="divider" />
+
+      <div class="prose animate-in animate-in--delay-1">
+        <Content />
+      </div>
+
+      <div class="article__end">
+        <a href="/cases" class="btn btn--ghost">&larr; Back to projects</a>
+      </div>
+    </div>
+  </article>
+</Base>
+
+<style>
+  .article {
+    padding: var(--space-12) 0 var(--space-24);
+  }
+
+  .article__header {
+    margin-bottom: var(--space-10);
+  }
+
+  .article__meta {
+    margin-bottom: var(--space-4);
+  }
+
+  .article__header h1 {
+    font-size: clamp(1.875rem, 4.5vw, 2.5rem);
+    max-width: 22ch;
+    margin-bottom: var(--space-4);
+    line-height: 1.15;
+  }
+
+  .article__tags {
+    display: flex;
+    gap: var(--space-2);
+    flex-wrap: wrap;
+  }
+
+  .article__end {
+    margin-top: var(--space-16);
+    padding-top: var(--space-8);
+    border-top: 1px solid var(--ghost-border-strong);
+  }
+</style>

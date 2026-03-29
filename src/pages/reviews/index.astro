@@ -1,0 +1,358 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+const reviews = (await getCollection('reviews'))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+const featured = reviews[0];
+const rest = reviews.slice(1);
+
+const formatDate = (date: Date) =>
+  date.toLocaleDateString('en-AU', { year: 'numeric', month: 'long', day: 'numeric' });
+---
+
+<Base title="Journal" description="Recent publications from the prosthodontic, restorative and implant dentistry literature." currentPage="reviews">
+  <!-- Archive Header -->
+  <section class="archive-header">
+    <div class="container">
+      <div class="archive-header__layout">
+        <div class="archive-header__text">
+          <p class="label label--accent animate-in">Archive & Observations</p>
+          <h1 class="animate-in animate-in--delay-1">The Archive</h1>
+          <p class="archive-header__intro animate-in animate-in--delay-2">
+            Recent publications from the prosthodontic, restorative and implant dentistry literature — reviewed for clinical relevance.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Article: Asymmetric 7/5 Layout -->
+  {featured && (
+    <section class="featured-section">
+      <div class="container">
+        <a href={`/reviews/${featured.id}`} class="featured-split animate-in">
+          <div class="featured-split__image">
+            <div class="featured-split__placeholder">
+              <span class="featured-split__icon">01</span>
+            </div>
+          </div>
+          <div class="featured-split__content">
+            <div class="featured-split__meta">
+              <span class="meta-category">Review</span>
+              <span class="meta-dot"></span>
+              <span class="meta-date">{formatDate(featured.data.pubDate)}</span>
+            </div>
+            <h2 class="featured-split__title">{featured.data.title}</h2>
+            <p class="featured-split__desc">{featured.data.description}</p>
+            <p class="featured-split__read">Read analysis &rarr;</p>
+          </div>
+        </a>
+      </div>
+    </section>
+  )}
+
+  <!-- Archive Grid: 3-column image cards -->
+  <section class="archive-grid-section">
+    <div class="container">
+      <div class="archive-grid">
+        {rest.map((review, i) => (
+          <a href={`/reviews/${review.id}`} class={`archive-card animate-in animate-in--delay-${Math.min(i + 1, 4)}`}>
+            <article>
+              <div class="archive-card__image">
+                <div class="archive-card__placeholder">
+                  <span class="archive-card__number">{String(i + 2).padStart(2, '0')}</span>
+                </div>
+              </div>
+              <div class="archive-card__meta">
+                <span class="meta-category">Review</span>
+                <span class="meta-dot"></span>
+                <span class="meta-date">{formatDate(review.data.pubDate)}</span>
+              </div>
+              <h3 class="archive-card__title">{review.data.title}</h3>
+              <p class="archive-card__desc">{review.data.description}</p>
+            </article>
+          </a>
+        ))}
+      </div>
+
+      {reviews.length === 0 && (
+        <p class="empty-state">No reviews yet — check back soon.</p>
+      )}
+    </div>
+  </section>
+</Base>
+
+<style>
+  /* --- Archive Header --- */
+  .archive-header {
+    padding: var(--space-20) 0 var(--space-16);
+  }
+
+  .archive-header__layout {
+    max-width: 48rem;
+  }
+
+  .archive-header .label {
+    margin-bottom: var(--space-4);
+  }
+
+  .archive-header h1 {
+    font-size: clamp(2.5rem, 6vw, 4rem);
+    line-height: 1.05;
+    margin-bottom: var(--space-6);
+  }
+
+  .archive-header__intro {
+    font-family: var(--font-headline);
+    font-style: italic;
+    font-size: 1.125rem;
+    color: var(--on-surface-variant);
+    line-height: 1.7;
+    max-width: 42ch;
+  }
+
+  /* --- Featured Article: Asymmetric Split --- */
+  .featured-section {
+    padding: 0 0 var(--space-24);
+  }
+
+  .featured-split {
+    display: grid;
+    grid-template-columns: 7fr 5fr;
+    text-decoration: none;
+    color: inherit;
+    overflow: hidden;
+  }
+
+  .featured-split:hover {
+    text-decoration: none;
+  }
+
+  .featured-split__image {
+    aspect-ratio: 16 / 10;
+    overflow: hidden;
+    background: var(--surface-container-low);
+  }
+
+  .featured-split__placeholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--surface-container-high);
+    transition: all 700ms var(--ease-out);
+  }
+
+  .featured-split:hover .featured-split__placeholder {
+    background: var(--surface-container-highest);
+  }
+
+  .featured-split__icon {
+    font-family: var(--font-headline);
+    font-style: italic;
+    font-size: 4rem;
+    color: var(--primary);
+    opacity: 0.2;
+  }
+
+  .featured-split__content {
+    background: var(--surface-container-lowest);
+    padding: var(--space-10) var(--space-12);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top: none;
+  }
+
+  .featured-split__meta {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    margin-bottom: var(--space-6);
+  }
+
+  .featured-split__title {
+    font-family: var(--font-headline);
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    line-height: 1.25;
+    margin-bottom: var(--space-4);
+    transition: color var(--duration-fast) ease;
+  }
+
+  .featured-split:hover .featured-split__title {
+    color: var(--primary-dark);
+  }
+
+  .featured-split__desc {
+    font-size: 0.9375rem;
+    color: var(--on-surface-variant);
+    line-height: 1.65;
+    margin-bottom: var(--space-8);
+    max-width: 40ch;
+  }
+
+  .featured-split__read {
+    font-family: var(--font-body);
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--primary-dark);
+    border-bottom: 1px solid rgba(7, 144, 140, 0.3);
+    padding-bottom: 2px;
+    align-self: flex-start;
+    transition: border-color var(--duration-fast) ease;
+  }
+
+  .featured-split:hover .featured-split__read {
+    border-color: var(--primary-dark);
+  }
+
+  /* --- Shared meta styles --- */
+  .meta-category {
+    font-family: var(--font-body);
+    font-size: 0.625rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--primary-dark);
+  }
+
+  .meta-dot {
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background: var(--outline-variant);
+    flex-shrink: 0;
+  }
+
+  .meta-date {
+    font-family: var(--font-body);
+    font-size: 0.625rem;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--on-surface-variant);
+  }
+
+  /* --- Archive Grid --- */
+  .archive-grid-section {
+    padding: var(--space-12) 0 var(--space-24);
+  }
+
+  .archive-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-12);
+    row-gap: var(--space-16);
+  }
+
+  /* --- Archive Card --- */
+  .archive-card {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .archive-card:hover {
+    text-decoration: none;
+  }
+
+  .archive-card__image {
+    aspect-ratio: 1;
+    overflow: hidden;
+    background: var(--surface-container-low);
+    margin-bottom: var(--space-6);
+  }
+
+  .archive-card__placeholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--surface-container-high);
+    transition: transform 700ms var(--ease-out);
+  }
+
+  .archive-card:hover .archive-card__placeholder {
+    transform: scale(1.05);
+  }
+
+  .archive-card__number {
+    font-family: var(--font-headline);
+    font-style: italic;
+    font-size: 3rem;
+    color: var(--primary);
+    opacity: 0.12;
+  }
+
+  .archive-card__meta {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    margin-bottom: var(--space-3);
+  }
+
+  .archive-card__title {
+    font-family: var(--font-headline);
+    font-size: 1.375rem;
+    line-height: 1.3;
+    margin-bottom: var(--space-3);
+    transition: color var(--duration-fast) ease;
+  }
+
+  .archive-card:hover .archive-card__title {
+    color: var(--primary-dark);
+  }
+
+  .archive-card__desc {
+    font-size: 0.875rem;
+    color: var(--on-surface-variant);
+    line-height: 1.65;
+  }
+
+  .empty-state {
+    color: var(--on-surface-variant);
+    font-style: italic;
+    padding: var(--space-12) 0;
+  }
+
+  /* --- Responsive --- */
+  @media (max-width: 1024px) {
+    .archive-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: var(--space-8);
+      row-gap: var(--space-12);
+    }
+  }
+
+  @media (max-width: 768px) {
+    .archive-header {
+      padding: var(--space-12) 0 var(--space-8);
+    }
+
+    .featured-split {
+      grid-template-columns: 1fr;
+    }
+
+    .featured-split__image {
+      aspect-ratio: 16 / 9;
+    }
+
+    .featured-split__content {
+      padding: var(--space-8) var(--space-6);
+    }
+
+    .archive-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .archive-card__image {
+      aspect-ratio: 16 / 9;
+    }
+  }
+</style>

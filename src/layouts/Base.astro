@@ -1,0 +1,113 @@
+---
+// import Loader from '../components/Loader.astro'; // TODO: revisit Cool S animation
+
+interface Props {
+  title: string;
+  description?: string;
+  currentPage?: string;
+}
+
+const {
+  title,
+  description = 'A clinical archive of dental research reviews and case notes by Dr. Samuel Rosehill.',
+  currentPage = '',
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <title>{title === 'Home' ? 'Dr. Samuel Rosehill' : `${title} — Dr. Samuel Rosehill`}</title>
+
+    <!-- Structured data for GEO -->
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Dr. Samuel Rosehill",
+      "jobTitle": "Dentist",
+      "description": "A clinical archive of dental research reviews and case notes by Dr. Samuel Rosehill.",
+      "url": "https://samrosehill.com",
+      "worksFor": {
+        "@type": "Dentist",
+        "name": "Ethical Dental and Orthodontics",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Coffs Harbour",
+          "addressRegion": "NSW",
+          "addressCountry": "AU"
+        }
+      },
+      "alumniOf": [
+        { "@type": "CollegeOrUniversity", "name": "University of Queensland" },
+        { "@type": "CollegeOrUniversity", "name": "King's College London" }
+      ],
+      "sameAs": [
+        "https://www.linkedin.com/in/sam-rosehill-74905755/",
+        "https://www.ethical.dental/about-us/dr-sam-rosehill"
+      ]
+    })} />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  </head>
+  <body>
+    <!-- TODO: Cool S loading animation (revisit later) -->
+
+    <!-- Navigation — glassmorphic sticky with ghost border -->
+    <nav class="nav">
+      <div class="container nav__inner">
+        <a href="/" class="nav__brand">Dr. Samuel Rosehill</a>
+        <ul class="nav__links">
+          <li><a href="/" aria-current={currentPage === 'home' ? 'page' : undefined}>Home</a></li>
+          <li><a href="/reviews" aria-current={currentPage === 'reviews' ? 'page' : undefined}>Journal</a></li>
+          <li><a href="/cases" aria-current={currentPage === 'cases' ? 'page' : undefined}>Projects</a></li>
+          <li><a href="/about" aria-current={currentPage === 'about' ? 'page' : undefined}>About</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <slot />
+    </main>
+
+    <!-- Footer — multi-column editorial -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__grid">
+          <div>
+            <div class="footer__brand">Dr. Samuel Rosehill</div>
+            <p class="footer__text">
+              A clinical archive of dental research reviews and case notes
+              from a prosthodontic enthusiast in Coffs Harbour, NSW.
+            </p>
+          </div>
+          <div>
+            <p class="footer__col-title">Navigate</p>
+            <ul class="footer__link-list">
+              <li><a href="/">Home</a></li>
+              <li><a href="/reviews">Journal</a></li>
+              <li><a href="/cases">Projects</a></li>
+              <li><a href="/about">About</a></li>
+            </ul>
+          </div>
+          <div>
+            <p class="footer__col-title">Elsewhere</p>
+            <ul class="footer__link-list">
+              <li><a href="https://www.ethical.dental" target="_blank" rel="noopener">Ethical Dental</a></li>
+              <li><a href="https://www.linkedin.com/in/sam-rosehill-74905755/" target="_blank" rel="noopener">LinkedIn</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          &copy; {new Date().getFullYear()} Dr. Samuel Rosehill. Built with care in Coffs Harbour.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<style is:global>
+  @import '../styles/global.css';
+</style>

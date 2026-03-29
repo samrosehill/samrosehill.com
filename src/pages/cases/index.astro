@@ -1,0 +1,81 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+const cases = (await getCollection('cases'))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+const formatDate = (date: Date) =>
+  date.toLocaleDateString('en-AU', { year: 'numeric', month: 'long', day: 'numeric' });
+---
+
+<Base title="Projects" description="Side projects — things I'm building, testing, or figuring out outside the peer-reviewed literature." currentPage="cases">
+  <!-- Page header -->
+  <section class="page-header">
+    <div class="container">
+      <p class="label label--accent animate-in">Projects</p>
+      <h1 class="animate-in animate-in--delay-1">Side projects</h1>
+      <p class="page-intro animate-in animate-in--delay-2">
+        Things I'm building, testing, or figuring out outside the peer-reviewed literature.
+      </p>
+    </div>
+  </section>
+
+  <section class="section--toned">
+    <div class="container">
+      <div class="review-list review-list--grid">
+        {cases.map((c, i) => (
+          <a href={`/cases/${c.id}`} class={`review-card animate-in animate-in--delay-${Math.min(i + 1, 4)}`}>
+            <article class="card">
+              <p class="review-card__date">{formatDate(c.data.pubDate)}</p>
+              <h3 class="review-card__title">{c.data.title}</h3>
+              <p class="review-card__description">{c.data.description}</p>
+              <div class="review-card__tags">
+                {c.data.tags.map((tag: string) => (
+                  <span class="chip">{tag}</span>
+                ))}
+              </div>
+            </article>
+          </a>
+        ))}
+      </div>
+
+      {cases.length === 0 && (
+        <p class="empty-state">No cases published yet — check back soon.</p>
+      )}
+    </div>
+  </section>
+</Base>
+
+<style>
+  .page-header {
+    padding: var(--space-20) 0 var(--space-8);
+  }
+
+  .page-header .label {
+    margin-bottom: var(--space-4);
+  }
+
+  .page-header h1 {
+    margin-bottom: var(--space-4);
+  }
+
+  .page-intro {
+    font-size: 1.0625rem;
+    color: var(--on-surface-variant);
+    line-height: 1.7;
+    max-width: 55ch;
+  }
+
+  .empty-state {
+    color: var(--on-surface-variant);
+    font-style: italic;
+    padding: var(--space-12) 0;
+  }
+
+  @media (max-width: 768px) {
+    .page-header {
+      padding: var(--space-12) 0 var(--space-4);
+    }
+  }
+</style>

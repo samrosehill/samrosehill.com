@@ -1,0 +1,109 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const reviews = await getCollection('reviews');
+  return reviews.map((review) => ({
+    params: { id: review.id },
+    props: { review },
+  }));
+}
+
+const { review } = Astro.props;
+const { Content } = await render(review);
+
+const formatDate = (date: Date) =>
+  date.toLocaleDateString('en-AU', { year: 'numeric', month: 'long', day: 'numeric' });
+---
+
+<Base title={review.data.title} description={review.data.description}>
+  <article class="article">
+    <div class="container container--narrow">
+      <!-- Header -->
+      <header class="article__header animate-in">
+        <a href="/reviews" class="back-link">&larr; Back to journal</a>
+        <div class="article__meta">
+          <p class="label label--accent">{formatDate(review.data.pubDate)}</p>
+        </div>
+        <h1>{review.data.title}</h1>
+        <p class="article__desc">{review.data.description}</p>
+        <div class="article__tags">
+          {review.data.tags.map((tag: string) => (
+            <span class="chip">{tag}</span>
+          ))}
+        </div>
+      </header>
+
+      <!-- Paper reference -->
+      <div class="paper-ref animate-in animate-in--delay-1">
+        <p class="paper-ref__label">Source Paper</p>
+        <p class="paper-ref__title">{review.data.paperTitle}</p>
+        <p class="paper-ref__meta">
+          {review.data.paperAuthors} &middot; <em>{review.data.paperJournal}</em> ({review.data.paperYear})
+        </p>
+      </div>
+
+      <hr class="divider" />
+
+      <!-- Review body -->
+      <div class="prose animate-in animate-in--delay-2">
+        <Content />
+      </div>
+
+      <!-- Clinical relevance callout -->
+      {review.data.clinicalRelevance && (
+        <div class="clinical-relevance animate-in animate-in--delay-3">
+          <p class="clinical-relevance__label">Clinical Relevance</p>
+          <p class="clinical-relevance__text">{review.data.clinicalRelevance}</p>
+        </div>
+      )}
+
+      <!-- End nav -->
+      <div class="article__end">
+        <a href="/reviews" class="btn btn--ghost">&larr; Back to journal</a>
+      </div>
+    </div>
+  </article>
+</Base>
+
+<style>
+  .article {
+    padding: var(--space-12) 0 var(--space-24);
+  }
+
+  .article__header {
+    margin-bottom: var(--space-10);
+  }
+
+  .article__meta {
+    margin-bottom: var(--space-4);
+  }
+
+  .article__header h1 {
+    font-size: clamp(1.875rem, 4.5vw, 2.5rem);
+    max-width: 22ch;
+    margin-bottom: var(--space-4);
+    line-height: 1.15;
+  }
+
+  .article__desc {
+    font-size: 1.0625rem;
+    color: var(--on-surface-variant);
+    line-height: 1.7;
+    max-width: 55ch;
+    margin-bottom: var(--space-6);
+  }
+
+  .article__tags {
+    display: flex;
+    gap: var(--space-2);
+    flex-wrap: wrap;
+  }
+
+  .article__end {
+    margin-top: var(--space-16);
+    padding-top: var(--space-8);
+    border-top: 1px solid var(--ghost-border-strong);
+  }
+</style>
