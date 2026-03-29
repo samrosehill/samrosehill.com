@@ -32,4 +32,4 @@ The spectrophotometer isn't going anywhere — it remains the most internally co
 
 The conclusion is less a coronation than a cautious audition — digital colour analysis isn't ready to dethrone the spectrophotometer, but it's warming up in the wings. One suspects the spectrophotometer manufacturers will not be sending thank-you cards.
 
-*Dr Samuel Rosehill is a general dentist with a prosthodontic focus, practising at Ethical Dental in Coffs Harbour, NSW. He holds a BDSc (Hons) from the University of Queensland, an MClinDent in Fixed & Removable Prosthodontics (Distinction) from King's College London, and a Masters in Marketing & Business Administration.*
+*Dr Samuel Rosehill is a general dentist with a prosthodontic focus, practising at Ethical Dental in Coffs Harbour, NSW. He holds a BDSc (Hons) from the University of Queensland, an MBA, an MMktg, and an MClinDent in Fixed & Removable Prosthodontics (Distinction) from King's College London.*

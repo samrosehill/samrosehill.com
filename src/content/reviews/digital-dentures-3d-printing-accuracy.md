@@ -32,4 +32,4 @@ If you're already using or considering a digital denture workflow, this is reass
 
 For those of us who've been gradually shifting toward digital prosthodontics, this paper doesn't change the direction — it just sharpens the implementation details.
 
-*Dr Samuel Rosehill is a general dentist with a prosthodontic focus, practising at Ethical Dental in Coffs Harbour, NSW. He holds a BDSc (Hons) from the University of Queensland, an MClinDent in Fixed & Removable Prosthodontics (Distinction) from King's College London, and a Masters in Marketing & Business Administration.*
+*Dr Samuel Rosehill is a general dentist with a prosthodontic focus, practising at Ethical Dental in Coffs Harbour, NSW. He holds a BDSc (Hons) from the University of Queensland, an MBA, an MMktg, and an MClinDent in Fixed & Removable Prosthodontics (Distinction) from King's College London.*

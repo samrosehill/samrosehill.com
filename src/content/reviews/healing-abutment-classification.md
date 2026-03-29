@@ -32,6 +32,6 @@ Manfredini's team followed PRISMA guidelines through a screening funnel that win
 
 Healing abutment design genuinely influences soft tissue remodelling — this much is now evidenced. The three-tier classification Manfredini proposes gives the field a shared language it has been conspicuously lacking. For routine cases, standard or anatomical abutments remain entirely defensible; reserve patient-specific designs for aesthetic-anterior zones where the patient is invested, the stakes are high, and your schedule has room for the coordination. The taxonomy is useful. The evidence base it describes is, candidly, still growing up.
 
-*Dr Samuel Rosehill is a general dentist with a prosthodontic focus, practising at Ethical Dental in Coffs Harbour, NSW. He holds a BDSc (Hons) from the University of Queensland, an MClinDent in Fixed & Removable Prosthodontics (Distinction) from King's College London, and a Masters in Marketing & Business Administration.*
+*Dr Samuel Rosehill is a general dentist with a prosthodontic focus, practising at Ethical Dental in Coffs Harbour, NSW. He holds a BDSc (Hons) from the University of Queensland, an MBA, an MMktg, and an MClinDent in Fixed & Removable Prosthodontics (Distinction) from King's College London.*
 
 **Reference:** Manfredini et al. Healing Abutment Classification in Implant Dentistry: A Systematic Review. *Int J Prosthodont*. 2026;39. https://doi.org/10.11607/ijp.9443
