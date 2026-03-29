@@ -16,14 +16,14 @@ Their retrospective study — *Accuracy of Robot-Assisted Implant Surgery Versus
 
 ### The Data Anchor
 
-Single-centre, retrospective analysis with a single surgical team controlling for surgeon experience variance: $n=95$ implants per group. The Remebot doesn't fatigue during the seventh patient of the afternoon; it carries no tremor, no whisper of hesitation — just millimetre-perfect optical tracking and a robotic arm making incremental corrections in real time. The question is whether that mechanical steadiness actually shows up in the numbers. It does.
+Single-centre, retrospective analysis with a single surgical team controlling for surgeon experience variance: n=95 implants per group. The Remebot doesn't fatigue during the seventh patient of the afternoon; it carries no tremor, no whisper of hesitation — just millimetre-perfect optical tracking and a robotic arm making incremental corrections in real time. The question is whether that mechanical steadiness actually shows up in the numbers. It does.
 
-Platform deviation — the implant's drift from plan at the alveolar crest — was $0.44 \pm 0.17$ mm with the robot versus $1.38 \pm 0.77$ mm freehand. Angular deviation dropped from $5.24 \pm 3.05°$ to $1.88 \pm 0.98°$. At the apex, position error measured $0.67 \pm 0.31$ mm robotic versus $1.89 \pm 0.93$ mm freehand. All three differences: $P < 0.001$. Roughly threefold across every measure.
+Platform deviation — the implant's drift from plan at the alveolar crest — was 0.44 ± 0.17 mm with the robot versus 1.38 ± 0.77 mm freehand. Angular deviation dropped from 5.24 ± 3.05° to 1.88 ± 0.98°. At the apex, position error measured 0.67 ± 0.31 mm robotic versus 1.89 ± 0.93 mm freehand. All three differences: P < 0.001. Roughly threefold across every measure.
 
 ### Key Findings
 
 - **Platform positioning accuracy improved by 68%** — the implant platform ends up where you actually planned it, not approximately in that general vicinity. This is the clinical difference between reproducible execution and optimistic intention.
-- **Angular precision jumped threefold** — $1.88°$ versus $5.24°$ is the gap between mechanical laser-focus and the modest human tremor that thirty years of steadying your hand can't quite eliminate.
+- **Angular precision jumped threefold** — 1.88° versus 5.24° is the gap between mechanical laser-focus and the modest human tremor that thirty years of steadying your hand can't quite eliminate.
 - **Apex positioning accuracy improved by 65%** — your pre-operative surgical plan survives contact with actual bone nearly intact instead of drifting millimetre by millimetre through trabecular resistance.
 - **Clinical cascades:** Positioning accuracy this superior presumably improves bone-implant contact longevity, reduces peri-implantitis risk trajectories, and yields more predictable prosthetic load distribution.
 - *Caveat worth dwelling on:* Single surgical team in one centre. A less skilled surgeon would likely show wider freehand deviations — making this less a human-versus-machine story and more a "good human versus machine" narrative.

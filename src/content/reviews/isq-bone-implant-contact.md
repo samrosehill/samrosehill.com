@@ -18,7 +18,7 @@ Except Chang and colleagues — in their paper *Implant Stability Quotient and B
 
 ### The Data Anchor
 
-Seven fresh-frozen human cadaver heads, 28 Hiossen ET III SA implants ($4.5$ mm $\times$ $11.5$ mm, all $\geq 35$ Ncm torque), single board-certified periodontist. Post-placement cone-beam CT measured radiographic bone-to-implant contact (r-BIC) as linear contact length divided by total implant length in four directions — buccal, lingual, mesial, distal. ISQ was measured in those same directions via Osstell AB resonance frequency analysis. The study was methodologically tight but substantively underpowered: 80% power would have required $n=121$ implants, not 28.
+Seven fresh-frozen human cadaver heads, 28 Hiossen ET III SA implants (4.5 mm × 11.5 mm, all ≥ 35 Ncm torque), single board-certified periodontist. Post-placement cone-beam CT measured radiographic bone-to-implant contact (r-BIC) as linear contact length divided by total implant length in four directions — buccal, lingual, mesial, distal. ISQ was measured in those same directions via Osstell AB resonance frequency analysis. The study was methodologically tight but substantively underpowered: 80% power would have required n=121 implants, not 28.
 
 ### Key Findings
 

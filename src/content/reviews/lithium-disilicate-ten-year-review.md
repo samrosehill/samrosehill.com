@@ -16,14 +16,14 @@ This is the clinical conflict at the heart of Dennis Fasbinder's *Clinical Evalu
 
 ### The Data Anchor
 
-The University of Michigan trial tracked $n = 100$ IPS e.max CAD crowns milled via CEREC 3 across $n = 55$ patients (41 women, 14 men). The cohort included 30 premolars and 70 molars — a clinically representative distribution. Three cement systems were examined consecutively (not randomised): MultiLink Automix ($n = 23$), an Experimental Cement ($n = 39$), and SpeedCem ($n = 38$), all from Ivoclar. Follow-up rates were tenacious: $100\%$ at one year, declining gradually to $87\%$ at ten years. Modified USPHS criteria evaluated margins, colour match, structural integrity, and postoperative response throughout.
+The University of Michigan trial tracked n = 100 IPS e.max CAD crowns milled via CEREC 3 across n = 55 patients (41 women, 14 men). The cohort included 30 premolars and 70 molars — a clinically representative distribution. Three cement systems were examined consecutively (not randomised): MultiLink Automix (n = 23), an Experimental Cement (n = 39), and SpeedCem (n = 38), all from Ivoclar. Follow-up rates were tenacious: 100% at one year, declining gradually to 87% at ten years. Modified USPHS criteria evaluated margins, colour match, structural integrity, and postoperative response throughout.
 
 ### Key Findings
 
-- **$92\%$ Kaplan-Meier survival at 10 years** (CI = $86.8\%$ to $97.5\%$), with no significant difference between cement groups ($P > .5$) — cement choice appears almost irrelevant to decade-long survival outcomes.
+- **92% Kaplan-Meier survival at 10 years** (CI = 86.8% to 97.5%), with no significant difference between cement groups (P > .5) — cement choice appears almost irrelevant to decade-long survival outcomes.
 - **Debonding patterns diverged by cement group.** Experimental Cement: three debonds (13, 20, 36 months). MultiLink Automix: two debonds (36 months, 110 months). All recemented with MultiLink and remained functional. SpeedCem: zero debonds.
 - **Fracture behaviour told the opposite story.** All four crown fractures occurred in the SpeedCem group (48, 75, 80, 93 months), with one additional failure at 117 months. SpeedCem is debond-resistant but fracture-prone — cement choice influences failure *mode* even when it doesn't influence survival *rate*.
-- **Colour stability and surface integrity held up well:** $>95\%$ alpha ratings throughout, though MultiLink marginal discolouration declined to $66.7\%$ alpha by year 10. Marginal wear became detectable at six months and progressed gradually; no surface chipping in any monolithic crown. Postoperative sensitivity resolved fully within three weeks.
+- **Colour stability and surface integrity held up well:** >95% alpha ratings throughout, though MultiLink marginal discolouration declined to 66.7% alpha by year 10. Marginal wear became detectable at six months and progressed gradually; no surface chipping in any monolithic crown. Postoperative sensitivity resolved fully within three weeks.
 
 > The quiet lesson: cement choice doesn't determine whether your crown survives the decade. It determines how it eventually dies.
 - *Caveat:* Non-randomised cement allocation limits direct comparison between groups; confounding by indication cannot be excluded.

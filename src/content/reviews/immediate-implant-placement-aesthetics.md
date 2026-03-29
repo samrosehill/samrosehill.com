@@ -27,3 +27,5 @@ By year five, though, a clear pattern emerged. Around 60% of sites showed some d
 We've been telling patients (and ourselves) that immediate placement with grafting gives predictable aesthetic results. And it does — for the first couple of years. This paper suggests that the soft tissue continues to remodel well beyond our usual follow-up window.
 
 For high-stakes aesthetic cases — thin biotype, high smile line, a patient who notices every detail — this five-year data argues for more conservative expectations at the consent stage. It doesn't mean we shouldn't place immediate implants in the aesthetic zone. It means we should stop presenting the one-year photo as the final result.
+
+*Dr Samuel Rosehill is a general dentist with a prosthodontic focus, practising at Ethical Dental in Coffs Harbour, NSW. He holds a BDSc (Hons) from the University of Queensland and an MClinDent in Fixed & Removable Prosthodontics (Distinction) from King's College London.*

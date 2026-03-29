@@ -31,3 +31,5 @@ This is the gap between the technology working in a controlled study and working
 If you're already using or considering a digital denture workflow, this is reassuring data. The accuracy is there — in principle. But the meta-analysis makes clear that you can't treat all 3D printers and resins as interchangeable. Your specific combination needs validation, ideally against a milled or conventionally processed reference.
 
 For those of us who've been gradually shifting toward digital prosthodontics, this paper doesn't change the direction — it just sharpens the implementation details.
+
+*Dr Samuel Rosehill is a general dentist with a prosthodontic focus, practising at Ethical Dental in Coffs Harbour, NSW. He holds a BDSc (Hons) from the University of Queensland and an MClinDent in Fixed & Removable Prosthodontics (Distinction) from King's College London.*

@@ -16,14 +16,14 @@ Manfredini et al. (University of Milan, *International Journal of Prosthodontics
 
 ### The Data Anchor
 
-Manfredini's team followed PRISMA guidelines through a screening funnel that winnowed $1961$ records down to just $11$ surviving studies — a dropout rate that rather tells its own story about the quality of the existing literature. Inclusion criteria swept broadly across observational studies, case series, RCTs, and quasi-experimental designs from 2010 to 2023, measuring soft tissue morphology (papilla fill, emergence profile), marginal bone loss, and patient satisfaction.
+Manfredini's team followed PRISMA guidelines through a screening funnel that winnowed 1961 records down to just 11 surviving studies — a dropout rate that rather tells its own story about the quality of the existing literature. Inclusion criteria swept broadly across observational studies, case series, RCTs, and quasi-experimental designs from 2010 to 2023, measuring soft tissue morphology (papilla fill, emergence profile), marginal bone loss, and patient satisfaction.
 
-> The uncomfortable truth: most included studies were small (median $n < 30$), short-term ($< 12$ months), and observational. Head-to-head RCT comparisons across all three abutment categories are vanishingly rare. The field has opinions. It does not yet have evidence.
+> The uncomfortable truth: most included studies were small (median n < 30), short-term (< 12 months), and observational. Head-to-head RCT comparisons across all three abutment categories are vanishingly rare. The field has opinions. It does not yet have evidence.
 
 ### Key Findings
 
 - **Terminological chaos confirmed** — nobody agrees what these terms mean across publications. The authors diplomatically call this "inconsistent nomenclature." It is an absolute dogs' breakfast.
-- **Customised abutments show measurable soft tissue advantages** — better papilla fill ($p < 0.05$), superior emergence profiles, visibly improved mucosa architecture. The evidence base, however, is observational, not experimental.
+- **Customised abutments show measurable soft tissue advantages** — better papilla fill (p < 0.05), superior emergence profiles, visibly improved mucosa architecture. The evidence base, however, is observational, not experimental.
 - **High-quality comparative evidence simply doesn't exist** — the literature bristles with case reports and small observational series. This is a field built on confidence rather than controlled trials.
 - **Soft tissue conditioning during healing predicts final prosthetic outcome** — the abutment you select doesn't sit there passively; it actively shapes the tissue envelope around it.
 - **Customisation carries real cost** — fabrication time, lab coordination, material expense — and current evidence doesn't yet demonstrate that aesthetic gain is proportional to operational burden for most routine anterior cases.
