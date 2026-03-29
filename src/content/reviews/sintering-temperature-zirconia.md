@@ -8,6 +8,8 @@ paperJournal: "International Journal of Prosthodontics"
 paperYear: 2026
 tags: ["zirconia", "sintering", "flexural strength", "fracture toughness", "prosthodontics", "digital dentistry"]
 clinicalRelevance: "For conventional zirconia, insist on the lower sintering protocol (1350°C/8h) — you get measurably stronger crowns with smaller grain size and denser microstructure. For translucent zirconia, sintering optimisation won't close the inherent strength gap; design margins and guide surfaces accordingly and accept the mechanical trade-off as the cost of aesthetics."
+verdict: "1350°C — stronger crowns"
+pdfPath: "2MP Project/journals/The International Journal of Prosthodontics/2025/Ata_2025_the-impact-of-the-sintering-protocol-on-the-mechan.pdf"
 ---
 
 You're three crowns deep into a Thursday morning when you notice the usual tension in your lab liaison's emails about delivery schedules. The translucent zirconia you ordered — the stuff that's supposed to look like actual teeth — keeps fracturing at temperatures that nobody really warned you about. Is it the material, the firing protocol, or some invisible choreography between the two that nobody's bothering to rehearse?

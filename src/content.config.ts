@@ -13,6 +13,8 @@ const reviews = defineCollection({
     paperYear: z.number(),
     tags: z.array(z.string()).default([]),
     clinicalRelevance: z.string().optional(),
+    verdict: z.string().optional(),
+    pdfPath: z.string().optional(),
   }),
 });
 

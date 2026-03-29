@@ -8,6 +8,8 @@ paperJournal: "International Journal of Prosthodontics"
 paperYear: 2026
 tags: ["healing abutments", "implantology", "soft tissue", "emergence profile", "systematic review", "prosthodontics"]
 clinicalRelevance: "Healing abutment design genuinely influences soft tissue remodelling — customised geometries favour better emergence profile and papilla fill. The evidence remains thin, short-term, and observational. For routine cases, standard or anatomical abutments suffice; reserve patient-specific designs for aesthetic-anterior zones where motivated patients afford the coordination time and your schedule permits."
+verdict: "Design shapes soft tissue"
+pdfPath: "2MP Project/journals/Implant Dentistry/2026/Manfredini_2026_healing-abutment-classification-in-implant-dentist.pdf"
 ---
 
 You know that moment in a clinical huddle when someone mentions their "anatomical healing abutment" and everyone nods knowingly, ninety percent certain you're all talking about different things? Dentistry does this rather often — we bump along in a shared fog of confidence, until a paper lands on your desk with the title *Healing Abutment Classification in Implant Dentistry: A Systematic Review* and you realise nobody actually codified what the words mean.

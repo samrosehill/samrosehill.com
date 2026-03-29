@@ -8,6 +8,8 @@ paperJournal: "International Journal of Prosthodontics"
 paperYear: 2025
 tags: ["lithium disilicate", "CAD/CAM", "chairside milling", "CEREC", "crown survival", "restorative dentistry", "ten-year study"]
 clinicalRelevance: "Chairside-milled lithium disilicate crowns deliver 92% survival at ten years — clinically reassuring and worth telling patients. Cement selection doesn't dramatically affect overall survival, but it does shape failure mode: SpeedCem showed zero debonds but all four fractures, whilst resin cements debonded occasionally but held structural integrity. Choose your cement with failure mode in mind, not just bond strength."
+verdict: "92% survival at 10 years"
+pdfPath: "2MP Project/journals/The International Journal of Prosthodontics/2025/Fasbinder_2025_clinical-evaluation-of-lithium-disilicate-chairsid.pdf"
 ---
 
 It's Tuesday morning and the phone rings. A patient who had a crown done with "that new milling machine" — you know, the one that buzzes and beeps and makes everyone in the surgery feel vaguely like they've entered a minimalist art installation — wants to know if it's still going to work. It's now been ten years. The technology that felt revolutionary when it was installed is now, somehow, a decade old. The question is deceptively simple: does chairside-milled lithium disilicate really go the distance? And perhaps more pragmatically, does it matter which cement you've glued it down with?

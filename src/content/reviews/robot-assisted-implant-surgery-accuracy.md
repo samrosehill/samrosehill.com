@@ -8,6 +8,8 @@ paperJournal: "International Journal of Implant Dentistry"
 paperYear: 2025
 tags: ["robot-assisted surgery", "implant placement", "surgical accuracy", "implantology", "digital dentistry"]
 clinicalRelevance: "Robotic systems achieve roughly threefold improvements in platform, angular, and apex positioning over freehand technique. Whether this precision cascade translates into better long-term implant survival remains an open question — but for cases where positional accuracy is clinically critical, the evidence for robotic assistance is now hard to dismiss."
+verdict: "3x more accurate"
+pdfPath: "2MP Project/journals/International Journal of Implant Dentistry/2025/Younis_2025_accuracy-of-robot-assisted-implant-surgery-versus.pdf"
 ---
 
 A patient sits in your chair fidgeting with the consent form. They've read that robots can place implants now, and they want to know if you're considering one. You laugh—the way clinicians do when confronted with technology they've been dodging at conferences—and promise them precision instead. Except here's where it gets uncomfortable: Younis and colleagues from Xi'an Jiaotong University have evidence you might want to reconsider that promise.

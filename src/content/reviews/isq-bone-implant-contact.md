@@ -8,6 +8,8 @@ paperJournal: "International Journal of Periodontics and Restorative Dentistry"
 paperYear: 2025
 tags: ["implant stability", "ISQ", "bone-to-implant contact", "immediate implant placement", "Osstell", "implantology"]
 clinicalRelevance: "ISQ reflects coronal shoulder engagement — not total bone contact along the implant body. A high ISQ reading on an immediately placed implant tells you the shoulder is mechanically snug; it does not confirm adequate apical bone contact. Loading decisions based solely on ISQ should account for this limitation, particularly in compromised or variable bone density sites."
+verdict: "ISQ isn't the full story"
+pdfPath: "2MP Project/journals/International Journal of Periodontics and Restorative Dentistry/2025/Chang_2025_implant-stability-quotient-and-bone-to-implant-con.pdf"
 ---
 
 You place an immediately loaded implant on a Thursday afternoon. The Osstell beeps reassuringly — ISQ of 68 in the buccal direction. Everything feels solid. Mechanically snug. You think: *bone's embracing this nicely, we're good to go*.

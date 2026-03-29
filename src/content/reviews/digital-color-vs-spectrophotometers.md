@@ -8,6 +8,8 @@ paperJournal: "International Journal of Prosthodontics"
 paperYear: 2026
 tags: ["prosthodontics", "shade matching", "digital dentistry", "colour science"]
 clinicalRelevance: "The spectrophotometer remains the most internally consistent shade-matching tool. But a standardised photograph with a cross-polarised filter, a grey reference card, and free colour-analysis software can produce quantitative, reproducible shade data from equipment most clinics already own. In practices where the budget doesn't stretch to a dedicated instrument, or where colour communication between dentist and technician breaks down over subjective descriptions, digital photography offers a structured alternative that beats eyeballing it with a shade tab."
+verdict: "Gold standard holds"
+pdfPath: "2MP Project/journals/Journal of Prosthodontics/2025/Kizilkaya_2025_can-digital-color-applications-be-an-alternative-t.pdf"
 ---
 
 There is a particular kind of professional crisis that strikes dentists at the colour-matching stage of a restoration: is this tooth 2M2 or 2L1.5? The patient sits there with a retractor wedged in their mouth, radiating the quiet desperation of someone who'd really rather not be asked to adjudicate. And fair enough — because getting tooth colour right is one of those deceptively simple tasks that turns out to be fiendishly difficult, with real consequences for how a restoration looks once it's cemented in place and the patient starts smiling at people.
