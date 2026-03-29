@@ -28,9 +28,9 @@ CONTENT_DIR = PROJECT_ROOT / "src" / "content" / "reviews"
 OUTPUT_DIR = PROJECT_ROOT / "public" / "images" / "reviews"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-# Thumbnail dimensions
-WIDTH = 1280
-HEIGHT = 800
+# Thumbnail dimensions (1.91:1 — optimal for LinkedIn + Substack)
+WIDTH = 1200
+HEIGHT = 630
 
 # Design tokens
 PRIMARY = (10, 186, 181)        # #0ABAB5
@@ -145,7 +145,7 @@ def generate_thumbnail(slug: str, pdf_path_override: str = "") -> str:
     ], 24)
 
     # Layout
-    strip_width = 380
+    strip_width = 360
     paper_area_width = WIDTH - strip_width
     paper_area_height = HEIGHT
 
