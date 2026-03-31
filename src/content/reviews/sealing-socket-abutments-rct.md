@@ -16,7 +16,7 @@ You have just placed an immediate implant in a lower first molar socket, the all
 
 Gnusins, Akhondi, and colleagues finally put the question to a randomised clinical trial in *Chairside vs Prefabricated Sealing Socket Abutments for Posterior Immediate Implants* (*Clinical Implant Dentistry and Related Research*, 2025) — and the answer depends entirely on which compromise you can live with.
 
-### The Data Anchor
+## The Data Anchor
 
 Forty-seven patients were randomised to receive either a chairside composite SSA (CS group, n = 24) or a prefabricated zirconia SSA (ZR group, n = 23) at a single centre in Riga. All implants were Straumann BLX platforms placed via guided surgery, with allogeneic bone graft (Maxgraft) filling the buccal gap. The primary outcome — supra-platform tissue height (SPTH) on CBCT — was assessed at baseline and three months.
 
@@ -30,7 +30,7 @@ Bleeding on probing dropped dramatically in the CS group — from 42.3% to 7.7% 
 
 > Ultra-polished zirconia appears to create a more favourable soft tissue seal — but composite's ability to be sculpted chairside to the patient's unique socket anatomy preserves more buccal contour where it counts.
 
-### Key Findings
+## Key Findings
 
 - **Vertical tissue height held in both groups**: SPTH changes of −0.17 mm (composite) and −0.44 mm (zirconia) were not statistically significant — neither material compromised the supracrestal tissue complex.
 - **Horizontal remodelling is inevitable**: Both groups lost approximately 1 mm of horizontal tissue. **Connective tissue grafting may still be warranted in thin-phenotype cases.**
@@ -38,7 +38,7 @@ Bleeding on probing dropped dramatically in the CS group — from 42.3% to 7.7% 
 - **Composite wins on volume preservation**: Chairside customisation of the critical and subcritical contours delivered significantly less buccal volumetric shrinkage (p = 0.036).
 - *Caveat:* Three-month follow-up only — both SSA types are replaced with definitive zirconia crowns at that point. Single-operator study; modest sample size (n = 47).
 
-### 💡 The Clinical Bottom Line
+## 💡 The Clinical Bottom Line
 
 **There is no universally superior sealing socket abutment material** — only a trade-off worth understanding. If buccal contour preservation is the priority, reach for the composite and invest the chairside minutes. If periodontal indices matter more and the buccal plate is robust, the prefabricated zirconia SSA offers efficiency and a cleaner soft tissue response. Either way, plan for approximately 1 mm of horizontal shrinkage — because neither material has yet figured out how to argue with biology.
 

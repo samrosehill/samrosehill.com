@@ -16,13 +16,13 @@ You know that moment in a clinical huddle when someone mentions their "anatomica
 
 Manfredini et al. (University of Milan, *International Journal of Prosthodontics* 2026) have done what the field clearly needed: waded through 1,961 records, distilled them to 11 surviving studies, and proposed something rather radical. **A unified classification system.** Three discrete categories emerge. The **standard** (prefabricated cylindrical or conical — the workhorse, the forgettable). The **anatomical** (prefabricated but contoured to emergence-profile logic, fancier in name than concept). And the **customised** (patient-specific, CAD/CAM or chairside-modified — dentistry's answer to haute couture).
 
-### The Data Anchor
+## The Data Anchor
 
 Manfredini's team followed PRISMA guidelines through a screening funnel that winnowed 1961 records down to just 11 surviving studies — a dropout rate that rather tells its own story about the quality of the existing literature. Inclusion criteria swept broadly across observational studies, case series, RCTs, and quasi-experimental designs from 2010 to 2023, measuring soft tissue morphology (papilla fill, emergence profile), marginal bone loss, and patient satisfaction.
 
 > The uncomfortable truth: most included studies were small (median n < 30), short-term (< 12 months), and observational. Head-to-head RCT comparisons across all three abutment categories are vanishingly rare. The field has opinions. It does not yet have evidence.
 
-### Key Findings
+## Key Findings
 
 - **Terminological chaos confirmed** — nobody agrees what these terms mean across publications. The authors diplomatically call this "inconsistent nomenclature." It is an absolute dogs' breakfast.
 - **Customised abutments show measurable soft tissue advantages** — better papilla fill (p < 0.05), superior emergence profiles, visibly improved mucosa architecture. The evidence base, however, is observational, not experimental.
@@ -30,7 +30,7 @@ Manfredini's team followed PRISMA guidelines through a screening funnel that win
 - **Soft tissue conditioning during healing predicts final prosthetic outcome** — the abutment you select doesn't sit there passively; it actively shapes the tissue envelope around it.
 - **Customisation carries real cost** — fabrication time, lab coordination, material expense — and current evidence doesn't yet demonstrate that aesthetic gain is proportional to operational burden for most routine anterior cases.
 
-### 💡 The Clinical Bottom Line
+## 💡 The Clinical Bottom Line
 
 Healing abutment design genuinely influences soft tissue remodelling — this much is now evidenced. The three-tier classification Manfredini proposes gives the field a shared language it has been conspicuously lacking. For routine cases, standard or anatomical abutments remain entirely defensible; reserve patient-specific designs for aesthetic-anterior zones where the patient is invested, the stakes are high, and your schedule has room for the coordination. The taxonomy is useful. The evidence base it describes is, candidly, still growing up.
 

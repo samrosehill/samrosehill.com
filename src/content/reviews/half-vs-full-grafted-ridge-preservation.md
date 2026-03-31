@@ -16,13 +16,13 @@ Every extraction socket presents the same uncomfortable negotiation: how much bo
 
 Hsieh and colleagues, in a retrospective study published in the *International Journal of Oral and Maxillofacial Implants*, put that suspicion to a rather elegant test: what happens if you only fill the bottom half of the socket with graft material and let the coronal portion heal by blood clot? Their answer, tracked through serial CBCT and 3D volumetric analysis over 12 months, is more nuanced than either camp might like.
 
-### The Data Anchor
+## The Data Anchor
 
 Twenty-eight sockets from patients at Chang Gung Memorial Hospital were divided across three groups: half-grafted with collagen membrane (TestC, n = 7), half-grafted with dPTFE membrane (TestD, n = 8), and full-grafted with collagen membrane (Control, n = 13). Grafting materials were either alloplastic substitute (Sinbone HT) or xenograft (Bio-Oss collagen, Geistlich).
 
 CBCT scans were taken immediately post-extraction, at 6 months, during implant placement (after loose graft removal), and at least 6 months after loading. Measurements were independently calibrated across two examiners, with ICC values of 0.84–0.93.
 
-### Key Findings
+## Key Findings
 
 - **Half-grafted sockets lost significantly more horizontal width** at all crestal levels during the first 6 months: ΔHRW1 was −2.45 ± 0.96 mm vs −1.21 ± 0.98 mm for full-grafted (P = 0.002), ΔHRW3 was −1.49 ± 1.34 mm vs −0.27 ± 0.68 mm (P = 0.002), and ΔHRW5 was −0.46 ± 0.27 mm vs −0.16 ± 0.41 mm (P = 0.033).
 - **After removal of poorly integrated graft at implant surgery, the half-grafted group showed greater area reduction** — consistent with the interpretation that some of the full-grafted group's apparent ridge preservation represents loosely attached particles rather than regenerated bone.
@@ -31,7 +31,7 @@ CBCT scans were taken immediately post-extraction, at 6 months, during implant p
 - **Collagen membrane outperformed dPTFE** for dimensional preservation, with significantly less palatal bone height loss (P = 0.038) and horizontal shrinkage (P < 0.001 for ΔHRW1 and ΔHRW3).
 - **Limitations are substantial:** retrospective design, small sample after significant dropout (61 enrolled, 28 analysed), uneven VRF distribution in the half-grafted group (which may have inflated dimensional losses), and no histological data on bone quality.
 
-### 💡 The Clinical Bottom Line
+## 💡 The Clinical Bottom Line
 
 The half-grafted technique is not the dimensional equivalent of full grafting — it trades crestal width for material economy and (arguably) a more honest post-healing assessment, since there are fewer loose particles masquerading as ridge on the pre-implant CBCT. But the volumetric equivalence and identical implant outcomes suggest the clinical endpoint that matters — can you place an implant and load it successfully? — is achievable with either approach.
 

@@ -16,11 +16,11 @@ It's Tuesday morning and the phone rings. A patient who had a crown done with "t
 
 This is the clinical conflict at the heart of Dennis Fasbinder's *Clinical Evaluation of Lithium Disilicate Chairside CAD/CAM Crowns After 10 Years*, published in the *International Journal of Prosthodontics*. What his team at the University of Michigan found was reassuring and, like most thorough answers to deceptively simple questions, charmingly complicated.
 
-### The Data Anchor
+## The Data Anchor
 
 The University of Michigan trial tracked n = 100 IPS e.max CAD crowns milled via CEREC 3 across n = 55 patients (41 women, 14 men). The cohort included 30 premolars and 70 molars — a clinically representative distribution. Three cement systems were examined consecutively (not randomised): MultiLink Automix (n = 23), an Experimental Cement (n = 39), and SpeedCem (n = 38), all from Ivoclar. Follow-up rates were tenacious: 100% at one year, declining gradually to 87% at ten years. Modified USPHS criteria evaluated margins, colour match, structural integrity, and postoperative response throughout.
 
-### Key Findings
+## Key Findings
 
 - **92% Kaplan-Meier survival at 10 years** (CI = 86.8% to 97.5%), with no significant difference between cement groups (P > .5) — cement choice appears almost irrelevant to decade-long survival outcomes.
 - **Debonding patterns diverged by cement group.** Experimental Cement: three debonds (13, 20, 36 months). MultiLink Automix: two debonds (36 months, 110 months). All recemented with MultiLink and remained functional. SpeedCem: zero debonds.
@@ -30,7 +30,7 @@ The University of Michigan trial tracked n = 100 IPS e.max CAD crowns milled via
 > The quiet lesson: cement choice doesn't determine whether your crown survives the decade. It determines how it eventually dies.
 - *Caveat:* Non-randomised cement allocation limits direct comparison between groups; confounding by indication cannot be excluded.
 
-### 💡 The Clinical Bottom Line
+## 💡 The Clinical Bottom Line
 
 Chairside lithium disilicate crowns survive reliably over a decade. The cement you select matters far less to overall survival than one might intuitively fear — but it shapes how your crown eventually fails. This is not a set-and-forget technology, yet it is genuinely serviceable. A decade later, Fasbinder's evidence affirms that chairside milling delivers what it promises: durable, predictable restorations — and a Tuesday morning phone call you can now answer with confidence.
 

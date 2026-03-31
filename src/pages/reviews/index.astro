@@ -13,6 +13,20 @@ const formatDate = (date: Date) =>
 ---
 
 <Base title="Journal" description="Recent publications from the prosthodontic, restorative and implant dentistry literature." currentPage="reviews">
+  <!-- CollectionPage schema -->
+  <script slot="head" type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Dental Research Reviews",
+    "description": "Recent publications from the prosthodontic, restorative and implant dentistry literature — reviewed for clinical relevance.",
+    "url": "https://samrosehill.com/reviews",
+    "author": {
+      "@type": "Person",
+      "name": "Dr. Samuel Rosehill",
+      "url": "https://samrosehill.com/about"
+    }
+  })} />
+
   <!-- Archive Header -->
   <section class="archive-header">
     <div class="container">

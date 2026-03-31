@@ -16,11 +16,11 @@ The promise of platform switching has always been elegant in its simplicity: use
 
 Benli and Cayouette from the University of Florida and Medical University of South Carolina have assembled the answer — or at least the best current version of it — in *Assessing the Esthetic Impact of Platform-Switching Implant Designs: A Systematic Review of Clinical Evidence*, a systematic review that focuses specifically on what clinicians care about most in the anterior zone: soft tissue stability, gingival contour, and patient-visible outcomes.
 
-### The Data Anchor
+## The Data Anchor
 
 The review included 24 in vivo studies (10 prospective and 10 randomised controlled trials among them) drawn from PubMed, Web of Science, and Scopus, covering publications from January 2014 to June 2024. All studies involved implants placed in the anterior maxilla or mandible and reported at least one esthetic outcome — pink esthetic score (PES), papilla height, mucosal levels, gingival margin, or patient satisfaction via visual analogue scale. Risk of bias was assessed using ROBINS-I, with 11 of 24 studies classified as low risk and none rated as serious. Follow-up ranged from 6 months to 144 months.
 
-### Key Findings
+## Key Findings
 
 - **Short-term marginal bone loss was minimal** — pooled estimates centred around 0.75–1 mm, suggesting initial post-loading stability with platform-switched designs. Mid-term MBL showed a more complex picture (−1 mm to 0 mm range), while long-term data trended toward stabilisation or slight bone gain.
 - **Pink esthetic scores were favourable and stable** — short-term PES values ranged from 8 to 14 (mean ~10–12), mid-term values dipped slightly (mean ~6–8), and long-term PES recovered to 8–14, suggesting esthetic outcomes are generally well-maintained over time.
@@ -30,7 +30,7 @@ The review included 24 in vivo studies (10 prospective and 10 randomised control
 
 > Platform switching gives you a better starting position for soft tissue architecture, but the architecture still needs a competent builder.
 
-### 💡 The Clinical Bottom Line
+## 💡 The Clinical Bottom Line
 
 The evidence supports platform switching as a sound design choice for anterior implants where esthetic outcomes are paramount — marginal bone remains stable, soft tissue parameters trend favourably, and long-term PES scores hold up. But connection geometry alone doesn't guarantee a beautiful result: implant positioning, the buccal bone wall, soft tissue phenotype, and surgical technique all contribute at least as much as whether the abutment is narrower than the platform. For clinicians already using PS designs, this review validates the approach. For those considering the switch, the data suggests a meaningful but not transformative advantage — one variable in a system where everything from flap design to provisional timing matters.
 

@@ -16,7 +16,7 @@ You know the patient. They're in a long-span provisional — three units, maybe 
 
 Kader et al.'s *Color and Translucency Stability of Conventional, Milled, and 3D-Printed Provisional Restorative Materials After Cigarette Smoke Exposure and Brushing* (*The International Journal of Prosthodontics*, 2025) finally quantifies just how bad this gets — and, more usefully, which material fights back.
 
-### The Data Anchor
+## The Data Anchor
 
 The Bahçeşehir University team fabricated 120 disc-shaped specimens (shade A2) from three provisional materials: conventional bis-acryl composite resin (GC TempSmart DC), milled PMMA (FusionCeram), and 3D-printed resin (GC TempPRINT), with n = 40 per material. Half were exposed to cigarette smoke — twenty cigarettes per day for twenty consecutive days; the other half sat quietly in artificial saliva, doing nothing wrong. All specimens then underwent brushing simulation to create smoke-then-brushed and control-then-brushed subgroups. Colour change (ΔE₀₀) and translucency were measured via spectrophotometer and the CIEDE2000 formula, where **the clinical acceptability threshold sits at ΔE₀₀ = 1.8**.
 
@@ -24,7 +24,7 @@ After smoke exposure, conventional bis-acryl hit ΔE₀₀ values of **5.43 ± 0
 
 > If your smoker is wearing a 3D-printed provisional for more than a fortnight, the colour stability conversation has already been lost. Milled PMMA buys you time — and something closer to dignity.
 
-### Key Findings
+## Key Findings
 
 - **Milled PMMA was the clear winner**: significantly lower ΔE₀₀ values than both conventional and 3D-printed resins after smoke exposure (P < .001), and the best translucency retention across all conditions.
 - **All materials exceeded the clinical acceptability threshold after smoking**: every provisional type crossed ΔE₀₀ = 1.8 — but conventional bis-acryl and 3D-printed resins did so by a factor of two to three.
@@ -32,7 +32,7 @@ After smoke exposure, conventional bis-acryl hit ΔE₀₀ values of **5.43 ± 0
 - **3D-printed resin showed the greatest translucency instability**: the highest ΔTP₀₀ values across groups, with a significant group-by-material interaction (P = .008) driven by its divergence from milled PMMA.
 - *Caveat:* This is an in vitro study using a single shade (A2) and one brand per fabrication method. No thermocycling was performed, and brushing was applied cumulatively after the full exposure period rather than daily — meaning real-world staining patterns may differ.
 
-### 💡 The Clinical Bottom Line
+## 💡 The Clinical Bottom Line
 
 When a smoker needs an extended provisional — and you know they exist in every practice — **reach for milled PMMA**. The pre-polymerised, homogeneous microstructure of a milled puck resists tar deposition in a way that neither chairside bis-acryl nor the layered architecture of a 3D-printed resin can match. And while patient education about brushing remains essential, this data suggests that oral hygiene is damage limitation rather than damage reversal; the material choice you make at fabrication is the decision that echoes longest in the colour of the smile.
 

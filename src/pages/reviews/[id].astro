@@ -17,7 +17,59 @@ const formatDate = (date: Date) =>
   date.toLocaleDateString('en-AU', { year: 'numeric', month: 'long', day: 'numeric' });
 ---
 
-<Base title={review.data.title} description={review.data.description}>
+<Base title={review.data.title} description={review.data.description} ogImage={`/images/reviews/${review.id}.png`}>
+  <!-- Article schema -->
+  <script slot="head" type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": review.data.title,
+    "description": review.data.description,
+    "datePublished": review.data.pubDate.toISOString().split('T')[0],
+    "dateModified": review.data.pubDate.toISOString().split('T')[0],
+    "author": {
+      "@type": "Person",
+      "name": "Dr. Samuel Rosehill",
+      "url": "https://samrosehill.com/about",
+      "jobTitle": "Dentist"
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Dr. Samuel Rosehill",
+      "url": "https://samrosehill.com"
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": `https://samrosehill.com/reviews/${review.id}`
+    },
+    "articleSection": "Dental Research Reviews",
+    "keywords": review.data.tags.join(", "),
+    "about": {
+      "@type": "ScholarlyArticle",
+      "name": review.data.paperTitle,
+      "author": review.data.paperAuthors,
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": review.data.paperJournal
+      },
+      "datePublished": String(review.data.paperYear)
+    },
+    "speakable": {
+      "@type": "SpeakableSpecification",
+      "cssSelector": [".article__desc", ".clinical-relevance__text"]
+    }
+  })} />
+
+  <!-- Breadcrumb schema -->
+  <script slot="head" type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://samrosehill.com" },
+      { "@type": "ListItem", "position": 2, "name": "Journal", "item": "https://samrosehill.com/reviews" },
+      { "@type": "ListItem", "position": 3, "name": review.data.title }
+    ]
+  })} />
+
   <article class="article">
     <div class="container container--narrow">
       <!-- Header -->

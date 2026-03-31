@@ -16,13 +16,13 @@ If you have spent any time with static computer-aided implant surgery, you will 
 
 Ballesteros and colleagues, in a study published in *Clinical Implant Dentistry and Related Research*, tested whether that feeling is warranted — and the answer is, to put it gently, awkward for the sleeve.
 
-### The Data Anchor
+## The Data Anchor
 
 Seventy-two implants (Alpha Bio, 3.75 × 11.5 mm) were placed across 12 3D-printed models simulating a partially edentulous maxilla, using three types of surgical guides: 3D-printed with metal sleeves (PS, n = 24), 3D-printed without metal sleeves (PNS, n = 24), and milled without metal sleeves (MNS, n = 24). All guides were designed in the same planning software (Implant Studio, 3Shape) with identical implant positions.
 
 The internal drilling diameter was standardised at 4.85 mm across all groups. After placement, implant positions were digitised via desktop scanner and scan bodies, then superimposed on the virtual reference model using best-fit alignment in ExoCAD and SolidWorks to calculate 3D deviations at the crest, apex, and angular deviations.
 
-### Key Findings
+## Key Findings
 
 - **Sleeveless guides were more accurate across the board:** The milled sleeveless group (MNS) recorded the smallest median crestal 3D deviation (0.498 mm) and apical 3D deviation (0.544 mm), while the sleeved group (PS) recorded the largest — 1.028 mm and 1.360 mm respectively (p = 0.000 for both).
 - **Metal sleeves worsened angular accuracy:** The 3D-printed sleeveless guides (PNS) achieved a median angular deviation of just **1.44°**, significantly better than both the milled sleeveless (2.90°, p = 0.022) and sleeved (3.88°, p = 0.000) groups. Removing the sleeve appears to eliminate a tolerance stack-up between drill, sleeve, and guide.
@@ -30,7 +30,7 @@ The internal drilling diameter was standardised at 4.85 mm across all groups. Af
 - **The lateral axis was the problem child:** The PS group showed its greatest deviations in the lateral (X) axis at both crestal (median 0.533 mm) and apical (median 0.884 mm) levels — roughly double the sleeveless groups — suggesting the sleeve introduces lateral play rather than eliminating it.
 - **Limitation:** This is an in vitro study on resin models with a single implant system and a single operator. The standardised drilling diameter across groups means the results reflect the sleeve's geometric contribution specifically, but clinical variables (bone density, guide stability, flap vs flapless) remain untested.
 
-### 💡 The Clinical Bottom Line
+## 💡 The Clinical Bottom Line
 
 The metal sleeve has been treated as a necessary component of guided implant surgery for so long that questioning it feels faintly heretical. But the physics here is straightforward:
 

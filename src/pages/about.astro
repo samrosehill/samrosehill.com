@@ -3,6 +3,19 @@ import Base from '../layouts/Base.astro';
 ---
 
 <Base title="About" description="Dr. Samuel Rosehill — dentist, prosthodontic enthusiast, Coffs Harbour NSW." currentPage="about">
+  <!-- ProfilePage schema -->
+  <script slot="head" type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "ProfilePage",
+    "mainEntity": {
+      "@type": "Person",
+      "name": "Dr. Samuel Rosehill",
+      "url": "https://samrosehill.com/about"
+    },
+    "url": "https://samrosehill.com/about",
+    "name": "About Dr. Samuel Rosehill"
+  })} />
+
   <!-- Page header -->
   <section class="page-header">
     <div class="container">

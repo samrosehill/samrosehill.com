@@ -16,13 +16,13 @@ There is a particular kind of optimism that takes hold in the implant clinic whe
 
 Ashurko and colleagues, in a randomised controlled trial published in *Clinical Implant Dentistry and Related Research*, decided to find out — using 3D intraoral scanning to measure buccal soft tissue gain after simultaneous implant placement in the posterior mandible, comparing Geistlich Fibro-Gide (VXCM) against the subepithelial connective tissue graft (SCTG) harvested from the maxillary tuberosity.
 
-### The Data Anchor
+## The Data Anchor
 
 Thirty-two patients with single posterior mandibular tooth gaps and buccal mucosal thickness deficiency were randomised 1:1 to receive SCTG (n = 16) or VXCM (n = 16) at the time of single-stage Astra Tech implant placement. Soft tissue thickness was measured via 3D analysis of intraoral scans (Primescan, Dentsply Sirona) at baseline, 3 months, and 6 months post-operatively.
 
 Pain was tracked by VAS on days 1, 3, 5, and 7; NSAID consumption, oedema, OHIP-14 quality of life, and pink esthetic scores (PES) were assessed by blinded, calibrated examiners. The groups were comparable at baseline for age, gender, bone dimensions, and implant characteristics.
 
-### Key Findings
+## Key Findings
 
 - **At 3 months, the collagen matrix won on volume:** VXCM achieved greater mean soft tissue thickness gain than SCTG (1.77 +/- 0.61 mm vs 1.26 +/- 0.41 mm, p = 0.0003) — a result that will surprise clinicians who default to autogenous grafts.
 - **At 6 months, the graft caught up and overtook:** SCTG surpassed VXCM (1.43 +/- 0.81 mm vs 1.11 +/- 0.44 mm, p = 0.0459), likely because the collagen matrix underwent ongoing resorption while the autogenous tissue stabilised.
@@ -31,7 +31,7 @@ Pain was tracked by VAS on days 1, 3, 5, and 7; NSAID consumption, oedema, OHIP-
 - **No difference in keratinised mucosa width or quality of life** at any time point — both groups converged by 6 months on these secondary outcomes.
 - **Limitation:** Small sample (n = 32), short follow-up, and the 6-month scan was taken after final crown placement — meaning crown pressure may have displaced tissue and confounded the thickness measurements.
 
-### 💡 The Clinical Bottom Line
+## 💡 The Clinical Bottom Line
 
 The collagen matrix is not a like-for-like replacement for the connective tissue graft — it is a trade-off. If your priority is long-term soft tissue volume and optimal pink aesthetics, SCTG harvested from the tuberosity remains the more reliable choice.
 

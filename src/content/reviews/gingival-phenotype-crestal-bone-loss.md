@@ -16,7 +16,7 @@ Every gingival tissue tells a story before the implant goes in — thin and scal
 
 The Marburg team classified patients into three phenotype groups at baseline and then followed the plot. Phenotype 1 (thin, scalloped, narrow attached gingiva; n = 19) told a dramatic first chapter. Phenotype 2 (thick, flat, wide attached gingiva; n = 23) told a slow-burning saga. Phenotype 3 (thick, scalloped, narrow attached; n = 15) told — well, barely anything at all.
 
-### The Data Anchor
+## The Data Anchor
 
 All 162 implants were Nobel Biocare platforms (Brånemark Mk II/III, Nobel Replace Straight Groovy, Nobel Speedy Replace), placed epicrestally and restored with single crowns (n = 123) or bridges (n = 19). Patients attended recall every 3–6 months, with radiographs at 1, 3, 5, 10, 15, and 20 years — a surveillance commitment that borders on the heroic.
 
@@ -26,14 +26,14 @@ Mean crestal bone loss in the first 12 months was 1.3 ± 0.7 mm across the cohor
 
 Overall, mucositis was present at 27.2% of implants and peri-implantitis at 9.3%.
 
-### Key Findings
+## Key Findings
 
 - **Early bone loss hits thin tissue hardest**: Phenotype 1 patients showed significantly greater crestal bone loss in year one (p = 0.016), resolving thereafter — the narrator shouts early, then goes quiet.
 - **Thick and flat is the long-term risk profile nobody expected**: Phenotype 2 patients had elevated probing depths across four timepoints and the highest peri-implantitis risk in the cohort (p-OR = 0.001). **The "safe" phenotype is the one to watch.**
 - **Thick and scalloped is the quiet achiever**: Phenotype 3 showed no significantly elevated probing depths, inflammation, or bone loss at any timepoint across twenty years.
 - *Caveat:* Phenotype was assessed at the anterior maxillary teeth, not at implant sites — a pragmatic compromise that may miss site-specific variation. Cohort size (n = 57) is modest for three-group stratification over two decades.
 
-### 💡 The Clinical Bottom Line
+## 💡 The Clinical Bottom Line
 
 Before placing implants in periodontally compromised patients, formally classify the gingival phenotype — because the tissue has been narrating the ending all along. Thin, scalloped patients warrant close monitoring through that first post-loading year; thick, flat patients deserve long-term vigilance for peri-implantitis despite their reassuring initial presentation. The assumption that thick equals safe has been running on reputation rather than evidence — and after twenty years of data, the narrator would like a word.
 

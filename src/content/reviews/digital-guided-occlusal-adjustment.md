@@ -16,11 +16,11 @@ Occlusal adjustment has always been the dental procedure most likely to make you
 
 Zhang and colleagues from Peking University School of Stomatology have proposed an alternative in *Functional Improvement of Occlusion for a Patient with Acquired Open Bite Using a Fully Digital Workflow of Computer-Guided Occlusal Adjustment* — a case report that reads less like conventional prosthodontics and more like surgical navigation applied to selective grinding.
 
-### The Data Anchor
+## The Data Anchor
 
 The patient was a 65-year-old woman who developed an anterior open bite following extraction of a mandibular second molar, with occlusal contacts restricted to the maxillary and mandibular right first molars. Digital models were acquired using intraoral scanning (TRIOS 3, 3Shape), and personalised jaw motion trajectories were recorded with a jaw motion analyser (JMAnalyser+ 3.0.8, Zebris Medical). The data were imported into Exocad DentalDB 3.0 for virtual articulator mounting and simulated occlusal adjustment — iteratively deleting occlusal contact areas and lowering the virtual incisal guide pin until bilateral premolar and first molar contacts were achieved. Two 3D-printed guides were then fabricated: a range-indicating guide showing *where* to grind, and a depth-indicating guide with cylindrical sleeves showing *how much* to remove (each sleeve placed 2 mm above the adjusted surface). A custom bur with a stop ring completed the chairside toolkit.
 
-### Key Findings
+## Key Findings
 
 - **The workflow translates virtual occlusal planning into physical grinding guides** — Boolean subtraction of the original and adjusted arch data in industrial CAD software (Geomagic Studio 10.0) identified the precise locations and volumes of tooth structure requiring removal.
 - **Chairside execution used a two-guide sequence** — the depth-indicating guide was placed first, with the stop-ring bur creating reference points; the range-indicating guide was then used to smooth surfaces between those references, followed by conventional articulating paper refinement.
@@ -29,7 +29,7 @@ The patient was a 65-year-old woman who developed an anterior open bite followin
 
 > We've had guided surgery for implants for two decades. The idea that we might also guide the most irreversible of restorative procedures — subtractive occlusal adjustment — feels both overdue and slightly unnerving.
 
-### 💡 The Clinical Bottom Line
+## 💡 The Clinical Bottom Line
 
 This workflow won't replace your articulating paper tomorrow morning, but it represents a genuinely novel concept: applying the logic of guided surgery (digital plan, 3D-printed template, controlled execution) to selective grinding. For complex cases — acquired open bites, significant occlusal rehabilitation, patients where the margin for error is vanishingly small — the ability to simulate adjustments on a virtual articulator with real jaw motion data before committing to irreversible tooth reduction is conceptually powerful. The challenge now is validating accuracy, demonstrating reproducibility across operators, and proving it works beyond carefully selected case reports. Still, if you've ever stared at a mouth full of blue marks wondering which ones to chase, the appeal of a guide that already knows the answer is hard to resist.
 

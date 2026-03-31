@@ -16,7 +16,7 @@ You have spent forty minutes on the digital plan — stitching CBCT to intraoral
 
 Salih, Aboelfadl and Rafla's *Impact of Build Orientation on the Dimensional Accuracy of DLP-Printed Implant Surgical Guides* (*International Journal of Oral and Maxillofacial Implants*, 2026) is here to tell you that the oven temperature matters — and that **vertical build orientation (90°) consistently outperforms horizontal (0°)** by a clinically meaningful margin.
 
-### The Data Anchor
+## The Data Anchor
 
 A single Nissin typodont was configured with edentulous spaces at the maxillary central incisor, canine, and first molar. Guides were planned in 3Shape Implant Studio and printed on a DLP Microdent 1pro using NextDent SG resin at 50 µm layer thickness (n = 7 per subgroup; total n = 42). One week after printing, all guides were scanned with a 3Shape D850 and superimposed onto the original design files using Geomagic Control X, with accuracy quantified as root mean square (RMS) deviation in micrometres.
 
@@ -26,7 +26,7 @@ Vertical orientation brought those figures down to **93.71 ± 3.25 µm**, **102.
 
 > If you are printing guides in-house and defaulting to horizontal orientation because it is faster, you are trading 40–110 µm of accuracy for convenience — and in the cumulative error chain of guided surgery, that is a trade worth reconsidering.
 
-### Key Findings
+## Key Findings
 
 - **Vertical (90°) build orientation reduced RMS deviation by 40–110 µm** compared with horizontal (0°) across all three anatomical regions — a 30–50% improvement in dimensional fidelity.
 - **Both orientations remained within the clinically acceptable threshold of 250 µm**, but vertical orientation placed guides in the 93–126 µm range versus 143–204 µm for horizontal.
@@ -34,7 +34,7 @@ Vertical orientation brought those figures down to **93.71 ± 3.25 µm**, **102.
 - **Vertical orientation demonstrated superior reproducibility**, with no significant inter-region variability (p > 0.05), reducing the risk of outlier guides.
 - *Caveat:* This was an in vitro study on acrylic typodonts using a single DLP printer (Microdent 1pro) and one resin (NextDent SG). Clinical validation — soft tissue, saliva, patient variability — remains outstanding. Only two orientations (0° and 90°) were tested; intermediate angles may yet prove optimal.
 
-### 💡 The Clinical Bottom Line
+## 💡 The Clinical Bottom Line
 
 The next time you slice a surgical guide STL, rotate it to 90°. It takes five seconds, costs nothing, and — based on these data — buys you a meaningful accuracy buffer in a workflow where every micrometre of cumulative error compounds by the time the implant reaches bone. For anterior aesthetic cases and multi-implant plans, vertical orientation is not a preference; it is a protocol upgrade. And for molar sites, where geometry already conspires against you, it is the minimum you can do to keep the printer honest.
 

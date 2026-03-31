@@ -5,13 +5,19 @@ interface Props {
   title: string;
   description?: string;
   currentPage?: string;
+  ogImage?: string;
 }
 
 const {
   title,
   description = 'A clinical archive of dental research reviews and case notes by Dr. Samuel Rosehill.',
   currentPage = '',
+  ogImage = '',
 } = Astro.props;
+
+const pageTitle = title === 'Home' ? 'Dr. Samuel Rosehill' : `${title} — Dr. Samuel Rosehill`;
+const canonicalUrl = new URL(Astro.url.pathname, Astro.site).href;
+const ogImageUrl = ogImage ? new URL(ogImage, Astro.site).href : '';
 ---
 
 <!doctype html>
@@ -20,19 +26,40 @@ const {
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content={description} />
-    <title>{title === 'Home' ? 'Dr. Samuel Rosehill' : `${title} — Dr. Samuel Rosehill`}</title>
+    <title>{pageTitle}</title>
 
-    <!-- Structured data for GEO -->
+    <!-- Canonical URL -->
+    <link rel="canonical" href={canonicalUrl} />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:site_name" content="Dr. Samuel Rosehill" />
+    {ogImageUrl && <meta property="og:image" content={ogImageUrl} />}
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content={ogImageUrl ? 'summary_large_image' : 'summary'} />
+    <meta name="twitter:title" content={pageTitle} />
+    <meta name="twitter:description" content={description} />
+    {ogImageUrl && <meta name="twitter:image" content={ogImageUrl} />}
+
+    <!-- Structured data for GEO — Person (site-wide identity) -->
     <script type="application/ld+json" set:html={JSON.stringify({
       "@context": "https://schema.org",
       "@type": "Person",
       "name": "Dr. Samuel Rosehill",
+      "givenName": "Samuel",
+      "familyName": "Rosehill",
+      "honorificPrefix": "Dr.",
       "jobTitle": "Dentist",
       "description": "A clinical archive of dental research reviews and case notes by Dr. Samuel Rosehill.",
       "url": "https://samrosehill.com",
       "worksFor": {
         "@type": "Dentist",
         "name": "Ethical Dental and Orthodontics",
+        "url": "https://www.ethical.dental",
         "address": {
           "@type": "PostalAddress",
           "addressLocality": "Coffs Harbour",
@@ -41,14 +68,26 @@ const {
         }
       },
       "alumniOf": [
-        { "@type": "CollegeOrUniversity", "name": "University of Queensland" },
-        { "@type": "CollegeOrUniversity", "name": "King's College London" }
+        { "@type": "CollegeOrUniversity", "name": "University of Queensland", "url": "https://www.uq.edu.au" },
+        { "@type": "CollegeOrUniversity", "name": "King's College London", "url": "https://www.kcl.ac.uk" }
+      ],
+      "knowsAbout": [
+        "Prosthodontics",
+        "Dental Implantology",
+        "Digital Dentistry",
+        "Shade Matching",
+        "3D Printing in Dentistry",
+        "Guided Implant Surgery",
+        "Biomaterials"
       ],
       "sameAs": [
         "https://www.linkedin.com/in/sam-rosehill-74905755/",
         "https://www.ethical.dental/about-us/dr-sam-rosehill"
       ]
     })} />
+
+    <!-- Page-specific structured data injected by child pages -->
+    <slot name="head" />
 
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   </head>

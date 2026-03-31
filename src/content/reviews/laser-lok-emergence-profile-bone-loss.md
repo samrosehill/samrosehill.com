@@ -16,11 +16,11 @@ There is a particular flavour of clinical anxiety that arrives at the moment you
 
 Guarnieri and colleagues from Sapienza University of Rome and a private practice in Treviso have explored precisely this question in *Influence of Prosthetic Emergence Profiles and Emergence Angles on Marginal Bone Loss Around Implants with and without Laser-Microtextured Collar Surface*, a retrospective study comparing BioHorizons Laser-Lok (LMS) implants against their standard-collar siblings (noLMS) over up to a decade of clinical function.
 
-### The Data Anchor
+## The Data Anchor
 
 The study evaluated 90 patients with 90 bone-level implants — 45 LMS and 45 noLMS — all restored with single screw-retained crowns in the molar region. The minimum observation period was 5 years, with a mean follow-up of 7.3 years and a maximum of 11.3 years. Emergence angle was dichotomised as narrow (≤ 30°) or wide (> 30°), and emergence profile was classified as concave, straight, or convex. Marginal bone loss was measured radiographically using standardised long-cone technique with customised film holders, and a single calibrated examiner performed all measurements (kappa = 0.937). The LMS implants featured a 1.8 mm high laser-ablated collar with 8-micron microgrooves; the noLMS implants had a resorbable blast-textured surface for 1.5 mm with 0.3 mm of machined collar.
 
-### Key Findings
+## Key Findings
 
 - **LMS implants showed significantly less mean marginal bone loss than noLMS** — 0.8 mm versus 1.7 mm over the observation period (P = 0.017), with a cumulative success rate of **97.7% versus 91.1%** (P < 0.05).
 - **For noLMS implants, emergence contour mattered enormously** — narrow EA (≤ 30°) with concave EP produced the lowest bone loss (~1.4 mm), while wide EA (> 30°) with convex EP produced the highest (~2.2 mm), with statistically significant differences between groups (P = 0.002–0.007).
@@ -29,7 +29,7 @@ The study evaluated 90 patients with 90 bone-level implants — 45 LMS and 45 no
 
 > The emergence profile literature has spent years telling clinicians that contour is destiny. This study suggests that for one particular surface treatment, destiny has a workaround.
 
-### 💡 The Clinical Bottom Line
+## 💡 The Clinical Bottom Line
 
 If you're placing bone-level implants with a laser-microtextured collar surface, the data here suggest you can design the emergence profile based on soft tissue aesthetics and hygiene access without the usual anxiety about marginal bone consequences — the surface treatment appears to create a connective tissue seal robust enough to tolerate wider angles and convex contours. For standard-collar implants, however, the old rules still apply: keep the emergence angle at or below 30 degrees and favour concave profiles if bone preservation is the priority. The uncomfortable implication is that implant collar design may be doing more for long-term bone stability than the hours we spend perfecting the crown contour above it.
 

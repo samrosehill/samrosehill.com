@@ -18,18 +18,18 @@ Except Chang and colleagues — in their paper *Implant Stability Quotient and B
 
 > It's rather like discovering your house inspector gave you a glowing report on structural integrity based solely on how well the front door closes. Technically relevant. Entirely inadequate.
 
-### The Data Anchor
+## The Data Anchor
 
 Seven fresh-frozen human cadaver heads, 28 Hiossen ET III SA implants (4.5 mm × 11.5 mm, all ≥ 35 Ncm torque), single board-certified periodontist. Post-placement cone-beam CT measured radiographic bone-to-implant contact (r-BIC) as linear contact length divided by total implant length in four directions — buccal, lingual, mesial, distal. ISQ was measured in those same directions via Osstell AB resonance frequency analysis. The study was methodologically tight but substantively underpowered: 80% power would have required n=121 implants, not 28.
 
-### Key Findings
+## Key Findings
 
 - **No directional correlation between BIC and ISQ** — every direction, zero relationship. Primary finding. Stark.
 - **ISQ remained constant across maxillary and mandibular sites** despite variable radiographic bone contact, suggesting the measure is indifferent to regional bone density variation.
 - **When solid coronal contact existed at the shoulder, ISQ stayed high regardless of apical engagement** — meaning ISQ reflects shoulder stability, not total osseous contact along the implant body.
 - *Caveat:* Cadaver bone lacks the biological remodelling and vascularity of living jaw — external validity is genuinely constrained, and an adequately powered clinical study remains the obvious next step.
 
-### 💡 The Clinical Bottom Line
+## 💡 The Clinical Bottom Line
 
 ISQ measures engagement at the implant shoulder — how mechanically snug that coronal interface sits. It's a perfectly legitimate measurement. But it's not a proxy for overall bone contact; you can have an implant reading beautifully on your device whilst apical engagement is poor or absent. For immediately placed implants where loading decisions rest partly on stability readings, this reshapes how we interpret every beep.
 

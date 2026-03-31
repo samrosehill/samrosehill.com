@@ -13,6 +13,20 @@ const formatDate = (date: Date) =>
 ---
 
 <Base title="Home" currentPage="home">
+  <!-- WebSite schema -->
+  <script slot="head" type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Dr. Samuel Rosehill",
+    "url": "https://samrosehill.com",
+    "description": "A clinical archive of dental research reviews and case notes by Dr. Samuel Rosehill.",
+    "author": {
+      "@type": "Person",
+      "name": "Dr. Samuel Rosehill",
+      "url": "https://samrosehill.com/about"
+    }
+  })} />
+
   <!-- Hero — asymmetric 7/5 grid -->
   <section class="hero">
     <div class="container grid-12">
