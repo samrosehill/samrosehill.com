@@ -111,6 +111,13 @@ const formatDate = (date: Date) =>
         </div>
       )}
 
+      <!-- Substack CTA -->
+      <div class="substack-cta animate-in animate-in--delay-3">
+        <a href={review.data.substackUrl || 'https://samuelrosehill.substack.com'} target="_blank" rel="noopener" class="substack-cta__link">
+          Join the discussion on Substack &rarr;
+        </a>
+      </div>
+
       <!-- End nav -->
       <div class="article__end">
         <a href="/reviews" class="btn btn--ghost">&larr; Back to journal</a>
@@ -153,8 +160,30 @@ const formatDate = (date: Date) =>
     flex-wrap: wrap;
   }
 
+  .substack-cta {
+    margin-top: var(--space-12);
+    padding: var(--space-6) var(--space-8);
+    background: var(--surface-container-lowest);
+    border: 1px solid var(--ghost-border);
+    border-radius: 0.5rem;
+    text-align: center;
+  }
+
+  .substack-cta__link {
+    font-family: var(--font-body);
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--primary-dark);
+    text-decoration: none;
+    letter-spacing: 0.02em;
+  }
+
+  .substack-cta__link:hover {
+    text-decoration: underline;
+  }
+
   .article__end {
-    margin-top: var(--space-16);
+    margin-top: var(--space-12);
     padding-top: var(--space-8);
     border-top: 1px solid var(--ghost-border-strong);
   }

@@ -15,6 +15,7 @@ const reviews = defineCollection({
     clinicalRelevance: z.string().optional(),
     verdict: z.string().optional(),
     pdfPath: z.string().optional(),
+    substackUrl: z.string().url().optional(),
   }),
 });
 
