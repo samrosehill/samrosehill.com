@@ -1,0 +1,132 @@
+---
+import Base from '../layouts/Base.astro';
+---
+
+<Base title="Privacy Policy" description="Privacy policy for samrosehill.com — how data is collected and used." currentPage="">
+  <!-- BreadcrumbList schema -->
+  <script slot="head" type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://samrosehill.com" },
+      { "@type": "ListItem", "position": 2, "name": "Privacy Policy", "item": "https://samrosehill.com/privacy" }
+    ]
+  })} />
+
+  <!-- Page header -->
+  <section class="page-header">
+    <div class="container">
+      <p class="label label--accent animate-in">Legal</p>
+      <h1 class="animate-in animate-in--delay-1">Privacy Policy</h1>
+    </div>
+  </section>
+
+  <section class="privacy-body">
+    <div class="container container--narrow">
+      <div class="prose animate-in animate-in--delay-1">
+        <p class="privacy-updated">Last updated: April 2026</p>
+
+        <h2>Overview</h2>
+        <p>
+          samrosehill.com is a personal clinical archive operated by Dr. Samuel Rosehill.
+          This site is a static website with no user accounts, comment systems, or e-commerce.
+          We are committed to protecting any personal information that may be collected.
+        </p>
+
+        <h2>Information collected</h2>
+        <p>
+          This website does not collect personal information directly. However, the following
+          data may be collected indirectly through third-party services:
+        </p>
+        <ul>
+          <li>
+            <strong>Server logs:</strong> The hosting provider (Vercel) may collect standard
+            web server logs including IP addresses, browser type, referring pages, and access
+            times. These logs are used for security and performance monitoring only.
+          </li>
+          <li>
+            <strong>Fonts:</strong> Google Fonts is used to serve typography. Google may
+            collect usage data in accordance with their
+            <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Privacy Policy</a>.
+          </li>
+          <li>
+            <strong>Substack:</strong> Links to Substack newsletters are included throughout
+            this site. If you click these links, Substack's own privacy policy applies.
+          </li>
+        </ul>
+
+        <h2>Cookies</h2>
+        <p>
+          This website does not set any first-party cookies. Third-party services linked
+          from this site (such as Substack and LinkedIn) may set their own cookies when
+          you visit those sites.
+        </p>
+
+        <h2>Analytics</h2>
+        <p>
+          This website does not currently use any analytics tracking scripts (no Google
+          Analytics, no tracking pixels). Vercel may collect aggregate, anonymised
+          performance data as part of their hosting service.
+        </p>
+
+        <h2>External links</h2>
+        <p>
+          This site contains links to external websites including Substack, LinkedIn,
+          and Ethical Dental. Once you leave this site, the privacy policies of those
+          external sites apply.
+        </p>
+
+        <h2>AI and search engines</h2>
+        <p>
+          The content on this site is intentionally made available to AI crawlers and
+          search engines. The robots.txt file explicitly allows all major search and
+          AI crawlers to index this content. No personal user data is shared with these
+          services — only the publicly accessible content of this site.
+        </p>
+
+        <h2>Content disclaimer</h2>
+        <p>
+          The clinical reviews on this site are prepared for educational purposes by
+          Dr. Samuel Rosehill and do not constitute professional dental or medical advice.
+          Always consult a qualified healthcare professional regarding clinical decisions.
+        </p>
+
+        <h2>Contact</h2>
+        <p>
+          For any privacy-related questions, please contact Dr. Samuel Rosehill via
+          <a href="https://www.linkedin.com/in/sam-rosehill-74905755/" target="_blank" rel="noopener">LinkedIn</a>
+          or through
+          <a href="https://www.ethical.dental" target="_blank" rel="noopener">Ethical Dental</a>.
+        </p>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .page-header {
+    padding: var(--space-20) 0 var(--space-4);
+  }
+
+  .page-header .label {
+    margin-bottom: var(--space-4);
+  }
+
+  .privacy-body {
+    padding-bottom: var(--space-24);
+  }
+
+  .privacy-updated {
+    font-family: var(--font-body);
+    font-size: 0.8125rem;
+    color: var(--on-surface-variant);
+    margin-bottom: var(--space-10);
+    font-style: italic;
+  }
+
+  @media (max-width: 768px) {
+    .page-header {
+      padding: var(--space-12) 0 var(--space-4);
+    }
+  }
+</style>
