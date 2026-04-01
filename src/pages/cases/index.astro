@@ -1,12 +1,27 @@
 ---
 import Base from '../../layouts/Base.astro';
-import { getCollection } from 'astro:content';
+import { getCollection, render } from 'astro:content';
 
-const cases = (await getCollection('cases'))
-  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+const cases = await getCollection('cases');
 
-const formatDate = (date: Date) =>
-  date.toLocaleDateString('en-AU', { year: 'numeric', month: 'long', day: 'numeric' });
+const rendered = await Promise.all(
+  cases.map(async (c) => {
+    const { Content } = await render(c);
+    return { ...c, Content };
+  })
+);
+
+const statusLabel: Record<string, string> = {
+  active: 'Active',
+  wip: 'In development',
+  archived: 'Archived',
+};
+
+const statusClass: Record<string, string> = {
+  active: 'status-badge--active',
+  wip: 'status-badge--wip',
+  archived: 'status-badge--archived',
+};
 ---
 
 <Base title="Projects" description="Side projects — things I'm building, testing, or figuring out outside the peer-reviewed literature." currentPage="cases">
@@ -22,21 +37,40 @@ const formatDate = (date: Date) =>
   </section>
 
   <section class="section--toned">
-    <div class="container">
-      <div class="review-list review-list--grid">
-        {cases.map((c, i) => (
-          <a href={`/cases/${c.id}`} class={`review-card animate-in animate-in--delay-${Math.min(i + 1, 4)}`}>
-            <article class="card">
-              <p class="review-card__date">{formatDate(c.data.pubDate)}</p>
-              <h3 class="review-card__title">{c.data.title}</h3>
-              <p class="review-card__description">{c.data.description}</p>
-              <div class="review-card__tags">
+    <div class="container container--narrow">
+      <div class="showcase-list">
+        {rendered.map((c, i) => (
+          <article class={`showcase-card card animate-in animate-in--delay-${Math.min(i + 1, 4)}`}>
+            <header class="showcase-card__header">
+              <div class="showcase-card__title-row">
+                <h2 class="showcase-card__title">{c.data.title}</h2>
+                <span class={`status-badge ${statusClass[c.data.status]}`}>
+                  {statusLabel[c.data.status]}
+                </span>
+              </div>
+              <p class="showcase-card__description">{c.data.description}</p>
+            </header>
+
+            <div class="prose showcase-card__body">
+              <c.Content />
+            </div>
+
+            <footer class="showcase-card__footer">
+              <div class="showcase-card__tags">
                 {c.data.tags.map((tag: string) => (
                   <span class="chip">{tag}</span>
                 ))}
               </div>
-            </article>
-          </a>
+              {c.data.url && (
+                <a href={c.data.url} target="_blank" rel="noopener" class="btn btn--primary">
+                  Visit project
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M7 17L17 7" /><path d="M7 7h10v10" />
+                  </svg>
+                </a>
+              )}
+            </footer>
+          </article>
         ))}
       </div>
 
@@ -53,9 +87,7 @@ const formatDate = (date: Date) =>
           <p class="empty-state__desc">
             I'm preparing writeups of side projects — digital planning workflows,
             3D printing experiments, and technique explorations from practice.
-            Follow along on <a href="https://samuelrosehill.substack.com" target="_blank" rel="noopener">Substack</a> to be notified when new projects are published.
           </p>
-          <a href="/reviews" class="btn btn--ghost">Browse the journal instead &rarr;</a>
         </div>
       )}
     </div>
@@ -82,6 +114,97 @@ const formatDate = (date: Date) =>
     max-width: 55ch;
   }
 
+  /* Showcase layout */
+  .showcase-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-12);
+  }
+
+  .showcase-card {
+    padding: var(--space-10);
+  }
+
+  .showcase-card__header {
+    margin-bottom: var(--space-8);
+    padding-bottom: var(--space-6);
+    border-bottom: 1px solid var(--ghost-border);
+  }
+
+  .showcase-card__title-row {
+    display: flex;
+    align-items: center;
+    gap: var(--space-4);
+    margin-bottom: var(--space-3);
+    flex-wrap: wrap;
+  }
+
+  .showcase-card__title {
+    font-family: var(--font-headline);
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    line-height: 1.2;
+    color: var(--on-surface);
+    margin: 0;
+  }
+
+  .showcase-card__description {
+    font-size: 0.9375rem;
+    color: var(--on-surface-variant);
+    line-height: 1.7;
+    max-width: 65ch;
+    margin: 0;
+  }
+
+  /* Status badges */
+  .status-badge {
+    display: inline-block;
+    font-size: 0.625rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: var(--space-1) var(--space-3);
+    border-radius: 0.25rem;
+    flex-shrink: 0;
+  }
+
+  .status-badge--active {
+    background: var(--primary-fixed);
+    color: var(--primary-dark);
+  }
+
+  .status-badge--wip {
+    background: #fff3cd;
+    color: #856404;
+  }
+
+  .status-badge--archived {
+    background: var(--surface-container-high);
+    color: var(--on-surface-variant);
+  }
+
+  /* Card body (rendered markdown) */
+  .showcase-card__body {
+    margin-bottom: var(--space-8);
+  }
+
+  /* Footer with tags + CTA */
+  .showcase-card__footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-4);
+    padding-top: var(--space-6);
+    border-top: 1px solid var(--ghost-border);
+    flex-wrap: wrap;
+  }
+
+  .showcase-card__tags {
+    display: flex;
+    gap: var(--space-2);
+    flex-wrap: wrap;
+  }
+
+  /* Empty state */
   .empty-state {
     display: flex;
     flex-direction: column;
@@ -118,6 +241,15 @@ const formatDate = (date: Date) =>
   @media (max-width: 768px) {
     .page-header {
       padding: var(--space-12) 0 var(--space-4);
+    }
+
+    .showcase-card {
+      padding: var(--space-6);
+    }
+
+    .showcase-card__footer {
+      flex-direction: column;
+      align-items: flex-start;
     }
   }
 </style>

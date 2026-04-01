@@ -26,6 +26,8 @@ const cases = defineCollection({
     description: z.string(),
     pubDate: z.coerce.date(),
     tags: z.array(z.string()).default([]),
+    url: z.string().url().optional(),
+    status: z.enum(['active', 'archived', 'wip']).default('active'),
   }),
 });
 

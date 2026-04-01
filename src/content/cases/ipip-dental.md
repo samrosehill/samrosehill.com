@@ -3,6 +3,8 @@ title: "IPIP Dental"
 description: "A personality profiling platform for dental practices, built on the Big Five (IPIP-NEO) framework to help practice owners understand team dynamics, manage retention risk, and make smarter hiring decisions."
 pubDate: 2026-04-01
 tags: ["dental", "saas", "team-management", "personality-profiling", "big-five"]
+url: "https://ipipdental.com"
+status: "active"
 ---
 
 ## What it is
