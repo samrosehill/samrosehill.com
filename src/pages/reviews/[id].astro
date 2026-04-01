@@ -6,15 +6,30 @@ export async function getStaticPaths() {
   const reviews = await getCollection('reviews');
   return reviews.map((review) => ({
     params: { id: review.id },
-    props: { review },
+    props: { review, allReviews: reviews },
   }));
 }
 
-const { review } = Astro.props;
+const { review, allReviews } = Astro.props;
 const { Content } = await render(review);
 
 const formatDate = (date: Date) =>
   date.toLocaleDateString('en-AU', { year: 'numeric', month: 'long', day: 'numeric' });
+
+// Reading time estimate
+const wordCount = review.body ? review.body.split(/\s+/).filter(Boolean).length : 500;
+const readingMinutes = Math.max(1, Math.ceil(wordCount / 200));
+
+// Related articles: same tag overlap, excluding current, max 3
+const relatedReviews = allReviews
+  .filter((r) => r.id !== review.id)
+  .map((r) => ({
+    review: r,
+    overlap: r.data.tags.filter((t: string) => review.data.tags.includes(t)).length,
+  }))
+  .sort((a, b) => b.overlap - a.overlap || b.review.data.pubDate.valueOf() - a.review.data.pubDate.valueOf())
+  .slice(0, 3)
+  .map((r) => r.review);
 ---
 
 <Base title={review.data.title} description={review.data.description} ogImage={`/images/reviews/${review.id}.png`}>
@@ -26,6 +41,7 @@ const formatDate = (date: Date) =>
     "description": review.data.description,
     "datePublished": review.data.pubDate.toISOString().split('T')[0],
     "dateModified": review.data.pubDate.toISOString().split('T')[0],
+    "image": `https://samrosehill.com/images/reviews/${review.id}.png`,
     "author": {
       "@type": "Person",
       "name": "Dr. Samuel Rosehill",
@@ -43,6 +59,7 @@ const formatDate = (date: Date) =>
     },
     "articleSection": "Dental Research Reviews",
     "keywords": review.data.tags.join(", "),
+    "timeRequired": `PT${readingMinutes}M`,
     "about": {
       "@type": "ScholarlyArticle",
       "name": review.data.paperTitle,
@@ -77,6 +94,7 @@ const formatDate = (date: Date) =>
         <a href="/reviews" class="back-link">&larr; Back to journal</a>
         <div class="article__meta">
           <p class="label label--accent">{formatDate(review.data.pubDate)}</p>
+          <p class="article__reading-time">{readingMinutes} min read</p>
         </div>
         <h1>{review.data.title}</h1>
         <p class="article__desc">{review.data.description}</p>
@@ -111,12 +129,37 @@ const formatDate = (date: Date) =>
         </div>
       )}
 
+      <!-- Conflict of interest disclosure -->
+      <div class="coi-disclosure">
+        <p class="coi-disclosure__text">
+          <strong>Disclosure:</strong> The author has no financial conflicts of interest related to the products or topics discussed in this review. This is an independent summary prepared for educational purposes.
+        </p>
+      </div>
+
       <!-- Substack CTA -->
       <div class="substack-cta animate-in animate-in--delay-3">
-        <a href={review.data.substackUrl || 'https://samuelrosehill.substack.com'} target="_blank" rel="noopener" class="substack-cta__link">
-          Join the discussion on Substack &rarr;
+        <p class="substack-cta__label">Continue the conversation</p>
+        <p class="substack-cta__desc">This review is also published on Substack, where you can leave comments and join the discussion.</p>
+        <a href={review.data.substackUrl || 'https://samuelrosehill.substack.com'} target="_blank" rel="noopener" class="btn btn--primary">
+          Read on Substack &rarr;
         </a>
       </div>
+
+      <!-- Related articles -->
+      {relatedReviews.length > 0 && (
+        <div class="related-articles">
+          <p class="label label--accent related-articles__label">More from the archive</p>
+          <div class="related-articles__grid">
+            {relatedReviews.map((r) => (
+              <a href={`/reviews/${r.id}`} class="related-card">
+                <span class="related-card__date">{formatDate(r.data.pubDate)}</span>
+                <span class="related-card__title">{r.data.title}</span>
+                <span class="related-card__read">Read &rarr;</span>
+              </a>
+            ))}
+          </div>
+        </div>
+      )}
 
       <!-- End nav -->
       <div class="article__end">
@@ -160,31 +203,134 @@ const formatDate = (date: Date) =>
     flex-wrap: wrap;
   }
 
-  .substack-cta {
-    margin-top: var(--space-12);
-    padding: var(--space-6) var(--space-8);
-    background: var(--surface-container-lowest);
-    border: 1px solid var(--ghost-border);
-    border-radius: 0.5rem;
-    text-align: center;
-  }
-
-  .substack-cta__link {
-    font-family: var(--font-body);
-    font-size: 0.875rem;
-    font-weight: 500;
-    color: var(--primary-dark);
-    text-decoration: none;
-    letter-spacing: 0.02em;
-  }
-
-  .substack-cta__link:hover {
-    text-decoration: underline;
-  }
-
   .article__end {
     margin-top: var(--space-12);
     padding-top: var(--space-8);
     border-top: 1px solid var(--ghost-border-strong);
+  }
+
+  /* Reading time */
+  .article__reading-time {
+    font-family: var(--font-body);
+    font-size: 0.6875rem;
+    font-weight: 500;
+    color: var(--on-surface-variant);
+    letter-spacing: 0.04em;
+    margin-top: var(--space-1);
+  }
+
+  /* Conflict of interest disclosure */
+  .coi-disclosure {
+    margin-top: var(--space-12);
+    padding: var(--space-4) var(--space-6);
+    background: var(--surface-container-low);
+    border-radius: 0.375rem;
+    border-left: 2px solid var(--outline-variant);
+  }
+
+  .coi-disclosure__text {
+    font-family: var(--font-body);
+    font-size: 0.8125rem;
+    color: var(--on-surface-variant);
+    line-height: 1.65;
+    max-width: 100%;
+  }
+
+  /* Substack CTA upgrade */
+  .substack-cta {
+    margin-top: var(--space-12);
+    padding: var(--space-8) var(--space-10);
+    background: var(--surface-container-low);
+    border: 1px solid var(--ghost-border-strong);
+    border-radius: 0.5rem;
+    border-left: 3px solid var(--primary);
+  }
+
+  .substack-cta__label {
+    font-family: var(--font-body);
+    font-size: 0.6875rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--primary-dark);
+    margin-bottom: var(--space-2);
+  }
+
+  .substack-cta__desc {
+    font-family: var(--font-body);
+    font-size: 0.9375rem;
+    color: var(--on-surface-variant);
+    line-height: 1.65;
+    margin-bottom: var(--space-6);
+    max-width: 50ch;
+  }
+
+  /* Related articles */
+  .related-articles {
+    margin-top: var(--space-16);
+    padding-top: var(--space-10);
+    border-top: 1px solid var(--ghost-border-strong);
+  }
+
+  .related-articles__label {
+    margin-bottom: var(--space-6);
+    display: block;
+  }
+
+  .related-articles__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: var(--space-4);
+  }
+
+  .related-card {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+    padding: var(--space-6);
+    background: var(--surface-container-lowest);
+    border: 1px solid var(--ghost-border);
+    border-radius: 0.5rem;
+    text-decoration: none;
+    color: inherit;
+    transition: all var(--duration-medium) var(--ease-out);
+  }
+
+  .related-card:hover {
+    background: var(--surface-container-low);
+    box-shadow: var(--shadow-elevated);
+    transform: translateY(-2px);
+    text-decoration: none;
+  }
+
+  .related-card__date {
+    font-family: var(--font-body);
+    font-size: 0.625rem;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--on-surface-variant);
+  }
+
+  .related-card__title {
+    font-family: var(--font-headline);
+    font-size: 1rem;
+    line-height: 1.4;
+    color: var(--on-surface);
+    flex: 1;
+    transition: color var(--duration-fast) ease;
+  }
+
+  .related-card:hover .related-card__title {
+    color: var(--primary-dark);
+  }
+
+  .related-card__read {
+    font-family: var(--font-body);
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: var(--primary-dark);
+    letter-spacing: 0.02em;
+    margin-top: var(--space-2);
   }
 </style>

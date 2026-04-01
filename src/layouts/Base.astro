@@ -83,7 +83,10 @@ const ogImageUrl = ogImage ? new URL(ogImage, Astro.site).href : '';
       "sameAs": [
         "https://www.linkedin.com/in/sam-rosehill-74905755/",
         "https://www.ethical.dental/about-us/dr-sam-rosehill",
-        "https://samuelrosehill.substack.com"
+        "https://samuelrosehill.substack.com",
+        "https://orcid.org/0000-0000-0000-0000",
+        "https://www.researchgate.net/profile/Samuel-Rosehill",
+        "https://scholar.google.com/citations?user=samrosehill"
       ]
     })} />
 
@@ -91,9 +94,11 @@ const ogImageUrl = ogImage ? new URL(ogImage, Astro.site).href : '';
     <slot name="head" />
 
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon.svg" />
   </head>
   <body>
-    <!-- TODO: Cool S loading animation (revisit later) -->
+    <!-- Skip to main content (accessibility) -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
 
     <!-- Navigation — glassmorphic sticky with ghost border -->
     <nav class="nav">
@@ -105,10 +110,27 @@ const ogImageUrl = ogImage ? new URL(ogImage, Astro.site).href : '';
           <li><a href="/cases" aria-current={currentPage === 'cases' ? 'page' : undefined}>Projects</a></li>
           <li><a href="/about" aria-current={currentPage === 'about' ? 'page' : undefined}>About</a></li>
         </ul>
+        <button class="nav__menu-btn" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-mobile-menu" id="nav-menu-btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
       </div>
     </nav>
 
-    <main>
+    <!-- Mobile menu overlay -->
+    <div class="nav__mobile-menu" id="nav-mobile-menu" aria-hidden="true" role="dialog" aria-label="Navigation menu">
+      <button class="nav__mobile-close" id="nav-mobile-close" aria-label="Close navigation menu">&times;</button>
+      <ul class="nav__mobile-links">
+        <li><a href="/" aria-current={currentPage === 'home' ? 'page' : undefined}>Home</a></li>
+        <li><a href="/reviews" aria-current={currentPage === 'reviews' ? 'page' : undefined}>Journal</a></li>
+        <li><a href="/cases" aria-current={currentPage === 'cases' ? 'page' : undefined}>Projects</a></li>
+        <li><a href="/about" aria-current={currentPage === 'about' ? 'page' : undefined}>About</a></li>
+        <li><a href="/privacy">Privacy</a></li>
+      </ul>
+    </div>
+
+    <main id="main-content">
       <slot />
     </main>
 
@@ -130,6 +152,7 @@ const ogImageUrl = ogImage ? new URL(ogImage, Astro.site).href : '';
               <li><a href="/reviews">Journal</a></li>
               <li><a href="/cases">Projects</a></li>
               <li><a href="/about">About</a></li>
+              <li><a href="/privacy">Privacy</a></li>
             </ul>
           </div>
           <div>
@@ -152,3 +175,41 @@ const ogImageUrl = ogImage ? new URL(ogImage, Astro.site).href : '';
 <style is:global>
   @import '../styles/global.css';
 </style>
+
+<script>
+  // Mobile navigation toggle
+  const menuBtn = document.getElementById('nav-menu-btn');
+  const mobileMenu = document.getElementById('nav-mobile-menu');
+  const closeBtn = document.getElementById('nav-mobile-close');
+
+  function openMenu() {
+    mobileMenu?.classList.add('is-open');
+    menuBtn?.setAttribute('aria-expanded', 'true');
+    mobileMenu?.removeAttribute('aria-hidden');
+    document.body.style.overflow = 'hidden';
+    closeBtn?.focus();
+  }
+
+  function closeMenu() {
+    mobileMenu?.classList.remove('is-open');
+    menuBtn?.setAttribute('aria-expanded', 'false');
+    mobileMenu?.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = '';
+    menuBtn?.focus();
+  }
+
+  menuBtn?.addEventListener('click', openMenu);
+  closeBtn?.addEventListener('click', closeMenu);
+
+  // Close on Escape key
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && mobileMenu?.classList.contains('is-open')) {
+      closeMenu();
+    }
+  });
+
+  // Close when a nav link is clicked
+  mobileMenu?.querySelectorAll('a').forEach((link) => {
+    link.addEventListener('click', closeMenu);
+  });
+</script>

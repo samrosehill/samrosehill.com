@@ -41,7 +41,22 @@ const formatDate = (date: Date) =>
       </div>
 
       {cases.length === 0 && (
-        <p class="empty-state">No cases published yet — check back soon.</p>
+        <div class="empty-state">
+          <div class="empty-state__icon" aria-hidden="true">
+            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="8" y="12" width="32" height="28" rx="2" stroke="currentColor" stroke-width="1.5" fill="none"/>
+              <path d="M16 22h16M16 29h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              <path d="M28 8v8M20 8v8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3 class="empty-state__title">Projects coming soon</h3>
+          <p class="empty-state__desc">
+            I'm preparing writeups of side projects — digital planning workflows,
+            3D printing experiments, and technique explorations from practice.
+            Follow along on <a href="https://samuelrosehill.substack.com" target="_blank" rel="noopener">Substack</a> to be notified when new projects are published.
+          </p>
+          <a href="/reviews" class="btn btn--ghost">Browse the journal instead &rarr;</a>
+        </div>
       )}
     </div>
   </section>
@@ -68,9 +83,36 @@ const formatDate = (date: Date) =>
   }
 
   .empty-state {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: var(--space-24) var(--space-8);
+    max-width: 36rem;
+    margin: 0 auto;
+    gap: var(--space-4);
+  }
+
+  .empty-state__icon {
+    color: var(--outline-variant);
+    margin-bottom: var(--space-2);
+  }
+
+  .empty-state__title {
+    font-family: var(--font-headline);
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--on-surface);
+    margin-bottom: 0;
+  }
+
+  .empty-state__desc {
+    font-size: 0.9375rem;
     color: var(--on-surface-variant);
-    font-style: italic;
-    padding: var(--space-12) 0;
+    line-height: 1.7;
+    max-width: 40ch;
+    font-style: normal;
+    margin-bottom: var(--space-2);
   }
 
   @media (max-width: 768px) {

@@ -3,24 +3,113 @@ import Base from '../layouts/Base.astro';
 ---
 
 <Base title="About" description="Dr. Samuel Rosehill — dentist, prosthodontic enthusiast, Coffs Harbour NSW." currentPage="about">
-  <!-- ProfilePage schema -->
+  <!-- ProfilePage schema with full Person details -->
   <script slot="head" type="application/ld+json" set:html={JSON.stringify({
     "@context": "https://schema.org",
     "@type": "ProfilePage",
+    "url": "https://samrosehill.com/about",
+    "name": "About Dr. Samuel Rosehill",
     "mainEntity": {
       "@type": "Person",
       "name": "Dr. Samuel Rosehill",
-      "url": "https://samrosehill.com/about"
-    },
-    "url": "https://samrosehill.com/about",
-    "name": "About Dr. Samuel Rosehill"
+      "givenName": "Samuel",
+      "familyName": "Rosehill",
+      "honorificPrefix": "Dr.",
+      "jobTitle": "Dentist",
+      "url": "https://samrosehill.com",
+      "image": "https://samrosehill.com/images/sam-rosehill.jpg",
+      "description": "General dentist with a Masters in Clinical Dentistry (Fixed and Removable Prosthodontics) from King's College London, practising at Ethical Dental and Orthodontics in Coffs Harbour, NSW.",
+      "worksFor": {
+        "@type": "Dentist",
+        "name": "Ethical Dental and Orthodontics",
+        "url": "https://www.ethical.dental"
+      },
+      "alumniOf": [
+        {
+          "@type": "CollegeOrUniversity",
+          "name": "University of Queensland",
+          "url": "https://www.uq.edu.au"
+        },
+        {
+          "@type": "CollegeOrUniversity",
+          "name": "King's College London",
+          "url": "https://www.kcl.ac.uk"
+        }
+      ],
+      "hasCredential": [
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "MClinDent Fixed & Removable Prosthodontics",
+          "credentialCategory": "Masters Degree",
+          "recognizedBy": {
+            "@type": "CollegeOrUniversity",
+            "name": "King's College London"
+          }
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "BDSc (First Class Honours)",
+          "credentialCategory": "Bachelor's Degree",
+          "recognizedBy": {
+            "@type": "CollegeOrUniversity",
+            "name": "University of Queensland"
+          }
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Fellow, Pierre Fauchard Academy",
+          "credentialCategory": "Fellowship"
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Fellow, International College of Dentists",
+          "credentialCategory": "Fellowship"
+        }
+      ],
+      "knowsAbout": [
+        "Prosthodontics",
+        "Dental Implantology",
+        "Digital Dentistry",
+        "Shade Matching",
+        "3D Printing in Dentistry",
+        "Guided Implant Surgery",
+        "Biomaterials"
+      ],
+      "sameAs": [
+        "https://www.linkedin.com/in/sam-rosehill-74905755/",
+        "https://www.ethical.dental/about-us/dr-sam-rosehill",
+        "https://samuelrosehill.substack.com",
+        "https://orcid.org/0000-0000-0000-0000",
+        "https://www.researchgate.net/profile/Samuel-Rosehill"
+      ]
+    }
+  })} />
+
+  <!-- BreadcrumbList schema -->
+  <script slot="head" type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://samrosehill.com" },
+      { "@type": "ListItem", "position": 2, "name": "About", "item": "https://samrosehill.com/about" }
+    ]
   })} />
 
   <!-- Page header -->
   <section class="page-header">
     <div class="container">
-      <p class="label label--accent animate-in">About</p>
-      <h1 class="animate-in animate-in--delay-1">Dr. Samuel Rosehill</h1>
+      <div class="page-header__layout">
+        <div class="page-header__text">
+          <p class="label label--accent animate-in">About</p>
+          <h1 class="animate-in animate-in--delay-1">Dr. Samuel Rosehill</h1>
+        </div>
+        <div class="page-header__photo animate-in animate-in--delay-2">
+          <!-- TODO: Replace with actual headshot. Recommended: 400×400px, professional photo -->
+          <div class="headshot-placeholder" aria-hidden="true">
+            <span class="headshot-placeholder__initials">SR</span>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -154,9 +243,45 @@ import Base from '../layouts/Base.astro';
     padding: var(--space-20) 0 var(--space-4);
   }
 
+  .page-header__layout {
+    display: flex;
+    align-items: center;
+    gap: var(--space-12);
+  }
+
+  .page-header__text {
+    flex: 1;
+  }
+
   .page-header .label {
     margin-bottom: var(--space-4);
   }
+
+  .page-header__photo {
+    flex-shrink: 0;
+  }
+
+  .headshot-placeholder {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .headshot-placeholder__initials {
+    font-family: 'Georgia', serif;
+    font-size: 2rem;
+    font-weight: 400;
+    color: white;
+    letter-spacing: -0.02em;
+  }
+
+  /* When a real headshot is added, use this class on the img tag:
+     .headshot { width: 120px; height: 120px; border-radius: 50%; object-fit: cover; } */
 
   .about-body {
     padding-top: var(--space-8);
@@ -258,6 +383,12 @@ import Base from '../layouts/Base.astro';
   @media (max-width: 768px) {
     .page-header {
       padding: var(--space-12) 0 var(--space-4);
+    }
+
+    .page-header__layout {
+      flex-direction: column-reverse;
+      align-items: flex-start;
+      gap: var(--space-6);
     }
 
     .about-sidebar {
