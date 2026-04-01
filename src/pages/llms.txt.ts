@@ -6,7 +6,7 @@ export const GET: APIRoute = async () => {
     .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
   const reviewLines = reviews
-    .map((r) => `- [${r.data.title}](https://samrosehill.com/reviews/${r.id})`)
+    .map((r) => `- [${r.data.title}](https://samrosehill.com/journal/${r.id})`)
     .join('\n');
 
   const body = `# samrosehill.com
@@ -31,7 +31,7 @@ Dr. Samuel Rosehill is a dentist practising at Ethical Dental and Orthodontics i
 ## Pages
 
 - [Home](https://samrosehill.com/)
-- [Journal — All Reviews](https://samrosehill.com/reviews/)
+- [Journal — All Reviews](https://samrosehill.com/journal/)
 - [About the Author](https://samrosehill.com/about/)
 
 ## Dental Research Reviews

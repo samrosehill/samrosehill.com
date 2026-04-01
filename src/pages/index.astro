@@ -37,7 +37,7 @@ const formatDate = (date: Date) =>
           Recent publications reviewed for clinical relevance by Dr. Samuel Rosehill.
         </p>
         <div class="hero__actions">
-          <a href="/reviews" class="btn btn--primary">Browse the archive</a>
+          <a href="/journal" class="btn btn--primary">Browse the archive</a>
           <a href="/about" class="btn btn--ghost">About the author</a>
         </div>
       </div>
@@ -56,7 +56,7 @@ const formatDate = (date: Date) =>
     <section class="section--toned">
       <div class="container">
         <p class="label" style="margin-bottom: var(--space-6);">Featured Review</p>
-        <a href={`/reviews/${featured.id}`} class="featured-review animate-in">
+        <a href={`/journal/${featured.id}`} class="featured-review animate-in">
           <article class="card--featured">
             <p class="featured-review__label">{formatDate(featured.data.pubDate)}</p>
             <h2 class="featured-review__title">{featured.data.title}</h2>
@@ -79,11 +79,11 @@ const formatDate = (date: Date) =>
       <div class="container">
         <div class="section-header">
           <h2>Recent additions</h2>
-          <a href="/reviews" class="section-link">Full archive &rarr;</a>
+          <a href="/journal" class="section-link">Full archive &rarr;</a>
         </div>
         <div class="review-list review-list--grid">
           {latest.map((review, i) => (
-            <a href={`/reviews/${review.id}`} class={`review-card animate-in animate-in--delay-${i + 1}`}>
+            <a href={`/journal/${review.id}`} class={`review-card animate-in animate-in--delay-${i + 1}`}>
               <article class="card">
                 <p class="review-card__date">{formatDate(review.data.pubDate)}</p>
                 <h3 class="review-card__title">{review.data.title}</h3>

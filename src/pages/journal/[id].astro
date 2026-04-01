@@ -55,7 +55,7 @@ const relatedReviews = allReviews
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": `https://samrosehill.com/reviews/${review.id}`
+      "@id": `https://samrosehill.com/journal/${review.id}`
     },
     "articleSection": "Dental Research Reviews",
     "keywords": review.data.tags.join(", "),
@@ -82,7 +82,7 @@ const relatedReviews = allReviews
     "@type": "BreadcrumbList",
     "itemListElement": [
       { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://samrosehill.com" },
-      { "@type": "ListItem", "position": 2, "name": "Journal", "item": "https://samrosehill.com/reviews" },
+      { "@type": "ListItem", "position": 2, "name": "Journal", "item": "https://samrosehill.com/journal" },
       { "@type": "ListItem", "position": 3, "name": review.data.title }
     ]
   })} />
@@ -91,7 +91,7 @@ const relatedReviews = allReviews
     <div class="container container--narrow">
       <!-- Header -->
       <header class="article__header animate-in">
-        <a href="/reviews" class="back-link">&larr; Back to journal</a>
+        <a href="/journal" class="back-link">&larr; Back to journal</a>
         <div class="article__meta">
           <p class="label label--accent">{formatDate(review.data.pubDate)}</p>
           <p class="article__reading-time">{readingMinutes} min read</p>
@@ -151,7 +151,7 @@ const relatedReviews = allReviews
           <p class="label label--accent related-articles__label">More from the archive</p>
           <div class="related-articles__grid">
             {relatedReviews.map((r) => (
-              <a href={`/reviews/${r.id}`} class="related-card">
+              <a href={`/journal/${r.id}`} class="related-card">
                 <span class="related-card__date">{formatDate(r.data.pubDate)}</span>
                 <span class="related-card__title">{r.data.title}</span>
                 <span class="related-card__read">Read &rarr;</span>
@@ -163,7 +163,7 @@ const relatedReviews = allReviews
 
       <!-- End nav -->
       <div class="article__end">
-        <a href="/reviews" class="btn btn--ghost">&larr; Back to journal</a>
+        <a href="/journal" class="btn btn--ghost">&larr; Back to journal</a>
       </div>
     </div>
   </article>

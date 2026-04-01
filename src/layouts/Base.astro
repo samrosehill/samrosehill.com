@@ -106,7 +106,7 @@ const ogImageUrl = ogImage ? new URL(ogImage, Astro.site).href : '';
         <a href="/" class="nav__brand">Dr. Samuel Rosehill</a>
         <ul class="nav__links">
           <li><a href="/" aria-current={currentPage === 'home' ? 'page' : undefined}>Home</a></li>
-          <li><a href="/reviews" aria-current={currentPage === 'reviews' ? 'page' : undefined}>Journal</a></li>
+          <li><a href="/journal" aria-current={currentPage === 'journal' ? 'page' : undefined}>Journal</a></li>
           <li><a href="/projects" aria-current={currentPage === 'projects' ? 'page' : undefined}>Projects</a></li>
           <li><a href="/about" aria-current={currentPage === 'about' ? 'page' : undefined}>About</a></li>
         </ul>
@@ -123,7 +123,7 @@ const ogImageUrl = ogImage ? new URL(ogImage, Astro.site).href : '';
       <button class="nav__mobile-close" id="nav-mobile-close" aria-label="Close navigation menu">&times;</button>
       <ul class="nav__mobile-links">
         <li><a href="/" aria-current={currentPage === 'home' ? 'page' : undefined}>Home</a></li>
-        <li><a href="/reviews" aria-current={currentPage === 'reviews' ? 'page' : undefined}>Journal</a></li>
+        <li><a href="/journal" aria-current={currentPage === 'journal' ? 'page' : undefined}>Journal</a></li>
         <li><a href="/projects" aria-current={currentPage === 'projects' ? 'page' : undefined}>Projects</a></li>
         <li><a href="/about" aria-current={currentPage === 'about' ? 'page' : undefined}>About</a></li>
         <li><a href="/privacy">Privacy</a></li>
@@ -149,7 +149,7 @@ const ogImageUrl = ogImage ? new URL(ogImage, Astro.site).href : '';
             <p class="footer__col-title">Navigate</p>
             <ul class="footer__link-list">
               <li><a href="/">Home</a></li>
-              <li><a href="/reviews">Journal</a></li>
+              <li><a href="/journal">Journal</a></li>
               <li><a href="/projects">Projects</a></li>
               <li><a href="/about">About</a></li>
               <li><a href="/privacy">Privacy</a></li>

@@ -12,14 +12,14 @@ const formatDate = (date: Date) =>
   date.toLocaleDateString('en-AU', { year: 'numeric', month: 'long', day: 'numeric' });
 ---
 
-<Base title="Journal" description="Recent publications from the prosthodontic, restorative and implant dentistry literature." currentPage="reviews">
+<Base title="Journal" description="Recent publications from the prosthodontic, restorative and implant dentistry literature." currentPage="journal">
   <!-- CollectionPage schema -->
   <script slot="head" type="application/ld+json" set:html={JSON.stringify({
     "@context": "https://schema.org",
     "@type": "CollectionPage",
     "name": "Dental Research Reviews",
     "description": "Recent publications from the prosthodontic, restorative and implant dentistry literature — reviewed for clinical relevance.",
-    "url": "https://samrosehill.com/reviews",
+    "url": "https://samrosehill.com/journal",
     "author": {
       "@type": "Person",
       "name": "Dr. Samuel Rosehill",
@@ -33,7 +33,7 @@ const formatDate = (date: Date) =>
     "@type": "BreadcrumbList",
     "itemListElement": [
       { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://samrosehill.com" },
-      { "@type": "ListItem", "position": 2, "name": "Journal", "item": "https://samrosehill.com/reviews" }
+      { "@type": "ListItem", "position": 2, "name": "Journal", "item": "https://samrosehill.com/journal" }
     ]
   })} />
 
@@ -56,7 +56,7 @@ const formatDate = (date: Date) =>
   {featured && (
     <section class="featured-section">
       <div class="container">
-        <a href={`/reviews/${featured.id}`} class="featured-split animate-in">
+        <a href={`/journal/${featured.id}`} class="featured-split animate-in">
           <div class="featured-split__image">
             <img src={`/images/reviews/${featured.id}.png`} alt={featured.data.title} class="featured-split__img" loading="eager" />
           </div>
@@ -80,7 +80,7 @@ const formatDate = (date: Date) =>
     <div class="container">
       <div class="archive-grid">
         {rest.map((review, i) => (
-          <a href={`/reviews/${review.id}`} class={`archive-card animate-in animate-in--delay-${Math.min(i + 1, 4)}`}>
+          <a href={`/journal/${review.id}`} class={`archive-card animate-in animate-in--delay-${Math.min(i + 1, 4)}`}>
             <article>
               <div class="archive-card__image">
                 <img src={`/images/reviews/${review.id}.png`} alt={review.data.title} class="archive-card__img" loading="lazy" />
