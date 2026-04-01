@@ -96,7 +96,7 @@ def format_for_substack(slug: str) -> str:
     byline = (
         f"\n\n---\n\n"
         f"*This article was originally published on "
-        f"[samrosehill.com]({SITE_URL}/reviews/{slug}).*"
+        f"[samrosehill.com]({SITE_URL}/journal/{slug}).*"
     )
 
     formatted_body = body + byline
@@ -108,7 +108,7 @@ def format_for_substack(slug: str) -> str:
         f"SUBTITLE: {description}",
         f"DATE:     {pub_date}",
         f"TAGS:     {', '.join(selected_tags)}",
-        f"URL:      {SITE_URL}/reviews/{slug}",
+        f"URL:      {SITE_URL}/journal/{slug}",
         "=" * 70,
         "",
         formatted_body,
