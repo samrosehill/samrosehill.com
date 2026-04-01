@@ -103,7 +103,7 @@ const ogImageUrl = ogImage ? new URL(ogImage, Astro.site).href : '';
     <!-- Navigation — glassmorphic sticky with ghost border -->
     <nav class="nav">
       <div class="container nav__inner">
-        <a href="/" class="nav__brand">Dr. Samuel Rosehill</a>
+        <a href="/" class="nav__brand">dr<span class="nav__brand-sep">/</span>samuel<span class="nav__brand-sep">/</span><span class="nav__brand-last">rosehill</span><span class="nav__brand-cursor">_</span></a>
         <ul class="nav__links">
           <li><a href="/" aria-current={currentPage === 'home' ? 'page' : undefined}>Home</a></li>
           <li><a href="/journal" aria-current={currentPage === 'journal' ? 'page' : undefined}>Journal</a></li>
@@ -134,39 +134,24 @@ const ogImageUrl = ogImage ? new URL(ogImage, Astro.site).href : '';
       <slot />
     </main>
 
-    <!-- Footer — multi-column editorial -->
-    <footer class="footer">
+    <!-- Footer — endnote -->
+    <footer class="footer" role="contentinfo">
       <div class="container">
-        <div class="footer__grid">
-          <div>
-            <div class="footer__brand">Dr. Samuel Rosehill</div>
-            <p class="footer__text">
-              A clinical archive of dental research reviews and case notes
-              from a prosthodontic enthusiast in Coffs Harbour, NSW.
-            </p>
-          </div>
-          <div>
-            <p class="footer__col-title">Navigate</p>
-            <ul class="footer__link-list">
-              <li><a href="/">Home</a></li>
-              <li><a href="/journal">Journal</a></li>
-              <li><a href="/projects">Projects</a></li>
-              <li><a href="/about">About</a></li>
-              <li><a href="/privacy">Privacy</a></li>
-            </ul>
-          </div>
-          <div>
-            <p class="footer__col-title">Elsewhere</p>
-            <ul class="footer__link-list">
-              <li><a href="https://www.ethical.dental" target="_blank" rel="noopener">Ethical Dental</a></li>
-              <li><a href="https://www.linkedin.com/in/sam-rosehill-74905755/" target="_blank" rel="noopener">LinkedIn</a></li>
-              <li><a href="https://samuelrosehill.substack.com" target="_blank" rel="noopener">Substack</a></li>
-            </ul>
-          </div>
+        <div class="footer__endnote">
+          <span class="footer__number" aria-hidden="true">1</span>
+          <p class="footer__text">
+            A clinical archive of dental research reviews and case notes. This collection includes
+            a <a href="/journal">journal</a> of research reviews,
+            ongoing <a href="/projects">projects</a>,
+            and notes <a href="/about">about the author</a>.
+            Further work appears at <a href="https://www.ethical.dental" target="_blank" rel="noopener">Ethical Dental</a>,
+            <a href="https://www.linkedin.com/in/sam-rosehill-74905755/" target="_blank" rel="noopener">LinkedIn</a>,
+            and <a href="https://samuelrosehill.substack.com" target="_blank" rel="noopener">Substack</a>.
+            See also: <a href="/">home</a>, <a href="/privacy">privacy</a>.
+          </p>
         </div>
-        <div class="footer__bottom">
-          &copy; {new Date().getFullYear()} Dr. Samuel Rosehill. Built with care in Coffs Harbour.
-        </div>
+        <p class="footer__brand">dr/samuel/<span class="footer__brand-last">rosehill</span><span class="footer__brand-cursor">_</span></p>
+        <p class="footer__meta">Coffs Harbour, NSW &middot; &copy; {new Date().getFullYear()} Dr. Samuel Rosehill</p>
       </div>
     </footer>
   </body>
