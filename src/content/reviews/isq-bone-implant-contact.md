@@ -1,7 +1,7 @@
 ---
 title: "Implant Stability and Bone Contact: When the Numbers Don't Tell the Whole Story"
 description: "Chang et al. find no correlation between directional ISQ values and bone-to-implant contact in a cadaver study — suggesting the reassuring beep from your Osstell is measuring implant shoulder engagement, not total osseointegration."
-pubDate: 2026-03-29
+pubDate: 2025-07-18
 paperTitle: "Implant Stability Quotient and Bone-to-Implant Contact Analyses of Immediately Placed Implants in Human Cadavers"
 paperAuthors: "Chang JW, Bi J, Min S, Gräfin von Krockow N & Weigl P"
 paperJournal: "International Journal of Periodontics and Restorative Dentistry"

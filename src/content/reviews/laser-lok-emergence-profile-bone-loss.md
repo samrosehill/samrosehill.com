@@ -1,7 +1,7 @@
 ---
 title: "When the Surface Does the Heavy Lifting: Laser-Lok and the Emergence Profile Question"
 description: "Laser-microtextured implant collars may neutralise the bone loss risks of wider emergence angles and convex profiles — a 10-year retrospective study suggests the surface treatment matters more than the restoration contour."
-pubDate: 2026-03-31
+pubDate: 2025-11-28
 paperTitle: "Influence of Prosthetic Emergence Profiles and Emergence Angles on Marginal Bone Loss Around Implants with and without Laser-Microtextured Collar Surface: A Retrospective Study"
 paperAuthors: "Guarnieri, R. et al."
 paperJournal: "The International Journal of Prosthodontics"

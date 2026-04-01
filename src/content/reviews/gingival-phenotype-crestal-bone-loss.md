@@ -1,7 +1,7 @@
 ---
 title: "The Gingiva Has Been Narrating Your Implant's Future All Along"
 description: "Breunig et al. follow 162 implants for up to twenty years and discover that gingival phenotype predicts crestal bone loss and peri-implantitis risk — with thick, flat tissue emerging as the long-term troublemaker nobody expected."
-pubDate: 2026-03-30
+pubDate: 2024-08-20
 paperTitle: "Influence of gingival phenotype on crestal bone loss at implants: A long-term 2 to 20-year cohort study in periodontally compromised patients"
 paperAuthors: "Breunig, Stiller, Mogk & Mengel"
 paperJournal: "International Journal of Implant Dentistry"

@@ -1,7 +1,7 @@
 ---
 title: "The Collagen Matrix Won at Three Months. Then the Graft Fought Back."
 description: "Ashurko et al. pit a xenogeneic volume-stable collagen matrix against the subepithelial connective tissue graft for buccal soft tissue augmentation at simultaneous implant placement — and the results flip between three and six months."
-pubDate: 2026-03-30
+pubDate: 2025-04-27
 paperTitle: "3D-Analysis of Peri-Implant Soft Tissue Gain With Collagen Matrix and Connective Tissue Graft: A Randomized Control Trial"
 paperAuthors: "Ashurko, I., Tarasenko, S., Magdalyanova, M., Balyasin, M., Galyas, A., Kazumyan, S., Safi, N. & Unkovskiy, A."
 paperJournal: "Clinical Implant Dentistry and Related Research"

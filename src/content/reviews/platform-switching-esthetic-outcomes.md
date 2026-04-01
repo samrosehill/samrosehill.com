@@ -1,7 +1,7 @@
 ---
 title: "Platform Switching and the Pursuit of Pink: What the Esthetic Evidence Actually Shows"
 description: "A systematic review of 24 clinical studies finds that platform-switching implants improve soft tissue esthetics and stabilise marginal bone — but the advantage over conventional designs is partial, not absolute."
-pubDate: 2026-03-31
+pubDate: 2025-07-01
 paperTitle: "Assessing the Esthetic Impact of Platform-Switching Implant Designs: A Systematic Review of Clinical Evidence"
 paperAuthors: "Benli, M. & Cayouette, M.J."
 paperJournal: "International Journal of Oral and Maxillofacial Implants"

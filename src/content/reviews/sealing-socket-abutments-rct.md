@@ -1,7 +1,7 @@
 ---
 title: "Composite vs Zirconia Socket Sealers: Pick Your Trade-Off"
 description: "A randomised clinical trial compares chairside composite and prefabricated zirconia sealing socket abutments for posterior immediate implants — finding that composite preserves buccal volume while zirconia delivers shallower probing depths."
-pubDate: 2026-03-30
+pubDate: 2025-07-29
 paperTitle: "Chairside vs Prefabricated Sealing Socket Abutments for Posterior Immediate Implants: A Randomized Clinical Trial"
 paperAuthors: "Gnusins, V; Akhondi, S; Zvirblis, T; Pala, K; Gallucci, GO; Puisys, A"
 paperJournal: "Clinical Implant Dentistry and Related Research"

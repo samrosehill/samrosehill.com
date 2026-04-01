@@ -1,7 +1,7 @@
 ---
 title: "Sintering Temperature and Zirconia's Secret Handshake with Strength"
 description: "Lower sintering temperatures produce mechanically superior conventional zirconia, whilst translucent formulations stubbornly resist this advantage regardless of heat protocol — Brunetto et al. clarify what the firing chart has been trying to tell us."
-pubDate: 2026-03-29
+pubDate: 2025-09-24
 paperTitle: "Effect of Sintering Temperature on the Microstructure and Mechanical Properties of Conventional and Translucent Zirconia"
 paperAuthors: "Brunetto et al."
 paperJournal: "International Journal of Prosthodontics"

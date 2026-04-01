@@ -1,7 +1,7 @@
 ---
 title: "The Fractured Crown's Second Chance: What 126 Studies Say About Ceramic Repair"
 description: "A scoping review of 126 studies maps the repair protocol landscape for fractured ceramics — hydrofluoric acid plus silane wins for glass ceramics, while air abrasion with MDP-containing primers leads for zirconia."
-pubDate: 2026-04-01
+pubDate: 2026-01-07
 paperTitle: "Managing Fractured Ceramic Restorations: Current Evidence and Best Practices — A Scoping Review"
 paperAuthors: "Almeida et al."
 paperJournal: "Journal of Esthetic and Restorative Dentistry"

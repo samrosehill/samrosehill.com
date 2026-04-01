@@ -1,7 +1,7 @@
 ---
 title: "Your Metal Sleeves Might Be Making Your Surgical Guides Worse"
 description: "Ballesteros et al. compare 3D-printed and milled surgical guides with and without metal sleeves — and find that sleeveless guides consistently outperform sleeved ones for implant placement accuracy."
-pubDate: 2026-03-30
+pubDate: 2025-07-04
 paperTitle: "A Comparative Study on the Accuracy of Implant Placement Using 3D-Printed and Milled Guides Without Metal Sleeves"
 paperAuthors: "Ballesteros, J., Vásquez, S., Revilla-León, M. & Gómez-Polo, M."
 paperJournal: "Clinical Implant Dentistry and Related Research"

@@ -1,7 +1,7 @@
 ---
 title: "What If You Only Need to Fill Half the Socket?"
 description: "Hsieh et al. compare half-grafted and full-grafted alveolar ridge preservation using serial CBCT over 12 months — and while the full graft holds its horizontal dimensions better, volumetric outcomes and implant health are equivalent."
-pubDate: 2026-03-31
+pubDate: 2026-01-19
 paperTitle: "The Effectiveness of Different Grafting Strategies in Alveolar Ridge Preservation: A Retrospective Study of Two- and Three-Dimensional Radiographic Analysis"
 paperAuthors: "Hsieh, CH, Kuo, PY, Chiu, MY & Lin, CY"
 paperJournal: "International Journal of Oral and Maxillofacial Implants"

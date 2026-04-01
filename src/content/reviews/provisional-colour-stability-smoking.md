@@ -1,7 +1,7 @@
 ---
 title: "Your Patient's Provisional Just Survived Three Weeks of Smoking. The Colour Didn't."
 description: "Kader et al. expose 120 provisional restoration specimens to cigarette smoke and find that milled PMMA outperforms both conventional bis-acryl and 3D-printed resins for colour and translucency stability — with brushing only partially reversing the damage."
-pubDate: 2026-03-30
+pubDate: 2025-11-07
 paperTitle: "Color and Translucency Stability of Conventional, Milled, and 3D-Printed Provisional Restorative Materials After Cigarette Smoke Exposure and Brushing"
 paperAuthors: "Kader, İT; Albayrak, B; Köroğlu, EN; Kader, G"
 paperJournal: "The International Journal of Prosthodontics"

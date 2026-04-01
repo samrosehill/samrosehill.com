@@ -1,7 +1,7 @@
 ---
 title: "Static or Dynamic? Choosing Your Digital Guided Surgery Pathway"
 description: "Static and dynamic computer-aided implant surgery show comparable accuracy — clinical context, not assumed superiority, should drive the choice between them."
-pubDate: 2026-03-31
+pubDate: 2025-05-07
 paperTitle: "Digital Workflow and Guided Surgery in Implant Therapy—Literature Review and Practical Tips to Optimize Precision"
 paperAuthors: "Chen, C-S. et al."
 paperJournal: "Clinical Implant Dentistry and Related Research"

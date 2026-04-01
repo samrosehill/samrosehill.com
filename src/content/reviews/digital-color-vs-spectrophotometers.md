@@ -1,7 +1,7 @@
 ---
 title: "Can Your Phone Camera Replace a Spectrophotometer?"
 description: "Kizilkaya and colleagues test whether standardised digital photography with colour-analysis software can match the spectrophotometer for shade matching — and the answer is complicated."
-pubDate: 2026-03-29
+pubDate: 2026-01-29
 paperTitle: "Can Digital Color Applications be an Alternative to Color Spectrophotometers?"
 paperAuthors: "Kizilkaya, Kara & İpek"
 paperJournal: "International Journal of Prosthodontics"

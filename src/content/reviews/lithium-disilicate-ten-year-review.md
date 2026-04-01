@@ -1,7 +1,7 @@
 ---
 title: "A Decade of Gleaming Promises: What Ten Years Teaches Us About Chairside Lithium Disilicate"
 description: "Fasbinder et al. track 100 IPS e.max CAD crowns over ten years and find 92% survival — with a twist: cement choice barely affects longevity overall, but determines whether your crown debonds or fractures."
-pubDate: 2026-03-29
+pubDate: 2025-03-12
 paperTitle: "Clinical Evaluation of Lithium Disilicate Chairside CAD/CAM Crowns After 10 Years"
 paperAuthors: "Fasbinder DJ, Neiva GD, Heys D & Heys RJ"
 paperJournal: "International Journal of Prosthodontics"

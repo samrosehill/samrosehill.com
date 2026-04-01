@@ -1,7 +1,7 @@
 ---
 title: "Grinding With a GPS: Computer-Guided Occlusal Adjustment Goes Digital"
 description: "A fully digital workflow for occlusal adjustment — from virtual articulator simulation to 3D-printed grinding guides — offers a glimpse of how technology might tame one of prosthodontics' most unpredictable chairside procedures."
-pubDate: 2026-03-31
+pubDate: 2026-03-06
 paperTitle: "Functional Improvement of Occlusion for a Patient with Acquired Open Bite Using a Fully Digital Workflow of Computer-Guided Occlusal Adjustment"
 paperAuthors: "Zhang, Y. et al."
 paperJournal: "The International Journal of Prosthodontics"

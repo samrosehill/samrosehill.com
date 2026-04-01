@@ -1,7 +1,7 @@
 ---
 title: "The Healing Abutment Taxonomy Nobody Knew They Needed"
 description: "Manfredini et al. wade through 1,961 records to propose a unified three-tier healing abutment classification — and discover that the field has been arguing about things nobody agreed to define in the first place."
-pubDate: 2026-03-29
+pubDate: 2026-02-06
 paperTitle: "Healing Abutment Classification in Implant Dentistry: A Systematic Review"
 paperAuthors: "Manfredini et al."
 paperJournal: "International Journal of Prosthodontics"

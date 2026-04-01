@@ -1,7 +1,7 @@
 ---
 title: "Your Surgical Guide's Accuracy Depends on Which Way It Faced the Printer"
 description: "Salih et al. show that vertical (90°) build orientation produces DLP-printed implant surgical guides with 40–110 µm less deviation than horizontal (0°), and the molar region is the biggest offender — an in vitro study with real workflow implications."
-pubDate: 2026-03-30
+pubDate: 2026-03-13
 paperTitle: "Impact of Build Orientation on the Dimensional Accuracy of DLP-Printed Implant Surgical Guides: An In Vitro Study"
 paperAuthors: "Salih, YAA; Aboelfadl, AK; Rafla, NEB"
 paperJournal: "International Journal of Oral and Maxillofacial Implants"

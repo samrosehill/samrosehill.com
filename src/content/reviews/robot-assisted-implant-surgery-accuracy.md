@@ -1,7 +1,7 @@
 ---
 title: "The Robot in the Room: Accuracy of Robot-Assisted Versus Freehand Implant Surgery"
 description: "Younis et al. compare the Remebot robot-assisted system against freehand implant placement across 95 implants — and the accuracy gap is not marginal. It's threefold."
-pubDate: 2026-03-29
+pubDate: 2025-01-10
 paperTitle: "Accuracy of Robot-Assisted Implant Surgery Versus Freehand Implant Surgery: A Retrospective Study"
 paperAuthors: "Younis et al."
 paperJournal: "International Journal of Implant Dentistry"
