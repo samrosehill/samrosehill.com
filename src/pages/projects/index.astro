@@ -2,7 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import { getCollection, render } from 'astro:content';
 
-const cases = await getCollection('cases');
+const cases = await getCollection('projects');
 
 const rendered = await Promise.all(
   cases.map(async (c) => {
@@ -24,14 +24,14 @@ const statusClass: Record<string, string> = {
 };
 ---
 
-<Base title="Projects" description="Side projects — things I'm building, testing, or figuring out outside the peer-reviewed literature." currentPage="cases">
+<Base title="Projects" description="Side projects — things I'm building, testing, or figuring out outside the peer-reviewed literature." currentPage="projects">
   <!-- Page header -->
   <section class="page-header">
     <div class="container">
       <p class="label label--accent animate-in">Projects</p>
       <h1 class="animate-in animate-in--delay-1">Side projects</h1>
       <p class="page-intro animate-in animate-in--delay-2">
-        Things I'm building, testing, or figuring out outside the peer-reviewed literature.
+        Things I'm building, testing, or figuring out.
       </p>
     </div>
   </section>
@@ -41,7 +41,7 @@ const statusClass: Record<string, string> = {
       <div class="showcase-list">
         {rendered.map((c, i) => (
           <article class={`showcase-card card animate-in animate-in--delay-${Math.min(i + 1, 4)}`}>
-            <header class="showcase-card__header">
+            <div class="showcase-card__top">
               <div class="showcase-card__title-row">
                 <h2 class="showcase-card__title">{c.data.title}</h2>
                 <span class={`status-badge ${statusClass[c.data.status]}`}>
@@ -49,27 +49,29 @@ const statusClass: Record<string, string> = {
                 </span>
               </div>
               <p class="showcase-card__description">{c.data.description}</p>
-            </header>
-
-            <div class="prose showcase-card__body">
-              <c.Content />
+              <div class="showcase-card__actions">
+                <div class="showcase-card__tags">
+                  {c.data.tags.map((tag: string) => (
+                    <span class="chip">{tag}</span>
+                  ))}
+                </div>
+                {c.data.url && (
+                  <a href={c.data.url} target="_blank" rel="noopener" class="btn btn--primary">
+                    Visit project
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M7 17L17 7" /><path d="M7 7h10v10" />
+                    </svg>
+                  </a>
+                )}
+              </div>
             </div>
 
-            <footer class="showcase-card__footer">
-              <div class="showcase-card__tags">
-                {c.data.tags.map((tag: string) => (
-                  <span class="chip">{tag}</span>
-                ))}
+            <details class="showcase-card__details">
+              <summary class="showcase-card__toggle">Read more</summary>
+              <div class="prose showcase-card__body">
+                <c.Content />
               </div>
-              {c.data.url && (
-                <a href={c.data.url} target="_blank" rel="noopener" class="btn btn--primary">
-                  Visit project
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M7 17L17 7" /><path d="M7 7h10v10" />
-                  </svg>
-                </a>
-              )}
-            </footer>
+            </details>
           </article>
         ))}
       </div>
@@ -125,17 +127,16 @@ const statusClass: Record<string, string> = {
     padding: var(--space-10);
   }
 
-  .showcase-card__header {
-    margin-bottom: var(--space-8);
-    padding-bottom: var(--space-6);
-    border-bottom: 1px solid var(--ghost-border);
+  .showcase-card__top {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
   }
 
   .showcase-card__title-row {
     display: flex;
     align-items: center;
     gap: var(--space-4);
-    margin-bottom: var(--space-3);
     flex-wrap: wrap;
   }
 
@@ -153,6 +154,21 @@ const statusClass: Record<string, string> = {
     line-height: 1.7;
     max-width: 65ch;
     margin: 0;
+  }
+
+  .showcase-card__actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-4);
+    margin-top: var(--space-2);
+    flex-wrap: wrap;
+  }
+
+  .showcase-card__tags {
+    display: flex;
+    gap: var(--space-2);
+    flex-wrap: wrap;
   }
 
   /* Status badges */
@@ -182,26 +198,50 @@ const statusClass: Record<string, string> = {
     color: var(--on-surface-variant);
   }
 
-  /* Card body (rendered markdown) */
-  .showcase-card__body {
-    margin-bottom: var(--space-8);
-  }
-
-  /* Footer with tags + CTA */
-  .showcase-card__footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: var(--space-4);
-    padding-top: var(--space-6);
+  /* Expandable details */
+  .showcase-card__details {
+    margin-top: var(--space-6);
     border-top: 1px solid var(--ghost-border);
-    flex-wrap: wrap;
+    padding-top: var(--space-4);
   }
 
-  .showcase-card__tags {
-    display: flex;
+  .showcase-card__toggle {
+    font-size: 0.8125rem;
+    font-weight: 500;
+    color: var(--primary-dark);
+    cursor: pointer;
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
     gap: var(--space-2);
-    flex-wrap: wrap;
+    padding: var(--space-2) 0;
+    transition: color var(--duration-fast) ease;
+  }
+
+  .showcase-card__toggle::-webkit-details-marker {
+    display: none;
+  }
+
+  .showcase-card__toggle::after {
+    content: '↓';
+    font-size: 0.75rem;
+    transition: transform var(--duration-medium) var(--ease-out);
+  }
+
+  .showcase-card__details[open] .showcase-card__toggle::after {
+    transform: rotate(180deg);
+  }
+
+  .showcase-card__details[open] .showcase-card__toggle {
+    margin-bottom: var(--space-4);
+  }
+
+  .showcase-card__toggle:hover {
+    color: var(--primary);
+  }
+
+  .showcase-card__body {
+    margin-bottom: 0;
   }
 
   /* Empty state */
@@ -247,7 +287,7 @@ const statusClass: Record<string, string> = {
       padding: var(--space-6);
     }
 
-    .showcase-card__footer {
+    .showcase-card__actions {
       flex-direction: column;
       align-items: flex-start;
     }

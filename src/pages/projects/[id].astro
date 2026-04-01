@@ -2,12 +2,12 @@
 import { getCollection } from 'astro:content';
 
 export async function getStaticPaths() {
-  const cases = await getCollection('cases');
+  const cases = await getCollection('projects');
   return cases.map((c) => ({
     params: { id: c.id },
     props: { entry: c },
   }));
 }
 
-return Astro.redirect('/cases', 301);
+return Astro.redirect('/projects', 301);
 ---

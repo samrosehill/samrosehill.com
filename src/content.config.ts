@@ -19,8 +19,8 @@ const reviews = defineCollection({
   }),
 });
 
-const cases = defineCollection({
-  loader: glob({ pattern: '**/*.md', base: './src/content/cases' }),
+const projects = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/projects' }),
   schema: z.object({
     title: z.string(),
     description: z.string(),
@@ -31,4 +31,4 @@ const cases = defineCollection({
   }),
 });
 
-export const collections = { reviews, cases };
+export const collections = { reviews, projects };
