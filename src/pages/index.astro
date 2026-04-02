@@ -174,8 +174,12 @@ const formatTags = (tags: string[]) =>
     text-decoration: none;
     color: inherit;
     border-left: 1px solid var(--ghost-border);
-    padding: var(--space-4) 0 var(--space-4) var(--space-5);
+    padding: var(--space-5) 0 var(--space-6) var(--space-5);
     transition: border-color var(--duration-fast) ease;
+  }
+
+  .folio__sidebar-item + .folio__sidebar-item {
+    margin-top: var(--space-6);
   }
 
   .folio__sidebar-item:hover {
@@ -187,6 +191,8 @@ const formatTags = (tags: string[]) =>
     font-family: 'JetBrains Mono', monospace;
     font-size: 0.625rem;
     color: var(--outline);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
     margin-bottom: var(--space-1);
   }
 
@@ -241,7 +247,11 @@ const formatTags = (tags: string[]) =>
 
     .folio__sidebar {
       border-top: 1px solid var(--ghost-border);
-      padding-top: var(--space-4);
+      padding-top: var(--space-6);
+    }
+
+    .folio__sidebar-item + .folio__sidebar-item {
+      margin-top: var(--space-8);
     }
   }
 </style>
