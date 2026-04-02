@@ -10,6 +10,9 @@ const latest = reviews.slice(1, 4);
 
 const formatDate = (date: Date) =>
   date.toLocaleDateString('en-AU', { year: 'numeric', month: 'long', day: 'numeric' });
+
+const formatTags = (tags: string[]) =>
+  tags.slice(0, 3).join(' / ');
 ---
 
 <Base title="Home" currentPage="home">
@@ -27,207 +30,218 @@ const formatDate = (date: Date) =>
     }
   })} />
 
-  <!-- Hero — asymmetric 7/5 grid -->
-  <section class="hero">
-    <div class="container grid-12">
-      <div class="col-7 hero__content animate-in">
-        <p class="label label--accent">A Clinical Archive</p>
-        <h1>Reviews from the dental literature.</h1>
-        <p class="hero__sub">
-          Recent publications reviewed for clinical relevance by Dr. Samuel Rosehill.
-        </p>
-        <div class="hero__actions">
-          <a href="/journal" class="btn btn--primary">Browse the archive</a>
-          <a href="/about" class="btn btn--ghost">About the author</a>
-        </div>
-      </div>
-      <div class="col-5 hero__aside animate-in animate-in--delay-2">
-        <div class="hero__stat-card">
-          <p class="hero__stat-label">Areas of Focus</p>
-          <p class="hero__stat-value">Prosthodontics<br/>Digital Dentistry<br/>Implantology</p>
-          <p class="hero__stat-sub">Shade matching · 3D printing · Soft tissue · Biomaterials</p>
+  <!-- Hero — compact byline -->
+  <section class="hero animate-in">
+    <div class="container">
+      <p class="label label--accent">A Clinical Archive</p>
+      <p class="hero__byline">
+        by Dr. Samuel Rosehill — prosthodontics, digital dentistry, and implantology.
+      </p>
+    </div>
+  </section>
+
+  <!-- Split Folio — teal rail -->
+  <section class="folio">
+    <div class="container">
+      <div class="folio__split">
+        <!-- Featured article — teal rail -->
+        {featured && (
+          <div class="folio__featured animate-in">
+            <a href={`/journal/${featured.id}`} class="folio__featured-link">
+              <p class="folio__date">{formatDate(featured.data.pubDate)}</p>
+              <h2 class="folio__title">{featured.data.title}</h2>
+              <p class="folio__desc">{featured.data.description}</p>
+              <p class="folio__tags">{formatTags(featured.data.tags)}</p>
+              <p class="folio__read">Read review &rarr;</p>
+            </a>
+          </div>
+        )}
+
+        <!-- Sidebar — recent entries -->
+        <div class="folio__sidebar">
+          {latest.map((review, i) => (
+            <a href={`/journal/${review.id}`} class={`folio__sidebar-item animate-in animate-in--delay-${i + 1}`}>
+              <p class="folio__sidebar-date">{formatDate(review.data.pubDate)}</p>
+              <h3 class="folio__sidebar-title">{review.data.title}</h3>
+              <p class="folio__sidebar-snip">{review.data.description.slice(0, 80)}...</p>
+            </a>
+          ))}
+          <a href="/journal" class="folio__archive-link animate-in animate-in--delay-4">Full archive &rarr;</a>
         </div>
       </div>
     </div>
   </section>
-
-  <!-- Featured Review — dark overlay card -->
-  {featured && (
-    <section class="section--toned">
-      <div class="container">
-        <p class="label" style="margin-bottom: var(--space-6);">Featured Review</p>
-        <a href={`/journal/${featured.id}`} class="featured-review animate-in">
-          <article class="card--featured">
-            <p class="featured-review__label">{formatDate(featured.data.pubDate)}</p>
-            <h2 class="featured-review__title">{featured.data.title}</h2>
-            <p class="featured-review__desc">{featured.data.description}</p>
-            <div class="featured-review__tags">
-              {featured.data.tags.map((tag: string) => (
-                <span class="chip chip--light">{tag}</span>
-              ))}
-            </div>
-            <p class="featured-review__read">Read review &rarr;</p>
-          </article>
-        </a>
-      </div>
-    </section>
-  )}
-
-  <!-- More Reviews — card grid -->
-  {latest.length > 0 && (
-    <section>
-      <div class="container">
-        <div class="section-header">
-          <h2>Recent additions</h2>
-          <a href="/journal" class="section-link">Full archive &rarr;</a>
-        </div>
-        <div class="review-list review-list--grid">
-          {latest.map((review, i) => (
-            <a href={`/journal/${review.id}`} class={`review-card animate-in animate-in--delay-${i + 1}`}>
-              <article class="card">
-                <p class="review-card__date">{formatDate(review.data.pubDate)}</p>
-                <h3 class="review-card__title">{review.data.title}</h3>
-                <p class="review-card__description">{review.data.description}</p>
-                <div class="review-card__tags">
-                  {review.data.tags.map((tag: string) => (
-                    <span class="chip">{tag}</span>
-                  ))}
-                </div>
-              </article>
-            </a>
-          ))}
-        </div>
-      </div>
-    </section>
-  )}
 </Base>
 
 <style>
+  /* Hero — compact */
   .hero {
-    padding: var(--space-24) 0 var(--space-20);
-    align-items: center;
+    padding: var(--space-10) 0 var(--space-6);
+    border-bottom: 1px solid var(--ghost-border);
   }
 
-  .hero__content {
-    display: flex;
-    flex-direction: column;
-    gap: var(--space-6);
-  }
-
-  .hero__content .label {
-    margin-bottom: 0;
-  }
-
-  .hero__content h1 {
-    max-width: 18ch;
-    line-height: 1.1;
-  }
-
-  .hero__sub {
-    font-size: 1.0625rem;
+  .hero__byline {
+    font-family: var(--font-headline);
+    font-style: italic;
+    font-size: 0.9375rem;
     color: var(--on-surface-variant);
-    line-height: 1.7;
-    max-width: 48ch;
-  }
-
-  .hero__actions {
-    display: flex;
-    gap: var(--space-4);
     margin-top: var(--space-2);
   }
 
-  .hero__aside {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  /* Split Folio */
+  .folio {
+    padding: var(--space-8) 0 var(--space-16);
   }
 
-  .hero__stat-card {
-    background: var(--surface-container-lowest);
-    border: 1px solid var(--ghost-border);
-    border-radius: 0.5rem;
-    padding: var(--space-8) var(--space-6);
-    box-shadow: var(--shadow-ambient);
-    text-align: center;
-    width: 100%;
-    max-width: 280px;
+  .folio__split {
+    display: grid;
+    grid-template-columns: 7fr 5fr;
+    gap: var(--space-8);
   }
 
-  .hero__stat-label {
-    font-family: var(--font-body);
+  /* Featured — teal rail */
+  .folio__featured {
+    border-left: 2px solid var(--primary);
+    padding-left: var(--space-6);
+  }
+
+  .folio__featured-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .folio__featured-link:hover {
+    text-decoration: none;
+  }
+
+  .folio__date {
+    font-family: 'JetBrains Mono', monospace;
     font-size: 0.6875rem;
-    font-weight: 600;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
     color: var(--on-surface-variant);
-    margin-bottom: var(--space-4);
-  }
-
-  .hero__stat-value {
-    font-family: var(--font-headline);
-    font-size: 1.375rem;
-    color: var(--primary-dark);
-    line-height: 1.3;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
     margin-bottom: var(--space-3);
   }
 
-  .hero__stat-sub {
-    font-size: 0.8125rem;
-    color: var(--on-surface-variant);
+  .folio__title {
+    font-family: var(--font-headline);
+    font-size: clamp(1.375rem, 3vw, 1.75rem);
+    line-height: 1.22;
+    color: var(--on-surface);
+    margin-bottom: var(--space-4);
+    transition: color var(--duration-fast) ease;
   }
 
-  .section-header {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-    margin-bottom: var(--space-8);
-  }
-
-  .section-link {
-    font-size: 0.8125rem;
-    font-weight: 500;
+  .folio__featured-link:hover .folio__title {
     color: var(--primary-dark);
   }
 
-  .section-link:hover {
-    text-decoration: none;
-    opacity: 0.8;
+  .folio__desc {
+    font-size: 0.9375rem;
+    color: var(--on-surface-variant);
+    line-height: 1.65;
+    margin-bottom: var(--space-4);
+    max-width: 55ch;
   }
 
-  .featured-review__tags {
+  .folio__tags {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.6875rem;
+    color: var(--outline);
+    margin-bottom: var(--space-4);
+  }
+
+  .folio__read {
+    font-size: 0.8125rem;
+    font-weight: 500;
+    color: var(--primary);
+    transition: opacity var(--duration-fast) ease;
+  }
+
+  .folio__featured-link:hover .folio__read {
+    opacity: 0.75;
+  }
+
+  /* Sidebar */
+  .folio__sidebar {
     display: flex;
-    gap: var(--space-2);
-    margin-bottom: var(--space-6);
-    flex-wrap: wrap;
+    flex-direction: column;
   }
 
-  @media (max-width: 1024px) {
-    .hero {
-      padding: var(--space-16) 0 var(--space-12);
-    }
+  .folio__sidebar-item {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    border-left: 1px solid var(--ghost-border);
+    padding: var(--space-4) 0 var(--space-4) var(--space-5);
+    transition: border-color var(--duration-fast) ease;
   }
 
+  .folio__sidebar-item:hover {
+    text-decoration: none;
+    border-color: var(--primary);
+  }
+
+  .folio__sidebar-date {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.625rem;
+    color: var(--outline);
+    margin-bottom: var(--space-1);
+  }
+
+  .folio__sidebar-title {
+    font-family: var(--font-headline);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.3;
+    color: var(--on-surface);
+    margin-bottom: var(--space-1);
+    transition: color var(--duration-fast) ease;
+  }
+
+  .folio__sidebar-item:hover .folio__sidebar-title {
+    color: var(--primary-dark);
+  }
+
+  .folio__sidebar-snip {
+    font-size: 0.8125rem;
+    color: var(--outline);
+    line-height: 1.45;
+  }
+
+  .folio__archive-link {
+    display: block;
+    font-size: 0.8125rem;
+    font-weight: 500;
+    color: var(--primary);
+    padding: var(--space-4) 0 0 var(--space-5);
+    text-decoration: none;
+  }
+
+  .folio__archive-link:hover {
+    text-decoration: none;
+    opacity: 0.75;
+  }
+
+  /* Responsive */
   @media (max-width: 768px) {
     .hero {
-      padding: var(--space-12) 0 var(--space-8);
+      padding: var(--space-8) 0 var(--space-4);
     }
 
-    .hero__content h1 {
-      max-width: 100%;
+    .folio {
+      padding: var(--space-6) 0 var(--space-12);
     }
 
-    .hero__aside {
-      justify-content: flex-start;
+    .folio__split {
+      grid-template-columns: 1fr;
+      gap: var(--space-10);
     }
 
-    .hero__stat-card {
-      text-align: left;
-      max-width: 100%;
-    }
-
-    .hero__actions {
-      flex-direction: column;
-      align-items: flex-start;
+    .folio__sidebar {
+      border-top: 1px solid var(--ghost-border);
+      padding-top: var(--space-4);
     }
   }
 </style>
