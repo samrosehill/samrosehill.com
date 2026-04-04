@@ -1,7 +1,7 @@
 ---
 title: "Translucent Zirconia Matches Metal-Ceramic at 5 Years in a Digital Workflow RCT"
 description: "Gseibat et al.'s 5-year prospective RCT finds translucent monolithic zirconia posterior crowns achieve 100% survival and comparable clinical performance to metal-ceramic restorations fabricated via digital workflow."
-pubDate: 2026-04-04
+pubDate: 2024-10-04
 paperTitle: "Clinical outcome of translucent zirconia and metal-ceramic posterior crowns in a digital workflow: A 5-year prospective randomized clinical trial"
 paperAuthors: "Gseibat M et al."
 paperJournal: "Journal of Prosthodontics"

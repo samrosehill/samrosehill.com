@@ -1,7 +1,7 @@
 ---
 title: "Endocrowns vs. Crowns — A Meta-Analysis Finds No Survival Difference"
 description: "Niakou et al.'s systematic review and meta-analysis finds endocrowns offer comparable survival and complication rates to conventional crowns on structurally compromised teeth."
-pubDate: 2026-04-03
+pubDate: 2025-12-12
 paperTitle: "Complications and Survival Rates of Endocrowns vs. Crowns: A Systematic Review and Meta-Analysis"
 paperAuthors: "Niakou A et al."
 paperJournal: "The International Journal of Prosthodontics"

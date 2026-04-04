@@ -1,7 +1,7 @@
 ---
 title: "The Digital Immediate Implant Workflow: Beautiful Results, Uncomfortable Failure Rate"
 description: "Donker and colleagues test a fully digital workflow for immediate implant placement and provisionalization in the maxillary aesthetic zone — prefabricated temporaries, guided surgery, excellent aesthetics — but a 10% early failure rate complicates the narrative."
-pubDate: 2026-04-02
+pubDate: 2025-04-04
 paperTitle: "Immediate Implant Placement and Provisionalization in the Aesthetic Zone Using a Digital Workflow: A 1-Year Prospective Case Series Study"
 paperAuthors: "Donker VJJ, Raghoebar GM, Vissink A & Meijer HJA"
 paperJournal: "Clinical Implant Dentistry and Related Research"

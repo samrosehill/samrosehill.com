@@ -1,7 +1,7 @@
 ---
 title: "4 mm Is Where They Notice — VDO Increases and Facial Perception"
 description: "Kim et al. quantify the vertical dimension threshold at which facial changes become perceptible, finding 4 mm is the tipping point for observer detection."
-pubDate: 2026-04-03
+pubDate: 2025-12-26
 paperTitle: "Evaluation of Perceptual and Anthropometrical Facial Changes According to Increase in Vertical Dimension of Occlusion"
 paperAuthors: "Kim S-W, Ko K-H, Huh Y-H, Cho L-R, Park C-J"
 paperJournal: "Journal of Oral Rehabilitation"

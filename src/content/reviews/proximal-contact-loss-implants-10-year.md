@@ -1,7 +1,7 @@
 ---
 title: "The Gap Nobody Warned You About: Proximal Contact Loss After 10 Years of Implant Function"
 description: "A Korean retrospective study finds proximal contact loss in more than half of implants functioning for over a decade. Here is what the data means for how you monitor long-term implant patients."
-pubDate: 2026-04-04
+pubDate: 2026-02-20
 paperTitle: "Proximal contact loss between implants loaded for more than 10 years and adjacent teeth"
 paperAuthors: "Kim et al."
 paperJournal: "Journal of Periodontal and Implant Science"

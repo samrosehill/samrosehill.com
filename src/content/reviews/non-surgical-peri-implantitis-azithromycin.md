@@ -1,7 +1,7 @@
 ---
 title: "Three Pills, No Surgery: Azithromycin's Surprisingly Good Showing in Peri-implantitis"
 description: "A dual-centre retrospective study finds that adjunctive systemic azithromycin added to non-surgical debridement produces meaningful pocket depth reduction and radiographic bone gain in peri-implantitis cases with intrabony defects. Here's what the numbers mean for your clinic."
-pubDate: 2026-04-04
+pubDate: 2026-04-03
 paperTitle: "Non-Surgical Treatment of Peri-implantitis Associated Intrabony Defects with the Use of Adjunctive Systemic Azithromycin: Clinical and Radiographic Outcomes of a Dual-Centre Retrospective Study"
 paperAuthors: "Leira et al."
 paperJournal: "International Journal of Oral and Maxillofacial Implants"

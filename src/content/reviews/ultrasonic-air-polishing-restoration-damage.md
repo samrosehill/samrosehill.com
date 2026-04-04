@@ -1,7 +1,7 @@
 ---
 title: "Your Hygienist Might Be Scratching Your Crowns — and the Evidence Says It Matters"
 description: "A systematic review of 42 laboratory studies reveals that ultrasonic scaling and air polishing damage dental restorations, with material-specific effects on surface roughness and marginal quality. Glycine and erythritol powders emerge as the least destructive options."
-pubDate: 2026-04-01
+pubDate: 2025-05-23
 paperTitle: "Adverse Effects of Ultrasonic Instrumentation and Air Polishing on Dental Restorations: A Systematic Review of Laboratory Studies"
 paperAuthors: "Esati J, Amran T, Weiger R, et al."
 paperJournal: "Journal of Esthetic and Restorative Dentistry"

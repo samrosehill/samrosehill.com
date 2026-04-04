@@ -1,7 +1,7 @@
 ---
 title: "What German Implant Surgeons Actually Do — A 276-Clinician Survey"
 description: "Pabst et al. survey 276 oral and maxillofacial surgeons in Germany, revealing the gap between evidence-based ideals and real-world implant practice patterns."
-pubDate: 2026-04-03
+pubDate: 2026-03-28
 paperTitle: "Current treatment concepts in implantology in oral and maxillofacial surgery in Germany"
 paperAuthors: "Pabst A, Wiegner J, Schneider M, Weyer N, Bartella A, Becker P, Zeller A-N"
 paperJournal: "International Journal of Implant Dentistry"

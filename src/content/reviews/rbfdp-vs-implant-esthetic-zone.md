@@ -1,7 +1,7 @@
 ---
 title: "The Resin-Bonded Bridge Deserves More Respect"
 description: "Abduljabbar and colleagues compare single-retainer lithium disilicate RBFDPs with implant-supported single crowns in the esthetic zone across five Swedish clinics, finding 87.9% vs 96.7% five-year survival but equivalent patient satisfaction."
-pubDate: 2026-04-01
+pubDate: 2025-06-13
 paperTitle: "A Retrospective Clinical Multicenter Study of Single Retainer Glass-Ceramic Resin Bonded Fixed Dental Prostheses and Implant-Supported Single Crowns in the Esthetic Zone"
 paperAuthors: "Abduljabbar, ZA, Eliasson, A, Franke Stenport, V & Hjalmarsson, L"
 paperJournal: "International Journal of Prosthodontics"

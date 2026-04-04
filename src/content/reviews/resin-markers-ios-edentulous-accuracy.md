@@ -1,7 +1,7 @@
 ---
 title: "The $2 Fix for Scanning Edentulous Arches"
 description: "Flowable composite resin markers placed between scan bodies significantly improve intraoral scanning accuracy for edentulous mandibular arches, offering a simple, low-cost enhancement to digital implant workflows."
-pubDate: 2026-04-02
+pubDate: 2025-08-08
 paperTitle: "Enhancing Intraoral Scanning Accuracy for Mandibular Edentulous Arches Using Resin Markers: An In Vitro Study"
 paperAuthors: "Hongseok A, McCoy MT, Bompolaki D"
 paperJournal: "International Journal of Oral and Maxillofacial Implants"

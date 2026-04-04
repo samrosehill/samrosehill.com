@@ -1,7 +1,7 @@
 ---
 title: "The Number That Should Make You Nervous About Anterior Implants"
 description: "Dong and colleagues analyse 2,620 anterior implants across 2,023 patients and find that insertion torque below 30 N/cm carries a staggering 13-fold increase in early failure risk — dwarfing every other variable in the model."
-pubDate: 2026-04-02
+pubDate: 2025-02-07
 paperTitle: "Analysis of Risk Factors for Early Implant Failure in the Anterior Region: A Retrospective Study of 2620 Implants"
 paperAuthors: "Dong S, Lv J, Wang L, et al."
 paperJournal: "Clinical Implant Dentistry and Related Research"

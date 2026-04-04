@@ -1,7 +1,7 @@
 ---
 title: "Can AI Design a Crown? A Transformer Model Gets Surprisingly Close"
 description: "A novel transformer-based implicit neural network reconstructs missing tooth morphology across molars, premolars, and incisors with high dimensional accuracy — matching original crowns more closely than an experienced technician in some dimensions."
-pubDate: 2026-04-01
+pubDate: 2026-03-23
 paperTitle: "Automated reconstruction of missing tooth morphology using a transformer-based implicit neural network: A multi-tooth position evaluation"
 paperAuthors: "Wang Y, Shi Y, Li N, et al."
 paperJournal: "Journal of Prosthodontics"

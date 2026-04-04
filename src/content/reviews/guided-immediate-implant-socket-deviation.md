@@ -1,7 +1,7 @@
 ---
 title: "Your Guided Immediate Implant Will Drift Buccally. Every Time."
 description: "Doliveux and colleagues show that 95% of guided immediate implants in the anterior maxilla deviate buccally, and that planning outside the socket's long axis makes it significantly worse."
-pubDate: 2026-04-02
+pubDate: 2026-03-18
 paperTitle: "Influence of Socket Anatomy and Planning Factors on Deviation in Guided Immediate Implants: A Retrospective Cohort Study"
 paperAuthors: "Doliveux S, Garcia-Cañas A, Doliveux R, El Kholy K"
 paperJournal: "International Journal of Prosthodontics"

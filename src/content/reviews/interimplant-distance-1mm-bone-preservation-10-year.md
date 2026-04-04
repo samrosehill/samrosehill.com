@@ -1,7 +1,7 @@
 ---
 title: "One Millimetre Apart and Still Standing: A 10-Year Case Challenges the 3 mm Interimplant Rule"
 description: "A case report with 10-year follow-up shows two adjacent implants placed just 1 mm apart maintained interproximal crestal bone 1.40 mm above the implant shoulder, challenging the longstanding 3 mm interimplant distance guideline."
-pubDate: 2026-04-02
+pubDate: 2025-10-10
 paperTitle: "The impact of a 1 mm interimplant distance on the interproximal crestal bone height: a case report with a 10-year follow-up and literature review"
 paperAuthors: "Morales Schwarz, Szmukler-Moncler, Morales Melendez, Beuer"
 paperJournal: "International Journal of Implant Dentistry"

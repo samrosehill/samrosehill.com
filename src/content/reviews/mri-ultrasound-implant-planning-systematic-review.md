@@ -1,7 +1,7 @@
 ---
 title: "MRI and Ultrasound for Implant Planning — The Radiation-Free Alternative Arrives"
 description: "Zhang et al.'s systematic review finds MRI and ultrasound produce clinically acceptable measurements for implant planning, challenging CBCT's monopoly on preoperative imaging."
-pubDate: 2026-04-03
+pubDate: 2025-10-24
 paperTitle: "Are dental magnetic resonance imaging and ultrasonography techniques reliable alternatives for treatment planning dental implants? A systematic review and meta-analysis"
 paperAuthors: "Zhang H, Donaldson J, Neves VCM, Scott J"
 paperJournal: "International Journal of Implant Dentistry"

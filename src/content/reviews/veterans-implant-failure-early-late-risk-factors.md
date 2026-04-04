@@ -1,7 +1,7 @@
 ---
 title: "468,000 Implants Reveal What Actually Predicts Failure — and It's Not What You Think"
 description: "Griffin and colleagues mine the US Veterans Affairs database — 132,675 patients, 468,496 implants, 21 years — and find that prior failure history, not smoking or diabetes, is the strongest predictor of future failure, with an 86% intraclass correlation at the patient level."
-pubDate: 2026-04-02
+pubDate: 2025-08-29
 paperTitle: "Insights Into Early and Late Dental Implant Failures in Veterans—A Retrospective Cohort Analysis"
 paperAuthors: "Griffin AS, Miller AJ, Durham MR, et al."
 paperJournal: "Clinical Implant Dentistry and Related Research"
