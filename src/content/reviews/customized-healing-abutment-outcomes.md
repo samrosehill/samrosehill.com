@@ -1,7 +1,7 @@
 ---
 title: "Customised Healing Abutments: The Upgrade That Was Already Right in Front of Us"
 description: "A 2024 PRISMA-compliant systematic review of five clinical studies finds that customised healing abutments consistently trend toward better peri-implant soft and hard tissue outcomes than prefabricated titanium alternatives, with significantly improved Pink Aesthetic Scores and less chairside pain during crown delivery — though the evidence base remains small and the call for larger trials is urgent."
-pubDate: 2026-04-11
+pubDate: 2025-01-01
 paperTitle: "Systematic review of peri-implant conditions and aesthetic outcomes of customized versus conventional healing abutments"
 paperAuthors: "Ruhstorfer, M., Güth, J.F., Stimmelmayr, M., Waltenberger, L., Schubert, O. & Graf, T."
 paperJournal: "International Journal of Implant Dentistry"

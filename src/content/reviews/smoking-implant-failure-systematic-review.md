@@ -1,7 +1,7 @@
 ---
 title: "Smoking and Dental Implant Failure: The Numbers Are Worse Than You Think"
 description: "A major systematic review and meta-analysis of 44 studies finds cigarette smokers face 60% lower odds of implant survival and 0.64 mm additional crestal bone loss, while evidence on e-cigarettes and vaping remains virtually nonexistent."
-pubDate: 2026-04-05
+pubDate: 2026-03-22
 paperTitle: "Tobacco Smoking and Smoke-Free Products as Risk Factors for Dental Implants: A Systematic Review"
 paperAuthors: "Calciolari, E., Corbella, S., Dourou, M., Ercal, P. & Donos, N."
 paperJournal: "Clinical Oral Implants Research"

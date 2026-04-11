@@ -1,7 +1,7 @@
 ---
 title: "Does the Brand on Your Scan Body Actually Matter? A Clinical Trial Says Probably Not"
 description: "A clinical trial of 75 implant-supported fixed dental prostheses finds that generic and non-original scan bodies produce clinically equivalent restorations and statistically indistinguishable implant position transfers compared to original brand-matched scan bodies — suggesting the aftermarket option is a legitimate choice in the complete digital workflow."
-pubDate: 2026-04-09
+pubDate: 2025-04-21
 paperTitle: "Comparison of fixed dental prostheses digitally fabricated using various scan bodies: a clinical study"
 paperAuthors: "Boz, FD & Akca, K"
 paperJournal: "The Journal of Advanced Prosthodontics"

@@ -1,7 +1,7 @@
 ---
 title: "Where the Global Consensus Ran Out of Answers"
 description: "While the 1st Global Consensus for Clinical Guidelines (GCCG) reached clear agreement on surgical and augmentation questions for the edentulous maxilla — as covered in the companion Fiorellini consensus report — this companion survey by Schoenbaum and colleagues found that the prosthetic planning variables (implant number, timing, and loading) told a different story: 117 experts from 42 countries, and strong consensus on precisely nothing."
-pubDate: 2026-04-12
+pubDate: 2026-03-18
 paperTitle: "1st Global Consensus for Clinical Guidelines for the Rehabilitation of the Edentulous Maxilla: A Single-Round Survey on the Number of Implants, Timing of Implant Placement, and Loading for Fixed Restorations"
 paperAuthors: "Schoenbaum, T.R., Lin, G.H., Brunello, G., Strauss, F.J., Schwarz, F., Jung, R.E. & Wang, H.L."
 paperJournal: "Clinical Oral Implants Research"

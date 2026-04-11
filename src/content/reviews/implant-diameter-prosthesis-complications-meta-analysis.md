@@ -1,7 +1,7 @@
 ---
 title: "Does Implant Diameter Actually Predict Prosthesis Complications? A Meta-Analysis Says: Not Really"
 description: "A systematic review and meta-analysis of 18 studies finds that implant diameter has surprisingly little influence on most prosthesis complications — but narrow-diameter implants do show significantly fewer abutment fractures than standard ones."
-pubDate: 2026-04-08
+pubDate: 2025-01-20
 paperTitle: "Influence of Dental Implant Diameters on Prosthesis Complications: A Systematic Review and Meta-analysis"
 paperAuthors: "Yu-Ting Yeh, Lan-Lin Chiou, Hsuan-Hung Chen, Guo-Hao Lin, Richard T. Kao, Donald A. Curtis"
 paperJournal: "International Journal of Oral and Maxillofacial Implants"

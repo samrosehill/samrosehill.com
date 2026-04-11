@@ -1,7 +1,7 @@
 ---
 title: "Your Anxious Patient Will Hurt More at 6pm — Here's the Proof"
 description: "A prospective study of 332 implant patients finds preoperative dental anxiety independently predicts postoperative pain, but only up to a critical threshold score. What this means for how you screen patients before surgery."
-pubDate: 2026-04-07
+pubDate: 2026-02-02
 paperTitle: "Association Between Dental Anxiety and Pain Perception in Patients Receiving Dental Implants: An Observational Study"
 paperAuthors: "Chunqin Liu, Shumin Nie, Xiaoli Ren, Xiaohua Liu"
 paperJournal: "Clinical Implant Dentistry and Related Research"

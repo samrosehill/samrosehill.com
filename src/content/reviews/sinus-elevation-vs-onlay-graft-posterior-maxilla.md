@@ -1,7 +1,7 @@
 ---
 title: "When the Sinus Floor Is Your Floor: What Happens to Implants When You Have to Build Bone from Scratch"
 description: "A systematic review of 20 studies and 1,245 patients finds that sinus augmentation and combined sinus-onlay grafting produce similarly high implant survival rates in the resorbed posterior maxilla — but the evidence base is thin, and crown-to-implant ratio remains a largely unexamined complication driver."
-pubDate: 2026-04-07
+pubDate: 2025-07-21
 paperTitle: "The Effect of Sinus Elevation and Onlay Grafts on Biological and Technical Complications of Implants Placed in the Resorbed Posterior Maxilla: A Systematic Review and Analysis of Studies"
 paperAuthors: "Virat Hansrani, Jeenarak Duangsuwan, Megha Shah, Zeinab El Amami, Ali Abdallah, Thaleia Filokyprou, Dimitra Vasilaki, Konstantinos Michalakis"
 paperJournal: "International Journal of Oral and Maxillofacial Implants"

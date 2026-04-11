@@ -1,7 +1,7 @@
 ---
 title: "Finish with the Red Bur: What Your Prep Bur Colour Is Doing to Your Margins"
 description: "An in vitro study of 50 molar teeth finds that finishing CAD-CAM crown preparations with a fine-grit red diamond bur after coarser preparation cuts the mean marginal gap roughly in half, from 64 µm down to 28 µm."
-pubDate: 2026-04-07
+pubDate: 2026-02-24
 paperTitle: "Effect of bur grit size on the marginal adaptation of glass ceramic restorations"
 paperAuthors: "Büşra Sümbül, Anas Omer Abdelbagi Mohamed, Muharrem Erhan Çömlekoglu, Mine Dündar Çömlekoglu"
 paperJournal: "Journal of Prosthodontics"

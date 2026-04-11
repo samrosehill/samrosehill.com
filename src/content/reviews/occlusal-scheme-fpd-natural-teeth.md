@@ -1,7 +1,7 @@
 ---
 title: "No Evidence, Strong Opinions: The Occlusion Debate for Fixed Partial Dentures"
 description: "Goodacre and Goldstein's 2025 review finds zero clinical trials comparing occlusal schemes for tooth-supported FPDs, forcing the profession back to First Principles."
-pubDate: 2026-04-04
+pubDate: 2025-04-04
 paperTitle: "What occlusal scheme should be used for tooth-supported fixed partial dentures?"
 paperAuthors: "Goodacre, C & Goldstein, G"
 paperJournal: "Journal of Prosthodontics"

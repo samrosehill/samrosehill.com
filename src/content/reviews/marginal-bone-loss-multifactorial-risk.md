@@ -1,7 +1,7 @@
 ---
 title: "Five Risk Factors That Predict Marginal Bone Loss Around Implant Prostheses"
 description: "A multifactorial analysis of 404 implants identifies deep probing, absent keratinised mucosa, microgap abutments, inadequate transmucosal height, and periodontitis history as the key drivers of peri-implant bone loss."
-pubDate: 2026-04-06
+pubDate: 2026-01-28
 paperTitle: "Marginal Bone Level Changes in Implant-Supported Fixed Prostheses in a Retrospective Study: A Multifactorial Analysis"
 paperAuthors: "Chaiyaporn W, Tangsathian T, Supanimitkul K, Sophon N, Suwanwichit T, Lertpimonchai A, Pelekos G, Arunyanak SP, Kungsadalpipob K"
 paperJournal: "Clinical Implant Dentistry and Related Research"

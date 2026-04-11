@@ -1,7 +1,7 @@
 ---
 title: "3D-Printed Zirconia Crowns on Ti-Bases: The 30 µm Sweet Spot"
 description: "An in vitro study of 135 additively manufactured zirconia crowns finds that a 30 µm cement gap combined with Panavia 21 produces the best fit and highest pull-out resistance when bonding AM-Z crowns to Ti-base abutments — a clinically actionable finding for digital implant workflows."
-pubDate: 2026-04-10
+pubDate: 2025-07-25
 paperTitle: "Assessment of fit accuracy and retentive strength of additively manufactured zirconia crowns luted to Ti-base abutments with different resin cements: An in vitro study"
 paperAuthors: "Sasany, R., Uçar, S.M. & Yilmaz, B."
 paperJournal: "Journal of Prosthodontics"

@@ -1,7 +1,7 @@
 ---
 title: "Your Implant Crown Will Win the Occlusal Arms Race. Eventually."
 description: "A systematic review of eight prospective studies finds that implant-supported crowns, initially set light on purpose, progressively increase in occlusal force, contact area, and contact duration until they match or exceed adjacent natural teeth — often within months, sometimes years."
-pubDate: 2026-04-11
+pubDate: 2025-08-12
 paperTitle: "Occlusal Contact Changes in Implant-Supported Fixed Prostheses: A Systematic Review"
 paperAuthors: "Assoratgoon, I., Putra, R.H., Hihara, H., Kawata, T., Chiba, T., Rungsiyakull, P. & Yoda, N."
 paperJournal: "Journal of Oral Rehabilitation"

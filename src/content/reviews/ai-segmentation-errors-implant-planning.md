@@ -1,7 +1,7 @@
 ---
 title: "When the AI Gets the Anatomy Wrong"
 description: "A narrative review from the University of Florida catalogues the ways AI segmentation in implant planning software can fail — from misidentifying the inferior alveolar nerve to hallucinating anatomy that isn't there — and why clinicians must verify before they trust."
-pubDate: 2026-04-07
+pubDate: 2025-10-26
 paperTitle: "Artificial Intelligence Segmentation Errors in Implant Planning Software Programs: An Overview"
 paperAuthors: "Lawand G, Gonzaga L, Issa J, Revilla-Leon M, Tohme H, Saleh A, Martin W"
 paperJournal: "Clinical Implant Dentistry and Related Research"

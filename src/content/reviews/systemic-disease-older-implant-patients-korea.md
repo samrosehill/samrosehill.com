@@ -1,7 +1,7 @@
 ---
 title: "What 37,000 Older Implant Patients Tell Us About Medical Risk"
 description: "A nationwide Korean study reveals that nearly 9 in 10 patients over 65 receiving implants have at least one systemic disease — and the medications that worry clinicians most may not be the ones causing failures."
-pubDate: 2026-04-07
+pubDate: 2025-12-28
 paperTitle: "Systemic Conditions and Medication Use in Older Patients Undergoing Dental Implants: A Nationwide Cross-Sectional Study"
 paperAuthors: "Kim J, Huh J, Park GU, Kim JY, Park W"
 paperJournal: "Clinical Implant Dentistry and Related Research"

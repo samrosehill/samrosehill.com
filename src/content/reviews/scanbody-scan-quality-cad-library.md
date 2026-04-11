@@ -1,7 +1,7 @@
 ---
 title: "Your Scan Body Matched the Library File. The Scan Quality Did Not."
 description: "A retrospective cohort of 243 scanbodies at Hacettepe University finds that successful CAD library alignment does not guarantee adequate scan quality — nearly half showed rough texture representation, and original cylindrical PEEK scanbodies were over six times more likely to degrade than non-original aluminium alternatives."
-pubDate: 2026-04-10
+pubDate: 2025-03-11
 paperTitle: "A Retrospective Cohort Study on Scan Quality of Implant Scanbodies Matched With CAD Libraries"
 paperAuthors: "Demir Boz, F & Akça, K"
 paperJournal: "Clinical Implant Dentistry and Related Research"

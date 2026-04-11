@@ -1,7 +1,7 @@
 ---
 title: "An Open-Source AI Tool That Generates Dynamic Jaw Motion from Static Scans"
 description: "A scanner-agnostic Python workflow interpolates dynamic mandibular motion paths from four static interocclusal records, exporting motion files compatible with dental CAD software — no proprietary jaw tracker required."
-pubDate: 2026-04-06
+pubDate: 2025-12-03
 paperTitle: "Scanner-agnostic dynamic jaw motion generation from virtual static excursive records using open-source Python-based artificial intelligence (AI) interpolation"
 paperAuthors: "Omar MS, Yang CC, Morton D, Lin WS"
 paperJournal: "Journal of Prosthodontics"

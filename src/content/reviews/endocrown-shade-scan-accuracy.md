@@ -1,7 +1,7 @@
 ---
 title: "The Cavity Base Shade Nobody Was Watching"
 description: "An in vitro study finds that the shade of composite resin cavity bases in endocrown preparations significantly affects intraoral scanner accuracy — with lighter shades (A1 and B1) producing higher RMS trueness errors than darker shades (A2 and A3), a finding with direct workflow implications for clinicians planning digital impressions after root canal treatment."
-pubDate: 2026-04-11
+pubDate: 2025-07-16
 paperTitle: "Does Cavity Base Shade of Endocrowns Play a Role in the Accuracy of Intraoral Scans?"
 paperAuthors: "Ozden, I., Ozden, Y.E., Sazak Ovecoglu, H., Ozkurt Kayahan, Z. & Blatz, M.B."
 paperJournal: "Journal of Esthetic and Restorative Dentistry"

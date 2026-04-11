@@ -1,7 +1,7 @@
 ---
 title: "The Healing Abutment You've Already Used Three Times Is Harbouring Bacteria"
 description: "Reused healing abutments develop surface roughness, protein contamination, and microgaps averaging 43 µm — creating conditions for bacterial leakage that sterile components avoid entirely. A tightening torque of 15 N·cm largely eliminates the gap, but the fundamental case for single-use remains."
-pubDate: 2026-04-09
+pubDate: 2025-06-23
 paperTitle: "In Vitro Analysis of Structural Integrity and Surface Alterations of Reused Healing Abutments"
 paperAuthors: "Lee, W-W, Jun, J-H, Lee, J-H, Ryu, S, Hwang, K-G & Park, C-J"
 paperJournal: "Clinical Implant Dentistry and Related Research"

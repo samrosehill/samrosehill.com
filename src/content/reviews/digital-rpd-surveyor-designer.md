@@ -1,7 +1,7 @@
 ---
 title: "A Browser-Based Tool That Finally Brings RPD Design into the Digital Workflow"
 description: "The AiDENTAL RPD Surveyor and Designer is a lightweight web app that digitises diagnostic surveying, automates framework design, and closes the last major gap in the removable partial denture digital workflow."
-pubDate: 2026-04-06
+pubDate: 2025-05-06
 paperTitle: "Enhancing digital workflows for removable partial dentures: A novel diagnostic surveyor and designer"
 paperAuthors: "Mahrous A, Botsko DL, El-Gendy T, Elgreatly A"
 paperJournal: "Journal of Prosthodontics"

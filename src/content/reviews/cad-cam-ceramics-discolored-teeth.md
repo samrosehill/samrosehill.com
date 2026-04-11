@@ -1,7 +1,7 @@
 ---
 title: "Four Ways to Hide What a Tooth Is Hiding: CAD-CAM Ceramics for Discoloured Teeth"
 description: "Hongseok An at Oregon Health & Science University outlines four distinct shade-masking strategies for CAD-CAM ceramic restorations on discoloured teeth, from opaque monolithic zirconia with external staining to a bi-layered zirconia-lithium disilicate 'CAD-on' construction, each balancing masking power against the illusion of translucency."
-pubDate: 2026-04-10
+pubDate: 2026-03-20
 paperTitle: "CAD-CAM ceramic material options for discolored teeth"
 paperAuthors: "An, H"
 paperJournal: "The Journal of Prosthetic Dentistry"

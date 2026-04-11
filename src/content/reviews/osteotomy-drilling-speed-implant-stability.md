@@ -1,7 +1,7 @@
 ---
 title: "The Goldilocks Drill Speed: 300 RPM Wins the Implant Stability Race"
 description: "A randomised controlled trial of 100 patients comparing five osteotomy protocols finds that moderate-speed drilling at 300 rpm delivers the most consistent implant stability gains over three months, while bone condensation shows a worrying ISQ decline."
-pubDate: 2026-04-08
+pubDate: 2026-03-01
 paperTitle: "Comparison of Five Osteotomy Protocols on Implant Stability and Postoperative Anxiety: A Randomized Controlled Trial"
 paperAuthors: "Konuklu R, Küçükkurt S"
 paperJournal: "Clinical Implant Dentistry and Related Research"

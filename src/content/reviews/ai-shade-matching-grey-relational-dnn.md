@@ -1,7 +1,7 @@
 ---
 title: "The Machine That Picks Shades Better Than You Do (and Faster, and More Consistently)"
 description: "A prospective study of 150 patients finds that a deep neural network combined with grey relational analysis achieves 93.2% shade matching accuracy for anterior restorations — outperforming both visual assessment and spectrophotometry alone."
-pubDate: 2026-04-11
+pubDate: 2026-03-24
 paperTitle: "Integration of grey relational analysis and deep neural networks for optimized dental shade selection in aesthetic restorations"
 paperAuthors: "Ruan C, Yang H, Li Z, Wu Z, Wang L, Xiong J"
 paperJournal: "Journal of Prosthodontics"

@@ -1,7 +1,7 @@
 ---
 title: "One Abutment, One Time: The Evidence Says Yes, But Quietly"
 description: "A systematic review and meta-analysis of 11 RCTs finds the 'one abutment one time' protocol produces statistically significant reductions in marginal bone loss at 6 months, with a consistent directional trend at 12 months that narrowly missed significance after sensitivity analysis — the absolute benefit is modest and best realised with platform switching and taller abutments."
-pubDate: 2026-04-06
+pubDate: 2025-04-27
 paperTitle: "Final Prosthetic Abutment Insertion Time (One-Time Abutment Insertion Protocol Versus Conventional Protocol) and Related Outcomes: A Systematic Review of Randomized Controlled Trials with Meta-analysis"
 paperAuthors: "Nunes, M., Leitão, B., Pereira, M., Fernandes, J.C.H. & Fernandes, G.V.O."
 paperJournal: "International Journal of Oral and Maxillofacial Implants"

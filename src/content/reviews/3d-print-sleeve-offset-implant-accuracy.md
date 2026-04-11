@@ -1,7 +1,7 @@
 ---
 title: "The Goldilocks Zone for Surgical Guide Sleeves"
 description: "A new in vitro study from Sichuan University finds that 3D print offset settings for surgical guide sleeves have a dramatic effect on implant placement accuracy — and the margin between too tight and too loose is just 0.04 mm."
-pubDate: 2026-04-07
+pubDate: 2025-12-23
 paperTitle: "Effects of Three-Dimensional Print Offsets of Sleeves on Implant Placement Trueness: An In Vitro Study"
 paperAuthors: "Kang C, Hao S, Zhang C, Li X, Li S"
 paperJournal: "Clinical Implant Dentistry and Related Research"

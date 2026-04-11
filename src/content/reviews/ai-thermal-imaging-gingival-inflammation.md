@@ -1,7 +1,7 @@
 ---
 title: "Heat Signature: Can AI Read Gingival Inflammation Without a Probe?"
 description: "Çankaya et al. train an XGBoost model on thermal images of the anterior maxillary gingiva and achieve 92.7% accuracy classifying gingival inflammation — no probing, no contact, no operator variability."
-pubDate: 2026-04-09
+pubDate: 2025-10-30
 paperTitle: "Artificial Intelligence Assisted Thermal Imaging for Gingival Inflammation Assessment: A Novel Approach"
 paperAuthors: "Çankaya ZT, Koyuncu A, Gürbüz S"
 paperJournal: "Journal of Esthetic and Restorative Dentistry"

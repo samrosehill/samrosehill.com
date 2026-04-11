@@ -1,7 +1,7 @@
 ---
 title: "Sandblast It and Bond: Why Alumina Air-Abrasion Remains the Gold Standard for Zirconia"
 description: "An in vitro study comparing five zirconia surface treatments confirms that alumina air-particle abrasion delivers the highest and most durable bond strengths — and that heated hydrofluoric acid matches it, but at a practical cost nobody should pay."
-pubDate: 2026-04-09
+pubDate: 2025-06-02
 paperTitle: "The effect of different surface treatments on the bond strength to zirconia"
 paperAuthors: "FNU K, Musharbash L, Ozer F, Mante F, Conejo J, Upadhyaya V, Anadioti E, Blatz MB"
 paperJournal: "Journal of Prosthodontics"

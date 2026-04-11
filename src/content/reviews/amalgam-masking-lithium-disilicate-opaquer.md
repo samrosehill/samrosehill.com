@@ -1,7 +1,7 @@
 ---
 title: "The Grey Shadow That Kills a Ceramic Crown"
 description: "An in vitro study by Alkhazaleh and colleagues at Oregon Health & Science University finds that lithium disilicate alone — even at 2.0 mm — cannot mask amalgam show-through to acceptable levels, but a single layer of resin-based opaquer changes everything, with IPS e.max CAD reaching excellent masking at 2.0 mm when the substrate is opaqued."
-pubDate: 2026-04-12
+pubDate: 2025-04-07
 paperTitle: "Strategies for Masking Metal Show-Through in Disilicate Dental Ceramics: A Systematic Evaluation Using Different Assessment Techniques"
 paperAuthors: "Alkhazaleh, A., Fugolin, A.P.P., Cala, L.F., Watanabe, H. & Ferracane, J."
 paperJournal: "Journal of Esthetic and Restorative Dentistry"

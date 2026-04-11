@@ -1,7 +1,7 @@
 ---
 title: "The Rules of the Atrophic Maxilla, Finally Agreed Upon"
 description: "The 1st Global Consensus for Clinical Guidelines on edentulous maxilla rehabilitation has formalised expert agreement on CBCT imaging, membrane fixation, soft tissue augmentation, and sinus membrane perforation management — giving clinicians a practical, evidence-backed playbook for full-arch implant cases."
-pubDate: 2026-04-07
+pubDate: 2026-03-14
 paperTitle: "Consensus Report of Group 3 of the 1st Global Consensus for Clinical Guidelines for the Rehabilitation of the Edentulous Maxilla: Advanced Diagnostic Imaging, Augmentation Techniques, and Management of Complications"
 paperAuthors: "Joseph Fiorellini, Guo-Hao Lin, Isabella Rocchietta, Sean Mojaver, Tara Aghaloo, Kang-Min Ahn, Bilal Al-Nawas, Maurício Araújo, Jamil Awad Shibli, James Chow, Marcelo Faveri, Tobias Fretwurst, Markus Hürzeler, Darnell Kaigler, Fouad Khoury, Sungtae Kim, Marcel F. Kunrath, Hong-Chang Lai, Michel R. Messora, Robert Sader, Muhammad H. A. Saleh, Junyu Shi, Simon Storgård Jensen, Tiziano Testori, István Urban, Yiqun Wu, Alvin Zad, Hom-Lay Wang, Christer Dahlin"
 paperJournal: "Clinical Oral Implants Research"

@@ -1,7 +1,7 @@
 ---
 title: "Harvesting Bone From Your Own Backyard: In-Situ Onlay Grafts Outperform the Traditional Approach"
 description: "A retrospective study of 125 patients finds that in-situ bone onlay grafting — harvesting from the apical area of the implant site itself — produces significantly less resorption than ex-situ grafts from the chin or external oblique line during initial healing."
-pubDate: 2026-04-07
+pubDate: 2026-01-05
 paperTitle: "In-Situ vs. Ex-Situ Bone Onlay Grafting for Horizontal Ridge Augmentation of Anterior Teeth: A Retrospective Study"
 paperAuthors: "Lu K, Huang L, Gong J, Qian Y, Yang X, Yu M, Wang H"
 paperJournal: "Clinical Implant Dentistry and Related Research"

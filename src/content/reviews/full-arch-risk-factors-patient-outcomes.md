@@ -1,7 +1,7 @@
 ---
 title: "When the Patient Ticks Every Box: Full-Arch Implants, Risk Stratification, and the 46% Nobody Mentions"
 description: "A retrospective study of 256 immediately loaded full-arch implants in 50 patients identifies smoking, maxillary placement, female sex, and age over 65 as significant risk factors for marginal bone loss — while reporting a 98% implant survival rate and a mechanical complication rate that should prompt a frank preoperative conversation with every full-arch candidate."
-pubDate: 2026-04-12
+pubDate: 2026-02-09
 paperTitle: "A Retrospective Study of Clinical Risk Factors and Patient-Reported Outcomes of Full-Arch Implant-Supported Prostheses"
 paperAuthors: "Zhang, X., Wang, Y., Yang, K., Qin, X., Yang, J., Chen, T., Yang, S., Wang, H. & Wang, B."
 paperJournal: "Clinical Implant Dentistry and Related Research"

@@ -1,7 +1,7 @@
 ---
 title: "Guided Surgery vs Freehand: The Numbers Are In — And They're Not Equal"
 description: "A 2026 network meta-analysis of 18 studies and 780 immediately placed implants finds that every guided surgical protocol significantly outperforms freehand placement in angular, platform, and apex deviation — with robotic and dynamic navigation ranking highest, though their advantage over fully-guided static approaches narrows under RCT-restricted sensitivity analysis."
-pubDate: 2026-04-11
+pubDate: 2026-03-09
 paperTitle: "Accuracy of Static, Dynamic, and Robotic Guided Surgery in Immediate Implant Placement: A Systematic Review and Network Meta-Analysis"
 paperAuthors: "Nava, P., Sabri, H., Hazrati, P., Nava, C., Saleh, M.H.A. & Wang, H.L."
 paperJournal: "Clinical Oral Implants Research"

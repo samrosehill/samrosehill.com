@@ -1,7 +1,7 @@
 ---
 title: "How Many Implants Does a Maxillary Full-Arch Prosthesis Actually Need?"
 description: "A systematic review finds that maxillary full-arch fixed prostheses deliver high survival rates and patient satisfaction regardless of implant number — but direct comparative evidence remains surprisingly thin."
-pubDate: 2026-04-06
+pubDate: 2026-03-16
 paperTitle: "Patient- and Clinician-Reported Outcomes and Outcome Measures Evaluating Maxillary Full Arch Fixed Prostheses Supported by Different Numbers of Implants: A Systematic Review"
 paperAuthors: "Francisco H, Pinto C, Romito GA, Panutti CM, Marques D, Caramês J"
 paperJournal: "Clinical Oral Implants Research"

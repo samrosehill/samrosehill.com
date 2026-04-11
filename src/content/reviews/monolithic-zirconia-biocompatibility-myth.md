@@ -1,7 +1,7 @@
 ---
 title: "The Zirconia Biocompatibility Story Has a Footnote. The Footnote Is the Story."
 description: "Clinton Stevens' 2026 commentary in the International Journal of Periodontics & Restorative Dentistry argues that monolithic zirconia's reputation as the most biocompatible ceramic in dentistry is not supported by evidence — and that when soft-tissue response, enamel wear, tooth structure conservation, and clinical retrievability are assessed together, the claim quietly falls apart."
-pubDate: 2026-04-11
+pubDate: 2026-01-21
 paperTitle: "Monolithic Zirconia Is the Most Biocompatible Ceramic in Dentistry . . . NOT!"
 paperAuthors: "Stevens, C.D."
 paperJournal: "International Journal of Periodontics & Restorative Dentistry"

@@ -1,7 +1,7 @@
 ---
 title: "Your Intraoral Scanner Can Scan a Denture. Sort Of."
 description: "A novel marker-assisted IOS workflow from the University of Michigan enables accurate complete denture digitisation using a TRIOS4 and free Meshmixer software, without modifying the denture's critical border or intaglio surface."
-pubDate: 2026-04-07
+pubDate: 2025-05-11
 paperTitle: "Workflow to facilitate complete denture scanning with an intraoral scanner: A technique report"
 paperAuthors: "Jiayi Yu MS, Jiayi Lu DDS MS, Berna Saglik DDS MS, Junying Li DDS MS PhD"
 paperJournal: "Journal of Prosthodontics"

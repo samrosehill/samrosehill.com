@@ -1,7 +1,7 @@
 ---
 title: "Photogrammetry Beats Intraoral Scanning for Full-Arch Implant Accuracy — and It Is Not Close"
 description: "A systematic review and meta-analysis of 11 studies finds that stereophotogrammetry significantly outperforms intraoral scanning for full-arch implant impressions in precision, trueness, and angular accuracy."
-pubDate: 2026-04-10
+pubDate: 2025-07-20
 paperTitle: "Accuracy Of Stereophotogrammetry in Implant Scanning Compared to Intraoral Scanning in Completely Edentulous Patients – A Systematic Review and Meta-Analysis"
 paperAuthors: "Noronha CP, Ferreira C, Dantas M, da Silva EVF, Sesma N, Mukai M"
 paperJournal: "The International Journal of Prosthodontics"

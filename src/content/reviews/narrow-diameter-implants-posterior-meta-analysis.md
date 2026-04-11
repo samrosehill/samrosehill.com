@@ -1,7 +1,7 @@
 ---
 title: "Small Implants, Big Claims: Can Narrow-Diameter Fixtures Survive in the Posterior?"
 description: "Pachiou et al.'s 2025 systematic review and meta-analysis of 2,741 narrow-diameter implants finds 97.7% pooled survival in posterior sites — comparable to standard-diameter fixtures."
-pubDate: 2026-04-04
+pubDate: 2025-05-08
 paperTitle: "Narrow-diameter implants for treatment with fixed restorations in the posterior region: A systematic review and meta-analysis"
 paperAuthors: "Pachiou, A, Tsirogiannis, P, Ioannidis, A, et al."
 paperJournal: "Journal of Prosthodontics"
