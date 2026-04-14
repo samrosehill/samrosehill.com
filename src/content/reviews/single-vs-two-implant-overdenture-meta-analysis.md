@@ -1,7 +1,7 @@
 ---
 title: "One Implant, Half the Price — But Is It Half the Prosthesis?"
 description: "A systematic review and meta-analysis of 17 RCTs finds that single implant-supported mandibular overdentures deliver equivalent implant survival to two-implant designs at up to 5 years, but carry roughly twice the risk of denture fracture and need for full denture replacement — a trade-off with real implications for patients who can only afford one."
-pubDate: 2026-04-20
+pubDate: 2026-04-15
 paperTitle: "Single versus two implant-supported mandibular overdentures: a systematic review and meta-analysis of implant survival and prosthetic complications"
 paperAuthors: "Koyama, R., Shiratsuchi, H., Hasuike, A., Ohyama, T., Tamagawa, T., Furukawa, A., Namaki, S. & Yonenaga, K."
 paperJournal: "International Journal of Implant Dentistry"
