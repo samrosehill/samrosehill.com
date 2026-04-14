@@ -10,6 +10,7 @@ tags: ["white spot lesions", "activated charcoal", "tooth whitening", "post-orth
 clinicalRelevance: "Patients with post-orthodontic white spot lesions should be advised against unsupervised activated charcoal powders, particularly fluoride-free products. These porous incipient carious lesions may take up pigment rather than whiten, and staining may force a shift from non-invasive remineralisation or infiltration strategies to more invasive restorative treatment."
 verdict: "Charcoal stains white spots"
 pdfPath: "2MP Project/journals/Dental Materials/2025/Mosquim_2025_toothbrushing-with-activated-charcoal-may-stain-en.pdf"
+substackUrl: "https://samuelrosehill.substack.com/p/when-whitening-powder-turns-the-white"
 ---
 
 Activated charcoal has a marvellous retail talent for sounding like it has wandered in from both a wellness shelf and a barbecue at the same time. In "Toothbrushing with Activated Charcoal May Stain Enamel White Spot Lesions: A 4-Year Follow-up Case Report," Mosquim and colleagues describe the unhappy dental version of that trick: a whitening product that made post-orthodontic white spot lesions darker, not brighter. The patient was 15, newly out of fixed appliances, and trying to solve the sort of visible enamel opacity that can make a teenager distrust every mirror in the house.
