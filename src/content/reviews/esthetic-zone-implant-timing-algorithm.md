@@ -10,6 +10,7 @@ tags: ["immediate implant placement", "aesthetic zone", "anterior maxilla", "gin
 clinicalRelevance: "For single-tooth implant rehabilitation in the anterior maxilla, timing should not be chosen by habit or optimism. This diagnostic algorithm puts primary stability, buccal wall integrity, gingival phenotype, and gingival recession ahead of the calendar; immediate placement is most defensible when stability is predictable, the buccal wall is preserved or augmentable, the phenotype is favourable, and the jumping distance can be maintained at ≥ 2 mm."
 verdict: "Timing follows tissue risk"
 pdfPath: "2MP Project/journals/Implant Dentistry/2025/Deflorian_2025_timing-of-implant-placement-in-esthetic-area-diag.pdf"
+substackUrl: "https://samuelrosehill.substack.com/p/when-the-aesthetic-zone-says-wait"
 ---
 
 There is a particular unfairness to the failing maxillary central incisor: it often looks most urgent at precisely the moment it is least forgiving. The patient wants the tooth gone and the gap solved; the clinician has a CBCT, a provisional plan, and just enough optimism to be dangerous. In "Timing of Implant Placement in Esthetic Area: Diagnostic Algorithm for Clinical Decision Making," Deflorian and colleagues offer the antidote: a four-gate risk filter for anterior maxillary implant timing, built around primary stability, buccal bone integrity, gingival phenotype, and pre-existing recession.
