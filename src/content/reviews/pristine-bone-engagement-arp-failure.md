@@ -10,6 +10,7 @@ tags: ["alveolar ridge preservation", "implant failure", "risk factors", "pristi
 clinicalRelevance: "After alveolar ridge preservation, the implant still needs meaningful engagement with native bone. In this cohort, average pristine bone engagement below 1.1 mm approximately doubled failure risk, which makes residual native bone support a practical planning metric rather than an academic curiosity."
 verdict: "1.1 mm matters"
 pdfPath: "2MP Project/journals/Journal of Periodontal and Implant Science/2025/2025-01/Kang_2025_multivariable-analysis-to-identify-predictors-of-d.pdf"
+substackUrl: "https://samuelrosehill.substack.com/p/after-ridge-preservation-11-mm-might"
 ---
 
 Alveolar ridge preservation has sold the profession a very seductive proposition: extract the tooth, pack the socket, come back later, and find a tidy implant bed waiting for you with the good manners of a hotel room that has been turned down overnight. Kang and colleagues, in "Multivariable analysis to identify predictors of dental implant failure after alveolar ridge preservation: a non-interventional observational study," ask the inconvenient follow-up question. How much *native* bone does the implant still need to engage if it is actually going to last? Their answer is admirably specific: if average pristine bone engagement falls below 1.1 mm, failure risk rises sharply.

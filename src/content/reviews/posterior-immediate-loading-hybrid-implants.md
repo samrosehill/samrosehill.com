@@ -10,6 +10,7 @@ tags: ["immediate implant placement", "immediate loading", "posterior implants",
 clinicalRelevance: "In carefully selected posterior single-tooth sockets with intact plates and at least 3 mm of native apical bone, immediate placement and immediate loading on a tissue-level implant proved feasible over 6 months. The paper supports a cautious expert-hand workflow, not a general invitation to skip staged healing in every posterior extraction case."
 verdict: "Feasible, not yet routine"
 pdfPath: "2MP Project/journals/Implant Dentistry/2025/Kheur_2025_immediate-placement-and-loading-of-hybrid-design-i.pdf"
+substackUrl: "https://samuelrosehill.substack.com/p/the-posterior-tooth-came-out-the"
 ---
 
 Posterior immediate loading has usually been treated like an attractive but slightly unreliable dinner guest: welcome in carefully managed company, never seated near anything fragile, and certainly not trusted without a mature chaperone in the form of delayed loading. Kheur and colleagues, in "Immediate Placement and Loading of Hybrid Design Implants in the Posterior Zone Using Optimized Digital Protocols: A Proof of Concept," have a go at changing that mood. Their question is straightforward enough: if the socket is selected properly, the workflow is fully digital, and the implant is a tissue-level hybrid design with serious primary stability, can the provisional go in on the day the tooth comes out? In this tiny series, yes. Calm down, though.
