@@ -10,6 +10,7 @@ tags: ["post-core", "endocrown", "ferrule", "maxillary central incisor", "CAD/CA
 clinicalRelevance: "For severely destroyed anterior teeth with no ferrule, CAD/CAM single-piece glass-fibre post-cores deliver the highest fracture strength (median 331.6 N) and hybrid ceramic endocrowns are close behind (313.9 N) with similar repairable failure rates. Conventional glass-fibre posts are weaker but produce 100% repairable failures, clinically relevant when a rebondable debond is preferable to a root fracture. Lithium disilicate endocrowns underperformed markedly at 128.9 N and should be reconsidered in this context."
 verdict: "Hybrid endocrown holds its own"
 pdfPath: "2MP Project/journals/The International Journal of Prosthodontics/2026/Yagci_2026_evaluation-of-post-core-and-endocrown-restorations_1.pdf"
+substackUrl: "https://samuelrosehill.substack.com/p/when-theres-no-ferrule-left-post-dc1"
 ---
 
 The tooth has been decoronated to 1 mm above the cemento-enamel junction. The endodontic treatment is complete, the access cavity is sealed, and the question in the room is a very old one with a surprisingly sparse evidence base: post-core or endocrown? Yagci and colleagues at Erciyes University address that question in "Evaluation of Post-Core and Endocrown Restorations for Severely Destructed Maxillary Central Incisors: An In Vitro Study," asking which restoration holds up best when the ferrule simply is not there.
