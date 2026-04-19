@@ -1,6 +1,6 @@
 ---
 name: publish-pipeline
-description: "End-to-end orchestrator for the samrosehill.com dental review publishing pipeline. Chains paper-triage, article-writing, article-draft-check, thumbnail-generator, and publish-article into a single guided workflow with user checkpoints at each stage. Supports starting from any stage. Trigger when the user says 'publish pipeline', 'run the pipeline', 'full pipeline', 'start to finish', 'end to end', 'pipeline from [stage]', 'triage and publish', 'process this paper through the pipeline', or 'take this paper all the way to publication'."
+description: "End-to-end orchestrator for the samrosehill.com dental review publishing pipeline. Chains paper-triage, article-writing, article-draft-check, thumbnail-generator, and publish-article into a single guided workflow with user checkpoints at each stage. Supports starting from any stage. Trigger when the user says 'publication workflow', 'run the publication workflow', 'publish pipeline', 'run the pipeline', 'full pipeline', 'start to finish', 'end to end', 'pipeline from [stage]', 'triage and publish', 'process this paper through the pipeline', or 'take this paper all the way to publication'."
 version: 1.0.0
 author: samrosehill
 tags: [orchestration, pipeline, dental, publishing, workflow]
@@ -19,6 +19,7 @@ This skill delegates to five sub-skills. It does not duplicate their logic — i
 ## Invocation
 
 Triggered when the user says:
+- "publication workflow" / "run the publication workflow" / "start the publication workflow"
 - "publish pipeline" / "run the pipeline" / "full pipeline"
 - "start to finish" / "end to end"
 - "orchestrate" / "orchestrate publication"
@@ -167,6 +168,7 @@ The user can start at any stage. Detect the entry point from their message, then
 
 | User says | Entry stage | Prerequisites to validate |
 |-----------|------------|--------------------------|
+| "publication workflow" / "run the publication workflow" / "start the publication workflow" | Stage 0 | None |
 | "run the pipeline" / "full pipeline" | Stage 0 | None |
 | "write article for [PDF path]" | Stage 1 | PDF file exists at the given path |
 | "check and publish [draft path or slug]" | Stage 2 | Draft `.md` exists with valid frontmatter; source PDF locatable via `pdfPath` |
@@ -174,6 +176,24 @@ The user can start at any stage. Detect the entry point from their message, then
 | "publish [slug]" | Stage 4 | Article at `REVIEWS_SRC/[slug].md` AND thumbnail at `THUMBNAILS_DIR/[slug].png` both exist |
 
 **If prerequisites are missing:** Report exactly what is needed and ask the user to provide it. Do not silently drop back to an earlier stage.
+
+### Generic Invocation Rule
+
+If the user opens a new session and says only "publication workflow", "run the publication workflow", "run the pipeline", or similar generic pipeline language, interpret that as **start a new publication workflow pipeline from Stage 0 now**.
+
+Do **not** treat a generic invocation as implied permission to resume the most recent incomplete pipeline run. Resume is only the default when the user explicitly says they want to resume, continue the previous run, finish an incomplete pipeline, or names a specific in-progress slug/draft.
+
+### Regression Guard: Do Not Misclassify Housekeeping as a Pipeline Run
+
+When the user gives a generic pipeline invocation, do **not** inspect local git diffs, `substackUrl` writebacks, tracker CSV deltas, `pipeline-status.json`, or recently modified review files and then decide that the "real" task is to finish Stage 5/6/7 housekeeping for earlier articles.
+
+Those signals may describe leftover state from a previous session, but they do **not** override the user's intent. A generic publication-workflow request means: launch a **new** pipeline from Stage 0 unless the user explicitly asked to resume or supplied a concrete slug/draft/stage.
+
+In particular:
+- Do **not** infer that uncommitted `substackUrl` changes are the requested workflow.
+- Do **not** infer that recently edited review files are the requested workflow.
+- Do **not** skip Stage 0 just because completed or partially completed articles exist locally.
+- Do **not** treat "run the publication workflow" as permission to decide that the only work left is final metadata writeback.
 
 ---
 
@@ -183,7 +203,15 @@ The pipeline persists progress to `PIPELINE_STATUS` so that interrupted runs can
 
 ### On Pipeline Start (before any stage)
 
-Read `PIPELINE_STATUS`. If the file exists and contains articles with incomplete stages, display them:
+First classify the invocation:
+
+- **Generic new-run invocation:** "publication workflow", "run the publication workflow", "run the pipeline", "full pipeline", "start to finish", "end to end"
+- **Explicit resume invocation:** "resume", "continue previous pipeline", "pick up where we left off", "finish the incomplete run", or equivalent
+- **Specific mid-pipeline invocation:** user names a slug, stage, draft, or article path
+
+For a **generic new-run invocation**, do **not** interrupt the flow with a resume chooser just because `PIPELINE_STATUS` contains incomplete runs. Start a fresh Stage 0 triage run immediately. You may note incomplete runs briefly after triage begins if useful, but they are informational only and must not block the new pipeline.
+
+Only when the user makes an **explicit resume invocation** should you read `PIPELINE_STATUS` and display incomplete runs like this:
 
 ```
 ┌─────────────────────────────────────────────────────┐
@@ -717,7 +745,6 @@ api_error: [empty or exact API error summary]
 | Git commit failure | Display the git error. Do not attempt to resolve automatically — report and halt. |
 | Missing frontmatter fields | Report which fields are missing. Offer to populate them before continuing. |
 | Source PDF not found via pdfPath | Ask the user to provide the correct path. Do not skip factual accuracy checks. |
-
 ---
 
 ## Edge Cases
