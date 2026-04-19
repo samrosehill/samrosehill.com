@@ -12,7 +12,7 @@ verdict: "Single-cause thinking fails"
 pdfPath: "2MP Project/journals/Implant Dentistry/2025/Tarce_2025_peri-implantitis-risk-assessment-pira-part-1-um.pdf"
 ---
 
-A disease that can be shaped by smoking, plaque control, deep pockets, diabetes, recall compliance, implant location, previous periodontitis, teeth lost, occlusal overload, and whatever the clinician did to the site is still routinely discussed as though one villain walked in alone. Tarce and Quirynen, in "Peri-implantitis Risk Assessment (PiRA) Part 1: Umbrella Review of a Multifactorial Disease with Many Risk Factors," make the opposite case. Peri-implantitis is not a single-cause melodrama. It is an ensemble cast, and several members are troublemakers.
+A disease that can be shaped by smoking, plaque control, deep pockets, diabetes, recall compliance, implant location, previous periodontitis, teeth lost, occlusal overload, and whatever the clinician did to the site is still routinely discussed as though it were the work of a single villain. Tarce and Quirynen, in "Peri-implantitis Risk Assessment (PiRA) Part 1: Umbrella Review of a Multifactorial Disease with Many Risk Factors," make the opposite case. Peri-implantitis is not a single-cause melodrama. It is an ensemble cast, and several members are troublemakers.
 
 That matters because prevention is much more realistic than treatment once peri-implantitis has arrived and made itself comfortable. If the profession wants better patient selection and better consent conversations before implant placement, it needs a risk discussion that sounds less like fortune-telling and more like multivariable reasoning.
 
