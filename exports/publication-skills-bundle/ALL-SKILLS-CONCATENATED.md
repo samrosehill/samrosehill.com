@@ -156,6 +156,20 @@ Maintain and display this state block at every checkpoint. Update it as you prog
 
 For mid-pipeline entry, stages before the entry point are marked `SKIPPED (pre-existing)` — not `COMPLETE` — to indicate they were not validated during this pipeline run.
 
+### Durable Checkpoint Rule
+
+Do not rely on thread memory to remember pipeline progress. Treat the repository history as the durable memory for this workflow.
+
+- Create a checkpoint commit whenever a stage boundary produces tracked artifacts that future sessions may need to reconstruct.
+- At minimum, commit separately at these boundaries when tracked files changed:
+  - workflow or skill-rule changes
+  - Stage 1-3 checkpoint after drafted articles, QC fixes, and thumbnails are ready for review
+  - Stage 4 publication commit
+  - Stage 5-6 metadata/writeback commit
+- If only gitignored files changed at a stage boundary, say explicitly that there is no durable git checkpoint for that stage and summarise the state in the checkpoint message.
+- Do not continue into a later stage while assuming an earlier stage will be "remembered" from conversation context alone.
+- On explicit resume requests, inspect recent relevant commits as part of reconstructing state; do not depend solely on `PIPELINE_STATUS`.
+
 ---
 
 ## Browser Preview
@@ -168,6 +182,8 @@ At the Stage 1 and Stage 2 checkpoints, **always open the articles in the browse
 4. Wait for user feedback before proceeding
 
 This is the most accurate preview — it shows the article exactly as it will appear on the live site with the Newsreader/Public Sans typography, Tiffany blue accents, and source paper metadata block.
+
+**Important validation rule:** Do **not** use `file://.../dist/.../index.html` as a visual-rendering check. This site uses root-relative asset paths such as `/_astro/...` and `/images/...`, which do not resolve correctly when a built page is opened directly from the filesystem. That can create false "broken rendering" reports even when the page itself is fine. Prefer `http://localhost:[port]` over `127.0.0.1` when working through browser tooling, and if no HTTP preview is available, report that visual rendering is unverified rather than treating a `file://` preview as authoritative.
 
 ---
 
