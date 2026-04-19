@@ -10,6 +10,7 @@ tags: ["photogrammetry", "intraoral scanning", "complete-arch implants", "digita
 clinicalRelevance: "For complete-arch implant prostheses, photogrammetry currently appears more reliable than intraoral scanning alone for implant coordinate capture. IOS still has a role for soft tissue and opposing arch data, but this review supports caution before using it as the sole record for passive-fit full-arch frameworks."
 verdict: "Prototype try-in stays"
 pdfPath: "2MP Project/journals/Clinical Implant Dentistry and Related Research/2025/CIDR_Pozzi_cid.70059.pdf"
+substackUrl: "https://samuelrosehill.substack.com/p/photogrammetry-is-ahead-the-rigid"
 ---
 
 A complete-arch implant impression asks an intraoral scanner to do something unfair: find stable reference points among scan bodies, saliva, soft tissue, and a long edentulous span that gives the stitching algorithm very little to hold.

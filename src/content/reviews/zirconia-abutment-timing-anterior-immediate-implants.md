@@ -10,6 +10,7 @@ tags: ["immediate implants", "anterior maxilla", "zirconia abutment", "abutment 
 clinicalRelevance: "In carefully selected immediate anterior maxillary implants, placing the definitive zirconia abutment at day 4 did not improve 1-year bone, esthetic, or quality-of-life outcomes compared with waiting 3 months. The paper suggests that case selection, implant position, and tissue conditions may matter more than this specific timing tweak."
 verdict: "Timing changed little"
 pdfPath: "2MP Project/journals/Clinical Implant Dentistry and Related Research/2025/CIDR_Pohl_cid.70088.pdf"
+substackUrl: "https://samuelrosehill.substack.com/p/the-zirconia-abutment-changed-early"
 ---
 
 Implant dentistry loves turning tiny protocol choices into matters of destiny. Pohl and colleagues, in "Effect of Final Abutment Timing on Immediate Implant Success in Anterior Maxilla: A Randomized Controlled Trial," took one of the profession's more persistent hunches and tested it properly.
