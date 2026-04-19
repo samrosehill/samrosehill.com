@@ -10,6 +10,7 @@ tags: ["peri-implantitis", "risk factors", "umbrella review", "periodontitis", "
 clinicalRelevance: "This review supports preoperative risk discussions that stack factors together rather than fixating on a single culprit. A history of periodontitis, smoking, poor maintenance, deep residual pockets, diabetes, and broader treatment-related confounders should be read as a cluster, because that is how peri-implantitis behaves in real life."
 verdict: "Single-cause thinking fails"
 pdfPath: "2MP Project/journals/Implant Dentistry/2025/Tarce_2025_peri-implantitis-risk-assessment-pira-part-1-um.pdf"
+substackUrl: "https://samuelrosehill.substack.com/p/peri-implantitis-refuses-simple-stories"
 ---
 
 A disease that can be shaped by smoking, plaque control, deep pockets, diabetes, recall compliance, implant location, previous periodontitis, teeth lost, occlusal overload, and whatever the clinician did to the site is still routinely discussed as though it were the work of a single villain. Tarce and Quirynen, in "Peri-implantitis Risk Assessment (PiRA) Part 1: Umbrella Review of a Multifactorial Disease with Many Risk Factors," make the opposite case. Peri-implantitis is not a single-cause melodrama. It is an ensemble cast, and several members are troublemakers.

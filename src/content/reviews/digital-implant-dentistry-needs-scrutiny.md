@@ -10,6 +10,7 @@ tags: ["digital implant dentistry", "artificial intelligence", "3d printing", "r
 clinicalRelevance: "Digital workflows are useful when they are validated and when the clinician remains responsible for the judgement call. The practical message is to audit scanning, guide design, printer validation, consent language, and data handling with the same seriousness as the glamorous part of the workflow."
 verdict: "Innovation needs scrutiny"
 pdfPath: "2MP Project/journals/Implant Dentistry/2025/Stanford_2025_the-evolving-role-of-digital-implant-dentistry-th.pdf"
+substackUrl: "https://samuelrosehill.substack.com/p/innovation-is-lovely-scrutiny-is"
 ---
 
 The most modern sentence in implant dentistry may not be "the software can do that now" but "show me the validation". Clark Stanford, in "The Evolving Role of Digital Implant Dentistry: The Need to Balance Innovation with Scrutiny," makes the quietly unfashionable point that digital progress is not self-proving. It can be useful, dazzling, efficient, commercially irresistible, and still in need of adult supervision.
