@@ -9,6 +9,7 @@ paperYear: 2025
 tags: ["implantology", "short implants", "splinting", "graftless treatment", "prosthodontics"]
 clinicalRelevance: "This paper is useful when the real question is not whether a short implant can survive, but whether it should be left to fend for itself. If the anatomy and prosthetic plan allow splinting, the risk profile looks much more comfortable; if not, the graftless shortcut appears to carry a higher failure burden."
 verdict: "Splinted shorts held up better"
+substackUrl: "https://samuelrosehill.substack.com/p/short-implants-behaved-better-in"
 pdfPath: "2MP Project/journals/International Journal of Oral and Maxillofacial Implants/2025/Block_2025_evidence-supports-the-use-of-short-implants-as-a-g.pdf"
 ---
 

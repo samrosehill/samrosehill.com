@@ -9,6 +9,7 @@ paperYear: 2025
 tags: ["implantology", "socket shield technique", "alveolar ridge preservation", "delayed implantation", "oral surgery"]
 clinicalRelevance: "When immediate implant placement is not advisable, the modified socket shield technique may preserve the buccal plate and ridge width better than spontaneous healing alone. The attraction here is not novelty for novelty's sake, but a more stable site and stronger primary stability when the delayed implant finally goes in."
 verdict: "Shield preserved the ridge"
+substackUrl: "https://samuelrosehill.substack.com/p/leaving-the-root-saved-the-ridge"
 pdfPath: "2MP Project/journals/International Journal of Oral and Maxillofacial Implants/2025/Badawy_2025_dimensional-changes-of-alveolar-ridge-after-tooth.pdf"
 ---
 

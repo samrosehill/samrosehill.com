@@ -9,6 +9,7 @@ paperYear: 2025
 tags: ["implantology", "immediate implant placement", "esthetic zone", "infection", "prosthodontics"]
 clinicalRelevance: "Infection alone is not an automatic reason to abandon immediate implant placement in the esthetic zone. The practical test is whether the site can be debrided thoroughly, stabilised properly, grafted intelligently where needed, and restored with an out-of-occlusion provisional rather than wishful thinking."
 verdict: "Infection didn't sink survival"
+substackUrl: "https://samuelrosehill.substack.com/p/the-infected-socket-wasnt-the-villain"
 pdfPath: "2MP Project/journals/International Journal of Oral and Maxillofacial Implants/2025/Amato_2025_single-tooth-immediate-extraction-placement-and-pr.pdf"
 ---
 

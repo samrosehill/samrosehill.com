@@ -9,6 +9,7 @@ paperYear: 2025
 tags: ["implantology", "full-arch rehabilitation", "immediate loading", "prosthodontics", "screw-retained prostheses"]
 clinicalRelevance: "Both conometric and screw-retained immediate-loading full-arch prostheses appear clinically workable from a survival standpoint. The practical distinction is retention behaviour: if you choose conometric retention, you should do so with open eyes about the higher risk of prosthesis detachment."
 verdict: "Detachment shadowed the conometrics"
+substackUrl: "https://samuelrosehill.substack.com/p/the-conometric-prosthesis-let-go"
 pdfPath: "2MP Project/journals/International Journal of Oral and Maxillofacial Implants/2025/Biscaro_2025_incidence-of-complications-in-immediate-loading-co.pdf"
 ---
 

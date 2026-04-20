@@ -9,6 +9,7 @@ paperYear: 2025
 tags: ["implantology", "abutments", "marginal bone loss", "peri-implant tissues", "prosthodontics"]
 clinicalRelevance: "This paper supports the suspicion that repeated abutment disconnection and reconnection are not biologically neutral. In a carefully selected posterior single-implant case, a definitive two-piece abutment may help preserve marginal bone by reducing how often the peri-implant seal is disturbed."
 verdict: "Less fiddling, less bone loss"
+substackUrl: "https://samuelrosehill.substack.com/p/the-abutment-swap-wasnt-free"
 pdfPath: "2MP Project/journals/International Journal of Oral and Maxillofacial Implants/2025/Ayyildiz_2025_the-effect-of-two-piece-abutment-concept-and-abutm.pdf"
 ---
 
