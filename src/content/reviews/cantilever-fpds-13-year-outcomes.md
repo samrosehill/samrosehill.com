@@ -10,6 +10,7 @@ tags: ["cantilever prosthesis", "implant-supported FDP", "long-term follow-up", 
 clinicalRelevance: "For selected posterior cases where sinus lift or major augmentation would add morbidity, cantilevered implant-supported fixed partial prostheses remain a defensible option. In this 10- to 21-year retrospective cohort, implants adjacent to the cantilever did not lose more bone than more distant implants, but long molar cantilevers and connector design still looked like the real prosthetic weak points."
 verdict: "Implants survive; prostheses grumble"
 pdfPath: "2MP Project/journals/Clinical Oral Implants Research/2025/COIR_Bakopoulos_clr.70000.pdf"
+substackUrl: "https://samuelrosehill.substack.com/p/the-cantilever-was-not-the-villain"
 ---
 
 Architecture has always had a weakness for the cantilever: the elegant little trick of sending structure out into empty space and trusting the hidden support to keep its nerve. Dentistry borrowed the idea and then spent years regarding it with the sort of suspicion usually reserved for charismatic new materials and old colleagues with strong opinions. In "Clinical and Radiographic Changes at Implants Supporting Fixed Partial Dental Prostheses With Cantilever Extensions. A Retrospective Study After at Least 10 Years of Loading," Alexios Bakopoulos and colleagues report something quietly reassuring. **The implants did very well. The complaints, where they arose, were mostly prosthetic.**

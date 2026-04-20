@@ -10,6 +10,7 @@ tags: ["scan body", "complete-arch implants", "digital impressions", "intraoral 
 clinicalRelevance: "If you are recording a complete-arch implant case with an intraoral scanner, scan body geometry is not an afterthought. In this six-implant model, horizontal scan bodies produced more consistent and truer scans than the vertical reference design, and the strongest performance came from pairing them with Primescan. Clinicians using IOS for full-arch work should think in terms of scanner-scan-body systems rather than assuming one scan body will behave the same way on every device."
 verdict: "Horizontal bodies steady the scan"
 pdfPath: "2MP Project/journals/Clinical Oral Implants Research/2025/COIR_Azevedo_clr.14463.pdf"
+substackUrl: "https://samuelrosehill.substack.com/p/horizontal-scan-bodies-gave-full"
 ---
 
 The intraoral scanner is a slightly vain device. Give it a tidy single crown and a few obedient landmarks and it behaves like a prodigy; ask it to map six implants across an edentulous mandible and it begins looking for excuses. In "Effect of Horizontal and Vertical Intraoral Scan Bodies on the Trueness of Complete-Arch Digital Implant Impressions: A Comparative In Vitro Study With Six Implants," Luís Azevedo and colleagues show that the excuses are not all in the software. **Horizontal scan bodies produced truer and more consistent complete-arch digital implant impressions than the vertical reference design**, and the best pairing in this model was with Primescan.
