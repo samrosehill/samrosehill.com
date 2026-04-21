@@ -14,6 +14,15 @@ This skill delegates to five sub-skills. It does not duplicate their logic — i
 
 **Current workflow decision:** Preserve the existing Annabel Crabb-adapted article voice. Improve quality by strengthening triage detail, evidence control, factual checks, and publishing automation; do not replace the voice with generic medical SEO prose.
 
+## Execution Discipline
+
+Treat this workflow as an operating procedure, not a loose guideline.
+
+- Do **not** improvise, compress, paraphrase, or "tidy up" required formats, stage rules, checkpoint blocks, or return shapes.
+- When a sub-skill specifies an exact display format, output that format directly rather than replacing it with a summary, bullets, or a "cleaner" variant.
+- If you notice that your draft output does not match the required structure, stop and correct it before presenting the checkpoint to the user.
+- Prefer strict compliance over stylistic judgment. Following the written instructions exactly is more important than brevity or presentation preferences.
+
 ---
 
 ## Invocation
@@ -314,6 +323,8 @@ This stage has three sub-steps: triage a batch, present screening summaries, the
    - Write a structured plain-language clinical screening summary: design, main numeric result, limitation, publishing angle, do-not-overclaim warning, and priority score. No Annabel Crabb voice here — this is factual screening only.
 3. Display all 10 summaries in the triage format specified by the paper-triage skill:
 
+**Non-deviation rule for Stage 0:** Reproduce the triage summary block below as written for each paper. Do **not** replace it with recommendation bullets, shortlist notes, or any condensed alternative format.
+
 ```
 ────────────────────────────────────────────────────────
 Paper 1/10: [Author] et al. ([Year])
@@ -443,6 +454,8 @@ See the "Per-Article Subagent Templates" section below for the exact prompt to u
 ## Stage 5: Substack Cross-Post (API Method)
 
 **Entry criteria:** Git commit created successfully in Stage 4. Article exists at `REVIEWS_SRC/[slug].md`. A Chrome tab must be open and logged into `samuelrosehill.substack.com`.
+
+**Codex preflight:** In Codex, verify that Chrome DevTools MCP is connected before doing any Stage 5 work. The required execution route is Chrome DevTools MCP `evaluate_script` against the authenticated Substack tab. If DevTools MCP is unavailable, stop immediately and tell the user Stage 5 cannot proceed until it is enabled. Do not substitute AppleScript, cookie replay, remote-debugging workarounds, or giant bookmarklet payloads unless the workflow is explicitly revised to allow that fallback.
 
 **CONTEXT ISOLATION:** Do not paste giant Substack JavaScript payloads into the main conversation. Prefer a small browser-side API script that fetches the already-deployed article from `https://samrosehill.com/journal/[slug]`, converts the rendered `.prose` DOM to Substack's editor format, and publishes via the authenticated browser session. If using subagents, keep the generated payload inside the subagent and return only the result fields.
 
@@ -792,6 +805,6 @@ This skill orchestrates (reads and delegates to):
 - **substack-publisher.py** (`PROJECT_ROOT/scripts/substack-publisher.py`) — publishes via the authenticated Substack browser/API flow when available
 - **prepublish-check.py** (`PROJECT_ROOT/scripts/prepublish-check.py`) — optional deterministic preflight; if absent, perform the checklist inline
 
-Browser automation tools used at runtime (Stage 5): authenticated Chrome with JavaScript evaluation capability. In Claude, this may be `javascript_tool`; in Codex, use Chrome DevTools MCP `evaluate_script`.
+Browser automation tools used at runtime (Stage 5): authenticated Chrome with JavaScript evaluation capability. In Claude, this may be `javascript_tool`; in Codex, use Chrome DevTools MCP `evaluate_script`. If Chrome DevTools MCP is not connected in Codex, halt Stage 5 and report the blocker instead of improvising with substitute control paths.
 
 Python libraries used at runtime (via sub-skills): `PyMuPDF`, `Pillow`, `pypdf`
