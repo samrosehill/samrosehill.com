@@ -10,6 +10,7 @@ tags: ["prosthodontics", "ceramics", "zirconia-reinforced lithium disilicate", "
 clinicalRelevance: "If a case is likely to need repeated characterisation or correction firings, this paper suggests those extra furnace trips should be treated as optical interventions rather than harmless housekeeping. Material choice matters, particularly when translucency is doing much of the aesthetic work."
 verdict: "Extra firings dull optics"
 pdfPath: "2MP Project/journals/The International Journal of Prosthodontics/2025/AlDwairi_2025_effect-of-firing-cycles-on-the-optical-performance.pdf"
+substackUrl: "https://samuelrosehill.substack.com/p/one-more-bake-and-the-optics-start"
 ---
 
 Most of us have, at some point, sent a ceramic restoration back for one more firing with the breezy optimism normally reserved for reheating leftovers. Just tidy the shade. Just soften the characterisation. Just one more turn in the furnace and everyone can go home pleased with themselves. In *Effect of Firing Cycles on the Optical Performance of Zirconia Reinforced Lithium Disilicate Ceramics: A Comparison of Translucency and Color Stability Parameters*, Ziad N. Al-Dwairi and Nadin Al-Haj Husain ask the materials question lurking beneath that habit. What happens to the optics when the same ceramic keeps going back in? The answer is not disastrous, but it is certainly not free.

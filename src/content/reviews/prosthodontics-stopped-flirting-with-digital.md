@@ -10,6 +10,7 @@ tags: ["prosthodontics", "digital dentistry", "ceramics", "clinical trends", "ed
 clinicalRelevance: "This paper does not tell you how to adjust a crown on Monday morning; it tells you which arguments the profession can stop having in quite the same tone. Digital workflows now need to be judged on calibration, indication, privacy, and protocol discipline rather than novelty alone."
 verdict: "Digital becomes ordinary"
 pdfPath: "2MP Project/journals/Journal of Prosthodontics/2026/01 - Prosthodontics in 2025 - A Digest Version.pdf"
+substackUrl: "https://samuelrosehill.substack.com/p/the-year-prosthodontics-stopped-flirting"
 ---
 
 "So where is all this actually going?" asked somebody in the conference coffee queue, which is close to the profession's native language. In *Prosthodontics in 2025: A Digest Version of IJP’s 2025 Issues—Current Topics of Interest and Future Trends for Daily Clinical Practice*, Irena Sailer offers a crisp answer. Digital workflows have largely crossed from intriguing option to ordinary clinical infrastructure, ceramics have settled into a calmer sort of authority, and the next uncomfortable questions concern privacy, protocol discipline, and the patient variables no scanner can charm away.

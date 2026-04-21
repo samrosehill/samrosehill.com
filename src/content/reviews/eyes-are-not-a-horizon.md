@@ -10,6 +10,7 @@ tags: ["prosthodontics", "digital dentistry", "facial analysis", "smile design",
 clinicalRelevance: "If you align facial photographs or scans by the pupils alone, this paper suggests you are sometimes importing cant before the planning has even started. A true horizon or external reference is a safer foundation when the aesthetics are unforgiving."
 verdict: "Eyes aren't a horizon"
 pdfPath: "2MP Project/journals/International Journal of Periodontics and Restorative Dentistry/2025/Albertini_2025_observational-analysis-of-discrepancy-between-the.pdf"
+substackUrl: "https://samuelrosehill.substack.com/p/those-eyes-are-not-a-horizon"
 ---
 
 Half the population may be walking around with an interpupillary line that is not actually level with the real horizon, and digital dentistry keeps behaving as though the eyes were factory-calibrated. In *Observational Analysis of Discrepancy Between the Interpupillary Line and the Horizon Line in Natural Head Position*, Germán Albertini and colleagues show why that assumption deserves less confidence. If your software aligns a facial photograph to the pupils and calls it horizontal, you may already have built a cant into the plan before you have arranged a tooth or tilted an occlusal plane.
