@@ -101,15 +101,27 @@ const relatedReviews = allReviews
         </div>
         <h1>{review.data.title}</h1>
         <p class="article__desc">{review.data.description}</p>
-        <div class="article__tags">
-          {review.data.tags.map((tag: string) => (
-            <span class="chip">{tag}</span>
-          ))}
+        <div class="article__taxonomies">
+          {review.data.verdict && <p class="article__verdict">{review.data.verdict}</p>}
+          <div class="article__tags">
+            {review.data.tags.map((tag: string) => (
+              <span class="chip">{tag}</span>
+            ))}
+          </div>
         </div>
       </header>
 
+      <figure class="article__hero animate-in animate-in--delay-1">
+        <img
+          src={`/images/reviews/${review.id}.png`}
+          alt={`Thumbnail for ${review.data.title}`}
+          class="article__hero-img"
+          loading="eager"
+        />
+      </figure>
+
       <!-- Paper reference -->
-      <div class="paper-ref animate-in animate-in--delay-1">
+      <div class="paper-ref animate-in animate-in--delay-2">
         <p class="paper-ref__label">Source Paper</p>
         <p class="paper-ref__title">{review.data.paperTitle}</p>
         <p class="paper-ref__meta">
@@ -204,6 +216,40 @@ const relatedReviews = allReviews
     display: flex;
     gap: var(--space-2);
     flex-wrap: wrap;
+  }
+
+  .article__taxonomies {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+  }
+
+  .article__verdict {
+    width: fit-content;
+    padding: 0.45rem 0.75rem;
+    border-radius: 999px;
+    background: color-mix(in srgb, var(--primary) 12%, white);
+    border: 1px solid color-mix(in srgb, var(--primary) 24%, transparent);
+    font-family: var(--font-body);
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--primary-dark);
+  }
+
+  .article__hero {
+    margin: 0 0 var(--space-10);
+    border-radius: 0.75rem;
+    overflow: hidden;
+    background: var(--surface-container-low);
+    border: 1px solid var(--ghost-border-strong);
+  }
+
+  .article__hero-img {
+    display: block;
+    width: 100%;
+    height: auto;
   }
 
   .article__end {
