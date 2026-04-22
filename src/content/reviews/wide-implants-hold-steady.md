@@ -10,6 +10,7 @@ tags: ["implant dentistry", "wide-diameter implants", "immediate provisionalisat
 clinicalRelevance: "In healed posterior sites with adequate width and strong primary stability, immediate nonfunctional provisionalisation of a 6 mm wide implant appears defensible rather than reckless. The paper supports careful case selection and occlusal discipline, not a blanket licence to accelerate every molar implant case."
 verdict: "Wide implants hold steady"
 pdfPath: "2MP Project/journals/International Journal of Periodontics and Restorative Dentistry/2025/Antoun_2025_clinical-and-radiologic-outcomes-of-immediate-nonf.pdf"
+substackUrl: "https://samuelrosehill.substack.com/p/wide-implants-minimal-fuss"
 ---
 
 Sometimes the allegedly bold move is the one with less theatrical risk. In *Clinical and Radiologic Outcomes of Immediate Nonfunctional Provisionalization 6-mm Wide-Diameter Implants in Healed Single-Molar Sites: A Retrospective Study with a Mean Follow-up of 6.3 Years*, Hadi Antoun and colleagues report something rather calming: immediate nonfunctional provisionalisation of 6 mm wide-diameter implants in healed molar sites produced only two failures among 53 implants, with mean marginal bone loss of 0.89 mm over about six years.

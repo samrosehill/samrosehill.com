@@ -10,6 +10,7 @@ tags: ["implant dentistry", "digital dentistry", "single implant crowns", "intra
 clinicalRelevance: "If you are considering digital workflows for single implant crowns, the cleanest immediate benefit appears to be a better impression experience and less chairside time rather than a guaranteed miracle in every downstream adjustment. The scanner improves the part patients remember most, but it still needs a sound restorative protocol behind it."
 verdict: "Faster, easier impressions"
 pdfPath: "2MP Project/journals/Periodontal and Implant Research/2025/Altuhafy_2025_patient-satisfaction-in-a-single-implant-crown-wit.pdf"
+substackUrl: "https://samuelrosehill.substack.com/p/patients-notice-the-scanner-first"
 ---
 
 Digital dentistry has spent the last decade being marketed with the evangelical certainty usually reserved for kitchen gadgets and election slogans. In *Patient satisfaction in a single implant crown with digital versus conventional workflow: a systematic review of randomized clinical trials*, Maryam Altuhafy and colleagues offer the calmer version: for single implant crowns, patients generally like the scanner more and the clock certainly does, even if the crown at the end of the story still depends on operator judgement rather than technological destiny.
