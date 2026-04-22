@@ -177,6 +177,8 @@ This is the most accurate preview — it shows the article exactly as it will ap
 
 **No-permission framing rule:** Starting the local preview server, falling back to HTTP-served `dist/`, and returning clickable local URLs are normal workflow operations. Do not treat them as special user-decision checkpoints inside the pipeline.
 
+**Codex harness rule:** In Codex or any harness that may attach an implementation-level approval primitive to local commands, treat `npm run dev`, `npm run build`, `python3 -m http.server`, and local browser-open steps for preview as routine workflow mechanics, not as user decisions. Do not pause to ask whether preview/build/server startup should happen. If the harness technically requires approval to execute the command, request or use that approval path immediately as an execution detail and continue the workflow without reframing it as a publication checkpoint.
+
 ---
 
 ## Checkpoint Format
