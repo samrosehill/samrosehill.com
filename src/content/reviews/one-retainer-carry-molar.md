@@ -1,7 +1,7 @@
 ---
 title: "Can One Retainer Carry a Molar?"
 description: "Attal and colleagues describe a posterior single-retainer cantilever zirconia bridge for a missing mandibular molar and show that, in a very carefully selected case, the idea is less reckless than it sounds. The paper is only a case report, but the protocol is detailed enough to be genuinely useful."
-pubDate: 2026-04-22
+pubDate: 2026-04-23
 paperTitle: "Clinical Step-By-Step Approach for Posterior Cantilevered Single-Retainer All-Ceramic Resin-Bonded Fixed Dental Prostheses Based on Current Knowledge: A Case Report"
 paperAuthors: "Attal, J-P, Tirlet, G, Boitelle, P et al."
 paperJournal: "The International Journal of Prosthodontics"
