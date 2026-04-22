@@ -10,6 +10,7 @@ tags: ["prosthodontics", "resin-bonded bridge", "cantilever bridge", "posterior 
 clinicalRelevance: "Posterior single-retainer cantilever RBFDPs are not routine replacements for implant therapy, but they may be defensible when a patient wants fixed treatment without surgery and the abutment tooth offers generous enamel, stable occlusion, and no parafunction. This paper is most useful as a protocol piece: enamel-limited preparation, strict adhesive isolation, and careful pontic design are doing the heavy lifting. The indication is narrow, but the option is real."
 verdict: "One retainer can work"
 pdfPath: "2MP Project/journals/The International Journal of Prosthodontics/2025/Attal_2025_clinical-step-by-step-approach-for-posterior-canti.pdf"
+substackUrl: "https://samuelrosehill.substack.com/p/can-one-retainer-carry-a-molar"
 ---
 
 Posterior molars are, by long professional agreement, supposed to be replaced either with implants or with bridges that involve enough tooth preparation to make everyone feel industrious. The idea that one bonded piece of zirconia might hang off a single molar and manage the job has always sounded faintly like a dare. In "Clinical Step-By-Step Approach for Posterior Cantilevered Single-Retainer All-Ceramic Resin-Bonded Fixed Dental Prostheses Based on Current Knowledge: A Case Report," Attal and colleagues argue that, in a carefully selected case, it is not a dare. It is a protocol.
