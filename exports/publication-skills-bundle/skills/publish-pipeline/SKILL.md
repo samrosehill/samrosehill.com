@@ -158,16 +158,24 @@ Do not rely on thread memory to remember pipeline progress. Treat the repository
 
 ## Browser Preview
 
-At the Stage 1 and Stage 2 checkpoints, **always open the articles in the browser** so the user can see them rendered with full site styling:
+At the Stage 1 and Stage 2 checkpoints, **always open the articles in the browser and return clickable rendered-page links** so the user can see them rendered with full site styling:
+
+**Normal workflow rule:** Treat local HTTP preview as a standard, mandatory part of the publication workflow. Do **not** ask the user whether they want rendered-page links or browser preview; provide them automatically at the checkpoint.
 
 1. Check if the Astro dev server is already running (try `curl -s -o /dev/null -w "%{http_code}" http://localhost:4321` or nearby ports)
 2. If not running, start it: `npm run dev -- --port 4321` (backgrounded)
-3. Open each article in a browser tab: `open http://localhost:[port]/journal/[slug]`
-4. Wait for user feedback before proceeding
+3. If the Astro dev server fails to bind, hangs, or is otherwise unavailable, **serve the built `dist/` output over HTTP instead of giving up on rendered preview**. Preferred fallback:
+   - `python3 -m http.server 4321 --directory dist`
+   - then use `http://localhost:4321/journal/[slug]`
+4. Open each article in a browser tab: `open http://localhost:[port]/journal/[slug]`
+5. In the checkpoint response, include a clickable link for every rendered page using the exact local HTTP URL. Do not make the user infer the route from the slug alone.
+6. Wait for user feedback before proceeding
 
 This is the most accurate preview — it shows the article exactly as it will appear on the live site with the Newsreader/Public Sans typography, Tiffany blue accents, and source paper metadata block.
 
-**Important validation rule:** Do **not** use `file://.../dist/.../index.html` as a visual-rendering check. This site uses root-relative asset paths such as `/_astro/...` and `/images/...`, which do not resolve correctly when a built page is opened directly from the filesystem. That can create false "broken rendering" reports even when the page itself is fine. Prefer `http://localhost:[port]` over `127.0.0.1` when working through browser tooling, and if no HTTP preview is available, report that visual rendering is unverified rather than treating a `file://` preview as authoritative.
+**Important validation rule:** Do **not** use `file://.../dist/.../index.html` as a visual-rendering check. This site uses root-relative asset paths such as `/_astro/...` and `/images/...`, which do not resolve correctly when a built page is opened directly from the filesystem. That can create false "broken rendering" reports even when the page itself is fine. Prefer `http://localhost:[port]` over `127.0.0.1` when working through browser tooling, and if Astro preview is unavailable, use the HTTP-served `dist/` fallback before reporting rendering as unverified.
+
+**No-permission framing rule:** Starting the local preview server, falling back to HTTP-served `dist/`, and returning clickable local URLs are normal workflow operations. Do not treat them as special user-decision checkpoints inside the pipeline.
 
 ---
 
@@ -375,14 +383,18 @@ Article 1: [slug]
   Verdict: "[verdict from subagent]"
   Quality: APPROVED — [N] revisions applied
   Word count: [N] body words
+  Rendered page: http://localhost:[port]/journal/[slug]
   Thumbnail: ✅ generated
 
 Article 2: [slug]
   Verdict: "[verdict]"
   Quality: APPROVED — [N] revisions applied
   Word count: [N] body words
+  Rendered page: http://localhost:[port]/journal/[slug]
   Thumbnail: ✅ generated
 ```
+
+For each article, the checkpoint response must include the clickable rendered-page URL itself, not just a statement that the article is "open in the browser". If rendering could not be verified over HTTP, say so explicitly and explain why.
 
 Then ask:
 > "All [N] articles have been drafted, quality-checked, and thumbnails generated. They're open in your browser and Preview. Options: [C] Approve all — proceed to publish, [E] Request changes to specific articles, [Q] Quit pipeline."
