@@ -10,6 +10,7 @@ tags: ["implant dentistry", "drilling protocol", "osteotomy heat", "digitally gu
 clinicalRelevance: "Peak temperature during osteotomy is similar whether you use a single drill or a full sequential kit. The meaningful difference is how long bone spends at an elevated temperature: six-step protocols keep bone thermally stressed for around 107 seconds versus under 17 seconds for a single-drill approach. If exposure time is the more relevant injury variable, the single-drill protocol has a strong thermal argument in its favour."
 verdict: "Same heat, far less time"
 pdfPath: "2MP Project/journals/International Journal of Oral and Maxillofacial Implants/2025/BrizuelaVelasco_2025_thermal-changes-during-digital-guided-implant-surg.pdf"
+substackUrl: "https://samuelrosehill.substack.com/p/the-sequential-drill-protocol-is-c4a"
 ---
 
 Sequential implant drilling survives on momentum more than evidence. The incremental logic is sensible enough — pilot through cortical, then 2.35, 2.8, 3.3, 3.8, final diameter, each drill widening the path for the next — but nobody asks what that sequence costs the bone in thermal terms across all those passes. "Thermal Changes During Digital Guided Implant Surgery Using the Conventional and Single Drill Protocols" by Aritza Brizuela-Velasco and colleagues finally asks.
