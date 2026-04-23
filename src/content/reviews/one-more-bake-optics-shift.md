@@ -1,7 +1,7 @@
 ---
 title: "One More Bake, and the Optics Start Moving."
 description: "Al-Dwairi and Al-Haj Husain show that repeated firing cycles alter both colour stability and translucency in zirconia-reinforced lithium disilicate ceramics, with Vita Ambria High Translucent maintaining the strongest translucency profile across repeated firings."
-pubDate: 2026-04-21
+pubDate: 2025-07-26
 paperTitle: "Effect of Firing Cycles on the Optical Performance of Zirconia Reinforced Lithium Disilicate Ceramics: A Comparison of Translucency and Color Stability Parameters"
 paperAuthors: "Al-Dwairi, ZN & Al-Haj Husain, N"
 paperJournal: "The International Journal of Prosthodontics"

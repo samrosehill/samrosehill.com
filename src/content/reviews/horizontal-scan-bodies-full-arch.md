@@ -1,7 +1,7 @@
 ---
 title: "Horizontal Scan Bodies Gave Full-Arch IOS Its Best Chance"
 description: "Azevedo and colleagues show that six-implant complete-arch digital impressions become markedly truer and more consistent when horizontal scan bodies replace a conventional vertical design, with Primescan the standout performer and iTero plus a vertical PEEK body the least convincing pairing."
-pubDate: 2026-04-21
+pubDate: 2025-06-20
 paperTitle: "Effect of Horizontal and Vertical Intraoral Scan Bodies on the Trueness of Complete-Arch Digital Implant Impressions: A Comparative In Vitro Study With Six Implants"
 paperAuthors: "Azevedo, L, Laureti, A, Marques, T et al."
 paperJournal: "Clinical Oral Implants Research"

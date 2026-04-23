@@ -1,7 +1,7 @@
 ---
 title: "After Ridge Preservation, 1.1 mm Might Decide the Implant"
 description: "A 528-implant observational study after alveolar ridge preservation finds that pristine bone engagement below 1.1 mm roughly doubles failure risk — a useful planning threshold when regenerated socket walls look more reassuring than they are."
-pubDate: 2026-04-18
+pubDate: 2025-04-20
 paperTitle: "Multivariable analysis to identify predictors of dental implant failure after alveolar ridge preservation: a non-interventional observational study"
 paperAuthors: "Kang, DY, Ahn, HS, Kong, JH et al."
 paperJournal: "Journal of Periodontal and Implant Science"

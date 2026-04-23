@@ -1,7 +1,7 @@
 ---
 title: "Peri-Implantitis Refuses Simple Stories."
 description: "An umbrella review in IJOMI identified ten patient-related peri-implantitis risk factors and makes the uncomfortable point that clinicians keep getting into trouble when they interpret one variable in isolation and ignore the rest of the clinical cast."
-pubDate: 2026-04-19
+pubDate: 2025-05-14
 paperTitle: "Peri-implantitis Risk Assessment (PiRA) Part 1: Umbrella Review of a Multifactorial Disease with Many Risk Factors"
 paperAuthors: "Tarce, M & Quirynen, M"
 paperJournal: "International Journal of Oral & Maxillofacial Implants"

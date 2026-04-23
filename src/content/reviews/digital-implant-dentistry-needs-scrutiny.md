@@ -1,7 +1,7 @@
 ---
 title: "Innovation Is Lovely. Scrutiny Is Better."
 description: "In an IJOMI editorial, Clark Stanford argues that AI planning, 3D printing, smart implants and robotics should be treated as promising adjuncts rather than self-authenticating progress, especially when workflow errors and data governance are still unresolved."
-pubDate: 2026-04-19
+pubDate: 2025-10-12
 paperTitle: "The Evolving Role of Digital Implant Dentistry: The Need to Balance Innovation with Scrutiny"
 paperAuthors: "Stanford, CM"
 paperJournal: "International Journal of Oral & Maxillofacial Implants"

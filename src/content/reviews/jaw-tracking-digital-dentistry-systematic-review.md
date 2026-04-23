@@ -1,7 +1,7 @@
 ---
 title: "Jaw Trackers Are Genuinely Impressive — Just Ask Any Lab Technician Who's Never Met One"
 description: "A 2026 PRISMA-registered systematic review of 20 studies finds that optical jaw tracking systems offer real precision advantages over mechanical articulators, but high risk of bias across the literature and the absence of standardised protocols mean this technology is further from routine adoption than the marketing suggests."
-pubDate: 2026-04-14
+pubDate: 2026-02-16
 paperTitle: "Jaw Tracking System in Digital Dentistry: A Systematic Review"
 paperAuthors: "Tafuri, G. & Santilli, M. et al."
 paperJournal: "International Journal of Prosthodontics"

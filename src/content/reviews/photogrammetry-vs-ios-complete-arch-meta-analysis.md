@@ -1,7 +1,7 @@
 ---
 title: "Photogrammetry Is Ahead. The Rigid Try-In Stays."
 description: "A systematic review and meta-analysis of 13 studies found stereophotogrammetry more reliable than intraoral scanning for complete-arch implant impressions, while also reminding clinicians that the in vivo evidence is still thin and the rigid prototype try-in remains sensible."
-pubDate: 2026-04-18
+pubDate: 2025-06-12
 paperTitle: "Photogrammetry Versus Intraoral Scanning in Complete-Arch Digital Implant Impression: A Systematic Review and Meta-Analysis"
 paperAuthors: "Pozzi, A, Arcuri, L, Carosi, P et al."
 paperJournal: "Clinical Implant Dentistry and Related Research"

@@ -1,7 +1,7 @@
 ---
 title: "The Infected Socket Wasn't the Villain."
 description: "A 7-year retrospective study of 143 immediate single-tooth implants in the anterior maxilla found comparable survival in non-infected, acutely infected, and chronically infected sites when the surgical and provisionalisation protocol was meticulous."
-pubDate: 2026-04-20
+pubDate: 2025-03-15
 paperTitle: "Single-Tooth Immediate Implant Placement and Provisionalization in the Esthetic Zone: Infected vs Non-Infected Sites—A 2- to 12-Year Retrospective Clinical Study"
 paperAuthors: "Amato, F, Crasto, GJ, Spedicato, GA et al."
 paperJournal: "International Journal of Oral & Maxillofacial Implants"

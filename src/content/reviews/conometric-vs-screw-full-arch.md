@@ -1,7 +1,7 @@
 ---
 title: "The Conometric Prosthesis Let Go More Often."
 description: "A retrospective study of 203 patients and 1,356 implants found similar survival and overall prosthetic success for immediate-loading conometric and screw-retained full-arch prostheses, but conometric restorations detached more often."
-pubDate: 2026-04-20
+pubDate: 2025-09-12
 paperTitle: "Incidence Of Complications In Immediate Loading Conometric Vs Screw-Retained Full-Arch Prostheses: Retrospective Study On 1356 Implants"
 paperAuthors: "Biscaro, L, Canullo, L, Spanu, O et al."
 paperJournal: "International Journal of Oral & Maxillofacial Implants"

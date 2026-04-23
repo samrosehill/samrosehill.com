@@ -1,7 +1,7 @@
 ---
 title: "The Cantilever Was Not the Villain"
 description: "Bakopoulos and colleagues followed 21 implant-supported fixed partial prostheses with cantilever extensions for a mean 13.3 years and found 100% implant survival, modest bone change, and no extra radiographic penalty beside the cantilever, although the prostheses still generated a fair amount of mechanical commentary."
-pubDate: 2026-04-21
+pubDate: 2025-07-28
 paperTitle: "Clinical and Radiographic Changes at Implants Supporting Fixed Partial Dental Prostheses With Cantilever Extensions. A Retrospective Study After at Least 10 Years of Loading"
 paperAuthors: "Bakopoulos, A, Petridis, H, Michalakis, K et al."
 paperJournal: "Clinical Oral Implants Research"

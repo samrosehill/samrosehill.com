@@ -1,7 +1,7 @@
 ---
 title: "Wide Implants, Minimal Fuss."
 description: "Antoun and colleagues followed 53 six-millimetre wide-diameter implants placed in healed molar sites and immediately provisionally restored out of occlusion, finding only two failures over a mean 6.3 years and average marginal bone loss of 0.89 mm."
-pubDate: 2026-04-22
+pubDate: 2025-09-28
 paperTitle: "Clinical and Radiologic Outcomes of Immediate Nonfunctional Provisionalization 6-mm Wide-Diameter Implants in Healed Single-Molar Sites: A Retrospective Study with a Mean Follow-up of 6.3 Years"
 paperAuthors: "Antoun, H, Zouiten, O, Elfeghaly, S et al."
 paperJournal: "International Journal of Periodontics and Restorative Dentistry"

@@ -1,7 +1,7 @@
 ---
 title: "Patients Notice the Scanner First."
 description: "Altuhafy and colleagues reviewed 12 randomised clinical trials and found that digital workflows for single implant crowns usually make impressions faster and more comfortable, even when the downstream differences in crown adjustment and overall satisfaction are less dramatic."
-pubDate: 2026-04-22
+pubDate: 2025-11-10
 paperTitle: "Patient satisfaction in a single implant crown with digital versus conventional workflow: a systematic review of randomized clinical trials"
 paperAuthors: "Altuhafy, M, Elsaid, M & Khan, J"
 paperJournal: "Periodontal and Implant Research"

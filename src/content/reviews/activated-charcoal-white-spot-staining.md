@@ -1,7 +1,7 @@
 ---
 title: "When Whitening Powder Turns the White Spots Grey"
 description: "A 4-year case report describes a 15-year-old patient whose post-orthodontic white spot lesions darkened after unsupervised use of fluoride-free activated charcoal powder, with microabrasion only partly resolving the staining before direct composite veneers were needed."
-pubDate: 2026-04-14
+pubDate: 2025-12-30
 paperTitle: "Toothbrushing with Activated Charcoal May Stain Enamel White Spot Lesions: A 4-Year Follow-up Case Report"
 paperAuthors: "Mosquim, V., Modena, K.C.S., Jacomine, J.C. et al."
 paperJournal: "International Journal of Periodontics and Restorative Dentistry"

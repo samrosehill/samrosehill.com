@@ -1,7 +1,7 @@
 ---
 title: "The Abutment Swap Wasn't Free."
 description: "A 36-month split-mouth randomized preliminary clinical study found that using a definitive two-piece abutment after submerged healing reduced marginal bone level changes at key checkpoints compared with a standard healing-abutment workflow."
-pubDate: 2026-04-20
+pubDate: 2025-09-20
 paperTitle: "The Effect Of Two-Piece Abutment Concept And Abutment Reconnection/Disconnection On Marginal Bone Level Changes: A Split-Mouth Randomized, Parallel-Designed, 36-Month Follow-Up, Preliminary Clinical Study"
 paperAuthors: "Ayyildiz, BG, Terzioglu, B & Bayindir, BC"
 paperJournal: "International Journal of Oral & Maxillofacial Implants"

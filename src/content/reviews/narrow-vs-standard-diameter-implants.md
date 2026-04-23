@@ -1,7 +1,7 @@
 ---
 title: "Narrow Implants Held Up. The Screws Complained."
 description: "A retrospective split-mouth comparison of 100 implants found narrow-diameter internal-hex implants matched standard implants for survival and marginal bone over 4.2 years, while also carrying the only recorded technical complications."
-pubDate: 2026-04-19
+pubDate: 2025-10-14
 paperTitle: "Clinical Performance of Narrow Versus Standard Diameter Dental Implants: A Comparative Retrospective Split-Mouth Study"
 paperAuthors: "Raz, P, Kantzuker, O, Slutzkey, G et al."
 paperJournal: "International Journal of Oral & Maxillofacial Implants"

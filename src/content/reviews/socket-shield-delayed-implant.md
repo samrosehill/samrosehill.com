@@ -1,7 +1,7 @@
 ---
 title: "Leaving the Root Saved the Ridge."
 description: "An 80-patient randomized controlled study found that a modified socket shield technique, used without immediate implant placement, preserved buccal plate height and ridge width better than spontaneous healing and produced higher primary stability at delayed implant placement."
-pubDate: 2026-04-20
+pubDate: 2025-04-23
 paperTitle: "Dimensional Changes of Alveolar Ridge After Tooth Extraction Using the Socket Shield Technique Without Immediate Implant Placement: A Randomized Controlled Study"
 paperAuthors: "Badawy, ST"
 paperJournal: "International Journal of Oral & Maxillofacial Implants"

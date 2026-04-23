@@ -1,7 +1,7 @@
 ---
 title: "The Posterior Tooth Came Out. The Provisional Went Straight In."
 description: "A 12-patient proof-of-concept study using tissue-level Straumann TLX implants and a fully digital workflow reports 100% 6-month survival for immediate placement and immediate loading in posterior single-tooth sites, though the sample is tiny and the follow-up brief."
-pubDate: 2026-04-18
+pubDate: 2025-11-12
 paperTitle: "Immediate Placement and Loading of Hybrid Design Implants in the Posterior Zone Using Optimized Digital Protocols: A Proof of Concept"
 paperAuthors: "Kheur, M, Lakha, T, Kheur, S et al."
 paperJournal: "International Journal of Prosthodontics"

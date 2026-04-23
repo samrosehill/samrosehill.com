@@ -1,7 +1,7 @@
 ---
 title: "When There's No Ferrule Left: Post-Core or Endocrown?"
 description: "An in vitro study of 50 maxillary central incisors with no ferrule finds that CAD/CAM glass-fibre post-cores and hybrid ceramic endocrowns produce the highest fracture strength, while conventional glass-fibre posts achieve 100% repairable failures — making the choice less about strength and more about what happens when things go wrong."
-pubDate: 2026-04-18
+pubDate: 2026-01-14
 paperTitle: "Evaluation of Post-Core and Endocrown Restorations for Severely Destructed Maxillary Central Incisors: An In Vitro Study"
 paperAuthors: "Yagci, F., Alkan Aygor, F., Tugluk, A.N. & Gercekcioglu, E."
 paperJournal: "International Journal of Prosthodontics"

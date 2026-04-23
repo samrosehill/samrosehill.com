@@ -1,7 +1,7 @@
 ---
 title: "The Zirconia Abutment Changed Early. The Outcome Didn't."
 description: "A 26-patient randomized trial of flapless immediate implants in the anterior maxilla found no significant 1-year difference in marginal bone, Pink Esthetic Score, or OHIP when the definitive zirconia abutment was placed at 4 days rather than 3 months."
-pubDate: 2026-04-18
+pubDate: 2025-09-09
 paperTitle: "Effect of Final Abutment Timing on Immediate Implant Success in Anterior Maxilla: A Randomized Controlled Trial"
 paperAuthors: "Pohl, V, Haas, R, Rosen, R et al."
 paperJournal: "Clinical Implant Dentistry and Related Research"

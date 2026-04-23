@@ -1,7 +1,7 @@
 ---
 title: "What If the Refund Request Was Avoidable? Ceramic Veneers and the Pre-Delivery Choices That Predict Dissatisfaction"
 description: "A 1:1 matched case–control study from Mumbai finds that chairside bis-acryl mock-ups and chairside-only shade matching are strongly associated with patient-initiated esthetic dissatisfaction within 12 months of ceramic veneer delivery — with adjusted odds ratios of 5.87 and 4.41 respectively — while cost tier has no significant effect."
-pubDate: 2026-04-12
+pubDate: 2026-01-22
 paperTitle: "Predictors of patient dissatisfaction with ceramic veneers: A matched case–control study"
 paperAuthors: "Abichandani, S.J. & Dutta, A."
 paperJournal: "Journal of Indian Prosthodontic Society"

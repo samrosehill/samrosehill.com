@@ -1,7 +1,7 @@
 ---
 title: "When the Aesthetic Zone Says Wait"
 description: "Deflorian and colleagues turn immediate anterior implant placement into a practical risk filter: primary stability first, then buccal plate integrity, gingival phenotype, and recession. The paper is not a guideline, but it is a useful reminder that implant timing should follow tissue risk rather than surgical enthusiasm."
-pubDate: 2026-04-15
+pubDate: 2025-02-24
 paperTitle: "Timing of Implant Placement in Esthetic Area: Diagnostic Algorithm for Clinical Decision Making"
 paperAuthors: "Deflorian, M.A., Galli, F., Scaini, R., Strappa, E.M. & Testori, T."
 paperJournal: "International Journal of Periodontics and Restorative Dentistry"

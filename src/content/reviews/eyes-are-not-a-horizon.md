@@ -1,7 +1,7 @@
 ---
 title: "Those Eyes Are Not a Horizon."
 description: "Albertini and colleagues found that 49% of dentate adults showed a 2-degree or greater discrepancy between the interpupillary line and the true horizon in natural head position, making blind photo alignment a surprisingly risky foundation for facially driven digital planning."
-pubDate: 2026-04-21
+pubDate: 2025-07-22
 paperTitle: "Observational Analysis of Discrepancy Between the Interpupillary Line and the Horizon Line in Natural Head Position"
 paperAuthors: "Albertini, G, Bechelli, D, Capusotto, A et al."
 paperJournal: "International Journal of Periodontics and Restorative Dentistry"

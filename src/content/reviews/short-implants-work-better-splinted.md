@@ -1,7 +1,7 @@
 ---
 title: "Short Implants Behaved Better in Pairs."
 description: "An analytical review of 18 clinical datasets found that splinted short implants failed less often than single short implants and approached the performance of longer implants, making the graftless option look much more defensible when splinting is possible."
-pubDate: 2026-04-20
+pubDate: 2025-03-28
 paperTitle: "Evidence Supports the Use of Short Implants as a Graftless Solution"
 paperAuthors: "Block, MS"
 paperJournal: "International Journal of Oral & Maxillofacial Implants"

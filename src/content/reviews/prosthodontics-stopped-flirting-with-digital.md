@@ -1,7 +1,7 @@
 ---
 title: "The Year Prosthodontics Stopped Flirting With Digital."
 description: "Irena Sailer's editorial digest of the International Journal of Prosthodontics argues that digital workflows have crossed into ordinary clinical infrastructure, reliable ceramics have consolidated their place, and the profession's next arguments are increasingly about protocol discipline, patient factors, and data governance."
-pubDate: 2026-04-21
+pubDate: 2026-01-20
 paperTitle: "Prosthodontics in 2025: A Digest Version of IJP’s 2025 Issues—Current Topics of Interest and Future Trends for Daily Clinical Practice"
 paperAuthors: "Sailer, I"
 paperJournal: "The International Journal of Prosthodontics"

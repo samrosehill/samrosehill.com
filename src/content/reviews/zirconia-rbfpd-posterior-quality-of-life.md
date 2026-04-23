@@ -1,7 +1,7 @@
 ---
 title: "What Patients Actually Feel: Zirconia RBFPDs and Quality of Life at 12 Months"
 description: "A 12-month longitudinal study of 30 participants finds that posterior monolithic zirconia resin-bonded fixed partial dentures produce clinically meaningful improvements in oral health-related quality of life, with the OHIP-14 total score dropping from 4.2 to 1.8 and gains concentrated in orofacial pain and orofacial appearance."
-pubDate: 2026-04-19
+pubDate: 2026-02-12
 paperTitle: "Impact of Zirconia Three-Unit Resin-Bonded Fixed Partial Dentures in the Posterior Region on Oral Health-Related Quality of Life: A 12-Month Longitudinal Observation"
 paperAuthors: "Handermann, R., Zenthöfer, A., Ohlmann, B., Waldecker, M., Rammelsberg, P. & Bömicke, W."
 paperJournal: "Journal of Esthetic and Restorative Dentistry"

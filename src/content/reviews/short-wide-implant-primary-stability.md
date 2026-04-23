@@ -1,7 +1,7 @@
 ---
 title: "Short Implants, Superior Stability: The Case for Going Wide Instead of Long"
 description: "An in vitro study from Stony Brook University places 80 short (6 × 7 mm) and conventional (3.75 × 10 mm) Ditron implants in hard and soft bone simulants, finding that short wide implants outperform their conventional-length counterparts on insertion torque and Periotest values in both bone types — challenging the assumption that more length automatically means more stability."
-pubDate: 2026-04-12
+pubDate: 2026-02-10
 paperTitle: "Effect of Primary Stability on Short Implants Versus Conventional Implants with a Reverse Concave Neck"
 paperAuthors: "Greenberg, D., Estrin, N., Delgado-Ruiz, R. & Romanos, G.E."
 paperJournal: "International Journal of Oral and Maxillofacial Implants"
