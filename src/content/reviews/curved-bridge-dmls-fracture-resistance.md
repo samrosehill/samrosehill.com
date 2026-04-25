@@ -10,6 +10,7 @@ tags: ["fixed partial denture", "fracture resistance", "DMLS", "Co-Cr", "zirconi
 clinicalRelevance: "Under curved anterior geometry, laser-sintered Co-Cr frameworks achieved a median fracture resistance of 2,633 N — nearly three times the 954 N recorded for milled zirconia frameworks in the same configuration. The findings suggest geometry is not a neutral variable: curvature disadvantages cast Co-Cr and zirconia frameworks (both showing statistically significant reductions), while laser sintering is the only technique that converts curvature into a mechanical advantage. The in-vitro design limits direct clinical extrapolation, but the data should inform framework material selection discussions for anterior bridge spans."
 verdict: "DMLS beats zirconia 3x curved"
 pdfPath: "2MP Project/journals/The Journal of Advanced Prosthodontics/2025/2025-01/KavvasCelik_2025_fracture-resistance-of-fixed-partial-dentures-the-.pdf"
+substackUrl: "https://samuelrosehill.substack.com/p/when-the-bench-test-disagrees-with-99b"
 ---
 
 There is a persuasive story told, with great confidence and excellent slide design, about zirconia being the strength material of modern prosthodontics — the one that finally liberated us from the grey metallic smile and the patient who wants "no metal, doctor." The story is largely true. But strength claims are geometry-dependent, and the promotion tends to run ahead of that caveat with some enthusiasm.

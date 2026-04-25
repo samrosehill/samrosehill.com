@@ -10,6 +10,7 @@ tags: ["resin infiltration", "dental fluorosis", "meta-analysis", "esthetic dent
 clinicalRelevance: "Resin infiltration produces statistically superior colour masking in mild-to-moderate fluorosis compared to bleaching and microabrasion, with a pooled ΔE advantage of 5.41. However, the evidence base is small (six RCTs, short follow-ups of up to nine months) and heterogeneity is extreme (I² up to 99.84%), meaning clinicians should treat resin infiltration as a promising first-line option rather than a proven gold standard. The EI outcome carries confirmed publication bias."
 verdict: "Promising but fragile evidence"
 pdfPath: "2MP Project/journals/Journal of Esthetic and Restorative Dentistry/2025/JERD_Han_jerd.70028.pdf"
+substackUrl: "https://samuelrosehill.substack.com/p/resin-infiltration-for-fluorosis-857"
 ---
 
 A meta-analysis is a peculiar scientific document. On the front page, it offers a headline number (a pooled effect size, a mean difference, a confidence interval that looks pleasingly narrow), and that number tends to travel. It gets cited, repeated at conferences, dropped into treatment-planning conversations as though it came down from a mountain.
