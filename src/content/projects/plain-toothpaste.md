@@ -26,4 +26,4 @@ Conventional toothpaste is engineered around foam, taste, and shelf appeal. For 
 
 ## Who it's for
 
-Patients whose mouths don't tolerate conventional toothpaste, parents of children who can't manage mint, and clinicians looking for a stripped-back recommendation for sensitive or symptom-prone patients. Sold exclusively through Ethical Dental, a clinician-run practice in Coffs Harbour, NSW.
+Patients whose mouths don't tolerate conventional toothpaste, parents of children who can't manage mint, and clinicians looking for a stripped-back recommendation for sensitive or symptom-prone patients. Available through Ethical Dental, a clinician-run practice in Coffs Harbour, NSW.
