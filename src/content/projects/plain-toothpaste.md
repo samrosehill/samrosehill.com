@@ -1,6 +1,6 @@
 ---
 title: "Plain Toothpaste"
-description: "Brand and product site for Plain Toothpaste — built for detailed, patient-facing product information on a minimalist Australian fluoride toothpaste. All profits go to the Coffs Coast Wildlife Sanctuary."
+description: "Brand and product site for Plain Toothpaste — built for detailed, patient-facing product information on a minimalist Australian fluoride toothpaste. All profits from sales through ethical.dental go to the Coffs Coast Wildlife Sanctuary."
 pubDate: 2026-04-26
 tags: ["dental", "oral-care", "fluoride", "minimalist-formulation", "australia"]
 url: "https://plaintoothpaste.com.au"
@@ -22,7 +22,7 @@ Conventional toothpaste is engineered around foam, taste, and shelf appeal. For 
 - **Sodium cocoyl glycinate** -- a gentle amino-acid surfactant used in place of SLS.
 - **Two variants** -- Regular and Sensitive (with strontium acetate for dentinal hypersensitivity).
 - **Vegan and allergen-audited** -- ten-ingredient formulation reviewed against common intolerance triggers.
-- **Profits donated** -- 100% of profits go to the [Coffs Coast Wildlife Sanctuary](https://coffscoastwildlifesanctuary.com.au/) for marine animal rescue.
+- **Profits donated** -- all profits from sales through [ethical.dental](https://ethical.dental) go to the [Coffs Coast Wildlife Sanctuary](https://coffscoastwildlifesanctuary.com.au/) for marine animal rescue.
 
 ## Who it's for
 
