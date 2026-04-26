@@ -1,7 +1,7 @@
 ---
 title: "More Data, Same Restoration: What Jaw Tracking Actually Changes in Occlusal Design"
 description: "A two-part clinical study from Istanbul University finds that optical and electronic jaw tracking systems produce significantly different condylar inclination measurements, yet neither meaningfully outperforms a semi-adjustable articulator when it comes to the final occlusal shape of a posterior bridge or full-arch splint."
-pubDate: 2026-04-26
+pubDate: 2026-04-27
 paperTitle: "Impact of digital jaw tracking systems on dynamic occlusal surface morphology and condylar inclination measurements"
 paperAuthors: "Saygılı, S & Özcan-Sezgin, A et al."
 paperJournal: "Journal of Advanced Prosthodontics"

@@ -1,7 +1,7 @@
 ---
 title: "The Dental AI That Can Show Its Work"
 description: "CariesAI-3D, a multitask learning network developed by Qi et al. at Tongji University, classifies dentin caries severity on CBCT images with 88.6% accuracy across four categories — and unusually, uses class activation mapping to show clinicians exactly which anatomical regions drove each decision."
-pubDate: 2026-04-26
+pubDate: 2026-04-27
 paperTitle: "A clinically oriented and interpretable AI framework for classifying dentin caries severity on CBCT images"
 paperAuthors: "Qi, S & Shan, H et al."
 paperJournal: "The Journal of Prosthetic Dentistry"
