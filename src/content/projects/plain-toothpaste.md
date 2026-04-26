@@ -1,6 +1,6 @@
 ---
 title: "Plain Toothpaste"
-description: "An Australian fluoride toothpaste formulated for people who can't tolerate the additives in conventional toothpastes — no mint, SLS, salicylates, dyes, or essential oils. Ten ingredients, 1000 ppm fluoride, sold exclusively through clinical channels."
+description: "Brand and product site for Plain Toothpaste — built for detailed, patient-facing product information on a minimalist Australian fluoride toothpaste. All profits go to the Coffs Coast Wildlife Sanctuary."
 pubDate: 2026-04-26
 tags: ["dental", "oral-care", "fluoride", "minimalist-formulation", "australia"]
 url: "https://plaintoothpaste.com.au"
