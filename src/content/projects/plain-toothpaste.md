@@ -22,7 +22,7 @@ Conventional toothpaste is engineered around foam, taste, and shelf appeal. For 
 - **Sodium cocoyl glycinate** -- a gentle amino-acid surfactant used in place of SLS.
 - **Two variants** -- Regular and Sensitive (with strontium acetate for dentinal hypersensitivity).
 - **Vegan and allergen-audited** -- ten-ingredient formulation reviewed against common intolerance triggers.
-- **Profits donated** -- 100% of profits go to the Coffs Coast Wildlife Sanctuary for marine animal rescue.
+- **Profits donated** -- 100% of profits go to the [Coffs Coast Wildlife Sanctuary](https://coffscoastwildlifesanctuary.com.au/) for marine animal rescue.
 
 ## Who it's for
 
